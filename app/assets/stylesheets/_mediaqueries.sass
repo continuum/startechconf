@@ -94,11 +94,13 @@ $superior-fonts: 42px
         padding: 9px 24px
 
 @media screen and (min-width: 481px) and (max-width: 767px)
+  body
+    background-position: 0 -100px
   header .container,
   section .container,
   footer .container
     width: 480px
-    border: 1px dotted orange
+    //border: 1px dotted orange
     border-top: none
     border-bottom: none
   .presentation
@@ -109,6 +111,29 @@ $superior-fonts: 42px
     hgroup
       h3
         font-size: 24px
+  .last-version
+    .container
+      .gallery
+        min-height: 270px
+      p 
+        font-size: 14px
+  .counter
+    .preform
+      p 
+        font-size: 32px
+        span
+          font-size: 36px
+      .call-to
+        .button
+          font-size: 18px
+          padding: 10px 20px
+        span
+          font-size: 11px
+  footer
+    nav
+      background-size: 70%
+      height: 45px
+      padding: 12px 0 11px 170px
 
 
 @media screen and (min-width: 320px) and (max-width: 480px)
@@ -116,7 +141,7 @@ $superior-fonts: 42px
   section .container,
   footer .container
     width: 320px
-    border: 1px dotted blue
+    //border: 1px dotted blue
     border-top: none
     border-bottom: none
 
