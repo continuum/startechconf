@@ -12,7 +12,7 @@ $contrast-color-text:                               #000
 $soft-color-text:                                   #666
 $soft-highlight-color-text:                         #888
 
-$dark-texture:                                      url("../images/subtle_carbon.png") repeat
+$dark-texture:                                      image-url("subtle_carbon.png") repeat
 $light-texture:                                     #FFF
 $color-overlay:                                     rgba(17,17,17,0.5)
 
@@ -105,7 +105,7 @@ body
 
 
 body
-  background: url("../images/background.jpg") no-repeat center 0
+  background: image-url("background.jpg") no-repeat center 0
   background-size: 100%
   font-family: $main-font
   padding: 0
@@ -337,7 +337,7 @@ footer
     padding: 10px 0
     overflow: hidden
   nav
-    background: url(../images/sprite_footer.png) 0 0 no-repeat
+    background: image-url("sprite_footer.png") 0 0 no-repeat
     float: left
     display: block
     padding: 21px 0 20px 170px
@@ -359,7 +359,7 @@ footer
       display: block
       width: 40px
       height: 40px
-      background: url(../images/sprite_footer.png) 0 0 no-repeat
+      background: image-url("sprite_footer.png") 0 0 no-repeat
       b
         display: none
       &.facebook
