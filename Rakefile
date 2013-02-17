@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Startechconf2013::Application.load_tasks
+Startechconf::Application.load_tasks
