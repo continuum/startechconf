@@ -7,6 +7,7 @@ gem "haml-rails", ">= 0.4"
 gem "sendgrid", ">= 1.0.1"
 gem "devise", ">= 2.2.3"
 gem "simple_form", ">= 2.0.4"
+gem "memcachier"
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
