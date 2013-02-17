@@ -1,0 +1,395 @@
+
+//Definición de Variables
+
+$main-font: 'Roboto', sans-serif
+
+//Colores
+
+$font-color:                                        #fff
+$main-font-color:                                   #fff
+$header-color:                                      #000
+$contrast-color-text:                               #000
+$soft-color-text:                                   #666
+$soft-highlight-color-text:                         #888
+
+$dark-texture:                                      url("../images/subtle_carbon.png") repeat
+$light-texture:                                     #FFF
+$color-overlay:                                     rgba(17,17,17,0.5)
+
+$secondary-color:                                   #FFFF00
+$secondary-hover-color:                             #FFFF33
+
+$selector-color:                                    rgba(92,92,92,0.4)
+$selector-color-highlight:                          rgba(92,92,92,0.6)
+
+$footer-color:                                      #444
+$links-color:                                       #00A3D8
+
+
+//Medidas
+
+$max-resolution: 960px
+$language-box-width: 100px
+$language-box-height: 24px
+$standar-font: 12px
+$temp-height: 35px
+$standar-align: center
+
+$font-thin: 100
+$font-light: 300
+$font-normal: 500
+$font-medium: 700
+$font-bold: 900
+$font-black: 1000
+
+$small-fonts: 12px
+$medium-fonts: 18px
+$big-fonts: 24px
+$superior-fonts: 42px
+
+//Mixins
+
+@mixin no-spaces
+  margin: 0
+  padding: 0
+
+@mixin navlist
+  list-style: none
+  padding: 0
+  margin: 0
+
+@mixin button-standar
+  background-color: $secondary-color
+  @include box-shadow (0 2px 0 rgba(0,0,0,0.3))
+  padding: 14px 30px
+  font-weight: $font-light
+  text-decoration: none
+  color: $soft-color-text
+  display: block
+  text-align: center
+  @include transition-duration(1s)
+  &:hover
+    @include box-shadow (0 3px 0 rgba(0,0,0,0.8))
+    background-color: $secondary-hover-color
+    color: $contrast-color-text
+    @include transition-duration(1s)
+
+@mixin header-section
+  background: none
+  position: absolute
+  margin: -70px 0 20px 0
+  width: 100%
+  text-align: center
+  h2
+    @include no-spaces
+    color: $secondary-color
+    font-weight: $font-thin
+    text-transform: uppercase
+    font-size: 30px
+    background: $soft-color-text
+    display: inline-block
+    padding: 20px 40px
+
+@mixin thumb-speaker
+  width: 160px
+  height: 160px
+
+
+html,
+body
+  height: 100%
+
+
+.hidden
+  display: none
+
+
+body
+  background: url("../images/background.jpg") no-repeat center 0
+  background-size: 100%
+  font-family: $main-font
+  padding: 0
+  margin: 0
+
+//Todas las secciones
+header .container,
+section .container,
+footer .container
+  width: $max-resolution
+  margin: 0 auto
+  border-top: none
+  border-bottom: none
+
+section
+  .container
+    padding: 60px 0
+    position: relative
+    p
+      text-align: center
+      color: $soft-color-text
+      font-size: 18px
+      margin: 24px 0
+
+
+//Header
+header
+  background: $header-color
+  color: $font-color
+  .container
+    height: $temp-height
+  .language-selector
+    float: right
+    ul
+      @include no-spaces
+      @include navlist
+      z-index: 1
+      position: absolute
+      right: 0
+      li
+        display: none
+        font-size: $standar-font
+        background: $selector-color
+        &.selected
+          display: block
+          a
+            &:hover
+              background:none
+          &:after
+            content: '.'
+            position: absolute
+            width: 0
+            height: 0
+            border-left: 5px solid transparent
+            border-right: 5px solid transparent
+            border-top: 4px solid #999
+            top: 14px
+            right: 10px
+            text-indent: -1000000px
+        a
+          display: block
+          color: $font-color
+          text-decoration: none
+          width: $language-box-width
+          padding: 10px
+          @include transition-duration(0.5s)
+          &:hover
+            background: $selector-color-highlight
+            @include transition-duration(0.5s)
+
+  nav
+    float: left
+    ul
+      @include navlist
+
+
+//Primera Sección
+.wrapper
+  @include background(linear-gradient(bottom, rgba(17,17,17,0.1), #111 90%))
+
+.presentation
+  header
+    padding: 0 0 34px 0
+    background: none
+    figure
+      text-align: $standar-align
+      img
+        width: 50%
+        margin: 0 auto
+        @include transition-duration(1s)
+
+  hgroup
+    text-align: $standar-align
+    font-family: $main-font
+    color: $main-font-color
+    h1,h2,h3,h4
+      line-height: auto
+      margin: 0.15em 0
+      padding: 0
+    h1
+      position: absolute
+      text-indent: -100000px
+    h2
+      font-weight: $font-thin
+      text-transform: uppercase
+      font-size: 42px
+    h3
+      font-weight: $font-light
+      text-transform: uppercase
+      font-size: 26px
+    p
+      font-weight: $font-thin
+      font-size: 20px
+      padding: 0
+      margin: 0
+
+.counter
+  background: $color-overlay
+  //margin-top: 40px
+  .container
+    padding: 68px 0
+  .preform
+    overflow: hidden
+    p
+      color: $main-font-color
+      font-weight: $font-thin
+      font-size: 50px
+      @include no-spaces
+      float: left
+      text-align: right
+      width: 55%
+      font-weight: $font-thin
+      text-transform: uppercase
+      margin-right: 20px
+      text-shadow: 0 1px 2px #333
+      span
+        color: $secondary-color
+        font-weight: $font-normal
+        font-size: 54px
+        display: inline
+    .call-to
+      float: left
+      .button
+        @include button-standar
+        font-size: $big-fonts
+    span
+      display: block
+      font-size: $small-fonts
+      text-align: center
+      padding: 12px 0
+      color: $main-font-color
+      font-weight: $font-thin
+  .register-form
+    form
+      overflow: hidden
+    .fields
+      float: left
+      width: 350px
+      text-align: right
+      width: 65%
+      input
+        width: 440px
+        border: none
+        background: $selector-color
+        padding: 14px 18px
+        margin: 2px 0
+        color: $main-font-color
+        font-size: $big-fonts
+    .button
+      @include button-standar
+      font-size: $big-fonts
+      float: left
+      margin: 2px 4px
+
+//Primer Bloque
+.speakers
+  background: $light-texture
+  text-align: center
+  header.title
+    @include header-section
+    h2:after
+      border-left: 127px solid transparent
+      border-right: 127px solid transparent
+      left: 353px
+  .speaker
+    display: inline-block
+    width: 250px
+    margin: 24px 0
+    figure.photo
+      @include thumb-speaker
+      margin: 0 auto 18px auto
+      position: relative
+      img, .shadow
+        @include thumb-speaker
+        @include border-radius (80px)
+      .shadow
+        @include box-shadow (inset 0 3px 4px rgba(0,0,0,0.4))
+        z-index: 2
+        position: absolute
+    .name, .occupation, .contact
+      color: $soft-color-text
+      display: block
+      text-align: center
+      font-size: 13px
+    .name
+      font-size: 16px
+      font-weight: 500
+    .contact, .occupation
+      height: 15px
+      a
+        color: $links-color
+
+
+
+//Segunda Sección
+.last-version
+  background: $dark-texture
+  header.title
+    @include header-section
+  .gallery
+    min-height: 360px
+    background: #000
+
+
+//Pie de Página
+footer
+  background: $footer-color
+  .container
+    padding: 10px 0
+    overflow: hidden
+  nav
+    background: url(../images/sprite_footer.png) 0 0 no-repeat
+    float: left
+    display: block
+    padding: 21px 0 20px 170px
+    height: 58px
+    ul
+      @include navlist
+      li
+        a
+          text-decoration: none
+          color: $soft-color-text
+          font-size: 13px
+          text-transform: uppercase
+  .social-links
+    float: right
+    padding-top: 6px
+    a
+      float: left
+      margin: 0 6px
+      display: block
+      width: 40px
+      height: 40px
+      background: url(../images/sprite_footer.png) 0 0 no-repeat
+      b
+        display: none
+      &.facebook
+        background-position: 10px -55px
+        &:hover
+          background-position: 10px -96px
+      &.twitter
+        background-position: -36px -55px
+        &:hover
+          background-position: -36px -96px
+      &.rss
+        background-position: -80px -55px
+        &:hover
+          background-position: -80px -96px
+
+
+//Temporales
+.option-link
+  font-size: 14px
+  padding: 6px 0
+  color: $soft-highlight-color-text
+  display: block
+  @include transition-duration(0.5s)
+  &:hover
+    color: $secondary-color
+    @include transition-duration(0.5s)
+
+
+
+.sponsors,
+.place,
+.tickets
+  display: none

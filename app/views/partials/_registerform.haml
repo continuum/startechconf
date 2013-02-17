@@ -1,0 +1,18 @@
+%section.counter
+  .container
+    .preform
+      %p
+        Ya somos
+        %span 000
+      .call-to
+        %a{:href => "#", :class => "button", :title => "Pre-Regístrate"}
+          Pre-Reg&iacute;strate
+        %span
+          Obtén hasta 25% de dcto en la entrada
+    .register-form{:style => "display:none"}
+      %form
+        .fields
+          -#%input{:type => "text", :id => "name", :placeholder => "Nombre"}
+          %input{:type => "mail", :id => "mail", :placeholder => "mail@mail.com"}
+        %a{:href => "#", :class => "button", :title => "Enviar tus datos"}
+          Enviar

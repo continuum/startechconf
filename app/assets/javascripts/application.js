@@ -10,6 +10,9 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
+//= require modernizr.custom.26633
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require custom
+//= require jquery.gridrotator.js
+//= require grid.js
