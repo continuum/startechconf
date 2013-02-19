@@ -2,6 +2,5 @@
 
 FactoryGirl.define do
   factory :preregistro do
-    mail "MyString"
   end
 end

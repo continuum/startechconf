@@ -115,8 +115,5 @@ function setBackgroundStretch(target) {
 }
 
 $(document).ready(function(){
-  $(window).resize(function(){
-      setBackgroundStretch('body');
-  }).resize();
   $('body').removeClass('loading');
 });
