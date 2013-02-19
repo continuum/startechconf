@@ -16,3 +16,5 @@
 //= require custom
 //= require jquery.gridrotator.js
 //= require grid.js
+
+//= require home

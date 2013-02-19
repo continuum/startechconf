@@ -1,18 +1,28 @@
 %section.counter
   .container
     .preform
-      %p
-        Ya somos
-        %span 000
-      .call-to
-        %a{:href => "#", :class => "button", :title => "Pre-Regístrate"}
-          Pre-Reg&iacute;strate
-        %span
-          Obtén hasta 25% de dcto en la entrada
-    .register-form{:style => "display:none"}
-      %form
+      - if @preregistro && !@preregistro.errors.any?
+        %p
+          Ya somos
+          %span= "%03d" % Preregistro.count
+        .call-to
+          %a.button
+            ¡Gracias por pre-registrarte!
+          %span
+            Te contactaremos cuando empiece la pre-venta.
+      - else
+        %p
+          Ya somos
+          %span= "%03d" % Preregistro.count
+        .call-to
+          %a.button#register-button{:href => "#", :title => "Pre-Regístrate"}
+            Pre-Reg&iacute;strate
+          %span
+            Obtén un 30% de dcto en la entrada
+    .register-form{:style => (@preregistro && @preregistro.errors.any?) ? "" : "display:none"}
+      %form{:action => preregister_path, :method => :post}
         .fields
-          -#%input{:type => "text", :id => "name", :placeholder => "Nombre"}
-          %input{:type => "mail", :id => "mail", :placeholder => "mail@mail.com"}
+          %input#mail{:type => "email", :name => "mail", :placeholder => "mail@mail.com", :value => @preregistro.try(:mail) }
         %a{:href => "#", :class => "button", :title => "Enviar tus datos"}
           Enviar
+        %span.error= "mail #{@preregistro.errors[:mail].join(',')}" if @preregistro && @preregistro.errors.any?
