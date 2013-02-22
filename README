@@ -1,3 +1,9 @@
+Requirements
+------------
+sudo gem install bundler
+brew install postgres
+
+
 Development
 -----------
 
