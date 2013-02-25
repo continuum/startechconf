@@ -10,6 +10,7 @@ gem "simple_form", ">= 2.0.4"
 gem "memcachier"
 gem "newrelic_rpm"
 gem "sentry-raven"
+gem 'google-analytics-rails'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
