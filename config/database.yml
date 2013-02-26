@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  host: localhost
+  database: startechconf_development
+  pool: 5
+  username: startechconf
+  password:
+  template: template0
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  host: localhost
+  database: startechconf_test
+  pool: 5
+  username: startechconf
+  password:
+  template: template0
