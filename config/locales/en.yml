@@ -1,26 +1,24 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
+
   hello: "Hello world"
   loading: "Cargando"
   colaborate: "¿Quieres colaborar con la versi&oacute;n 2013&#63;"
-  spanish: Español
+  spanish: "Español"
   english: "Inglés"
   portugese: "Portugués"
   logo_start: "Logo Startechconf 2013"
   startech_2013: "Startechconf 2013"
   this_year: "Este año..."
-  presentation_title: "48 horas y el evento de tecnolog&iacute;a m&aacute;s importante de Chile"
-  presentation_text: "La gran conferencia que une a estrellas mundiales en desarrollo de software y expertos locales en tecnolog&iacute;a para hablar de HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile entre otros, en <strong> Octubre 2013 (fecha exacta por confirmar).</strong>"
-  startech_2011: "Startechconf 2011"
-  remember_2011: "Recuerda como se vivi&oacute; la versi&oacute;n pasada de esta tremenda conferencia"
+  presentation_title_html: "48 horas y el evento de tecnolog&iacute;a m&aacute;s importante de Chile"
+  presentation_text_html: "La gran conferencia que une a estrellas mundiales en desarrollo de software y expertos locales en tecnolog&iacute;a para hablar de HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile entre otros, en <strong> Octubre 2013 (fecha exacta por confirmar).</strong>"
+  startech_2011_html: "Startechconf 2011"
+  remember_2011_html: "Recuerda como se vivi&oacute; la versi&oacute;n pasada de esta tremenda conferencia"
   place: "Lugar"
-  place_map_2011:" Mapa del Lugar"
+  place_map_2011: "Mapa del Lugar"
   we_are: "Ya somos"
   pre_register_thanks: "¡Gracias por pre-registrarte!"
   we_contact_you: "Te contactaremos cuando empiece la pre-venta."
-  preregister: "Pre-Reg&iacute;strate"
+  preregister: "Pre-Regístrate"
   discount: "Obtén un 30% de dcto en la entrada"
   speakers: "Charlistas"
   stars: "Estrellas mundiales como conferencistas"

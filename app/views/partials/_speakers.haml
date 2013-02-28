@@ -1,75 +1,31 @@
 %header.title
   %h2
     = t(:speakers)
-%p= t(:starts)
-.speaker
-  %figure.photo
-    .shadow
-    = image_tag "leaverou.jpg"
-  %span.name
-    Lea Verou
-  %span.occupation
-    Developer Relations W3C
-  %span.contact
-    %a{:href=>"http://twitter.com/LeaVerou", :title=>"Lea Verou"}
-      @LeaVerou
+%p= t(:stars)
 
-.speaker
-  %figure.photo
-    .shadow
-    = image_tag "aaronpatterson.jpg"
-  %span.name
-    Aaron Patterson
-  %span.occupation
-    Ruby-core, Rails-core, Nokogiri
-  %span.contact
-    %a{:href=>"http://twitter.com/tenderlove", :title=>"Aaron Patterson"}
-      @tenderlove
+- t(:confirmed_speakers).each do |speaker|
 
-.speaker
-  %figure.photo
-    .shadow
-    = image_tag "jacobkaplanmoss.jpg"
-  %span.name
-    Jacob Kaplan-Moss
-  %span.occupation
-    Creator of the Django web framework
-  %span.contact
-    %a{:href=>"http://twitter.com/jacobian", :title=>"Jacob Kaplan-Moss"}
-      @jacobian
+  .speaker
+    %figure.photo
+      .shadow
+      = image_tag speaker["photo"]
+    %span.name
+      = speaker["name"]
+    %span.occupation
+      = speaker["occupation"]
+    %span.contact
+      = raw speaker["contact"]
 
-.speaker
-  %figure.photo
-    .shadow
-    = image_tag "default.png"
-  %span.name
-    Por Anunciar
-  %span.occupation
-    &nbsp;
-  %span.contact
-    %a{:href=>"javascript:;", :title=>""}
+
+- 3.times do
+  .speaker
+    %figure.photo
+      .shadow
+      = image_tag "default.png"
+    %span.name
+      Por Anunciar
+    %span.occupation
       &nbsp;
-
-.speaker
-  %figure.photo
-    .shadow
-    = image_tag "default.png"
-  %span.name
-    Por Anunciar
-  %span.occupation
-    &nbsp;
-  %span.contact
-    %a{:href=>"javascript:;", :title=>""}
-      &nbsp;
-
-.speaker
-  %figure.photo
-    .shadow
-    = image_tag "default.png"
-  %span.name
-    Por Anunciar
-  %span.occupation
-    &nbsp;
-  %span.contact
-    %a{:href=>"javascript:;", :title=>""}
-      &nbsp;
+    %span.contact
+      %a{:href=>"javascript:;", :title=>""}
+        &nbsp;

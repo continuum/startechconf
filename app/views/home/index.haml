@@ -6,7 +6,7 @@
       %ul
         %li
           %a{:href => "https://docs.google.com/spreadsheet/embeddedform?formkey=dEk4aENtcGx1djFQUFFtcXJfeEdnMkE6MQ", :class => "option-link"}
-            = t(:colaborate)
+            = raw t(:colaborate)
 
     .language-selector{style: "display:none"}
       %ul
@@ -30,9 +30,9 @@
       %hgroup
         %h1= t(:startech_2013)
         %h2= t(:this_year)
-        %h3= t(:presentation_title)
+        %h3= raw t(:presentation_title_html)
         %p
-          = t(:presentation_text)
+          = raw t(:presentation_text_html)
     = render partial: "partials/registerform"
   %section.speakers
     .container
