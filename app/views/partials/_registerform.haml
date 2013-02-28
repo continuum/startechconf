@@ -3,22 +3,22 @@
     .preform
       - if @preregistro && !@preregistro.errors.any?
         %p
-          Ya somos
+          = t(:we_are)
           %span= "%03d" % Preregistro.count
         .call-to
           %a.button
-            ¡Gracias por pre-registrarte!
+            = t(:pre_register_thanks)
           %span
-            Te contactaremos cuando empiece la pre-venta.
+            = t(:we_contact_you)
       - else
         %p
-          Ya somos
+          = t(:we_are)
           %span= "%03d" % Preregistro.count
         .call-to
           %a.button#register-button{:href => "#", :title => "Pre-Regístrate"}
-            Pre-Reg&iacute;strate
+            = t(:preregister)
           %span
-            Obtén un 30% de dcto en la entrada
+            = t(:discount)
     .register-form{:style => (@preregistro && @preregistro.errors.any?) ? "" : "display:none"}
       %form{:action => preregister_path, :method => :post}
         .fields
