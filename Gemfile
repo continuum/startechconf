@@ -11,6 +11,8 @@ gem "memcachier"
 gem "newrelic_rpm"
 gem "sentry-raven"
 gem 'google-analytics-rails'
+gem 'dalli'
+gem 'memcachier'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
