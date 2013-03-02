@@ -1,0 +1,17 @@
+es-CL:
+  confirmed_speakers:
+    -
+      photo: "leaverou.jpg"
+      name: "Lea Verou"
+      occupation: "Developer Relations W3C"
+      contact: "<a href = 'http://twitter.com/LeaVerou' title='Lea Verou'> @LeaVerou </a>"
+    -
+      photo: "aaronpatterson.jpg"
+      name: "Aaron Patterson"
+      occupation: "Ruby-core, Rails-core, Nokogiri"
+      contact: "<a href = 'http://twitter.com/tenderlove' title='Aaron Patterson'> @tenderlove </a>"
+    -
+      photo: "jacobkaplanmoss.jpg"
+      name: "Jacob Kaplan-Moss"
+      occupation: "Creator of the Django web framework"
+      contact: "<a href = 'http://twitter.com/jacobian' title='Jacob Kaplan-Moss'> @jacobian </a>"
