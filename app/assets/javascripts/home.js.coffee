@@ -9,3 +9,6 @@ $(document).ready ->
   $('.register-form a').click ->
     $(this).closest('form').submit()
     false
+  $('.language-selector li.selected').click ->
+    $(this).siblings().toggle()
+    false

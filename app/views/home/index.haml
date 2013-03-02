@@ -8,18 +8,11 @@
           %a{:href => "https://docs.google.com/spreadsheet/embeddedform?formkey=dEk4aENtcGx1djFQUFFtcXJfeEdnMkE6MQ", :class => "option-link"}
             = raw t(:colaborate)
 
-    .language-selector{style: "display:none"}
+    .language-selector
       %ul
-        %li.selected
-          %a{:href => "#"}
-            = t(:spanish)
-        %li
-          %a{:href => "#"}
-            = t(:english)
-        %li
-          %a{:href => "#"}
-            =  t(:portugese)
-      %a{:href => "#"}
+        = locale_li(current_locale)
+        - (['es', 'en'] - [current_locale]).each do |locale|
+          = locale_li(locale)
 
 .wrapper
   %section.presentation
