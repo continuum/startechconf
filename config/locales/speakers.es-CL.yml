@@ -15,3 +15,8 @@ es-CL:
       name: "Jacob Kaplan-Moss"
       occupation: "Creator of the Django web framework"
       contact: "<a href = 'http://twitter.com/jacobian' title='Jacob Kaplan-Moss'> @jacobian </a>"
+    -
+      photo: "yehudakatz.jpg"
+      name: "Yehuda Katz"
+      occupation: "Ember.js, Rails-core, JQuery, Bundler"
+      contact: "<a href = 'http://twitter.com/wycats' title='Yehuda Katz'> @wycats </a>"
