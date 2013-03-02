@@ -2,15 +2,15 @@
 require 'spec_helper'
 
 describe "Home page", js:true  do
-  context "cuando se ingresa un correo en el preregistro" do
+  context "when an email is entered in the preregistration" do
     before do
-      visit "/"
+      visit "/es"
       click_link "Pre-Regístrate"
       fill_in "mail", with: "foo@gmail.com"
       click_link "Enviar"
     end
 
-    it "incrementa el contador de preregistrados e indica que el usuario se preregistró" do
+    it "increments the preregistration counter and tells the user that he is preregistered" do
       page.should have_text "001"
       page.should have_text "Gracias por pre-registrarte"
     end
