@@ -6,10 +6,11 @@
           = t(:we_are)
           %span= "%03d" % Preregistro.count
         .call-to
-          %a.button
-            = raw t(:pre_register_thanks)
-          %span
-            = t(:we_contact_you)
+          %a.button= raw t(:pre_register_thanks)
+          %span= t(:we_contact_you)
+          %span= preregistered_tweet_button
+          -#No mostramos los botones de facebook porque se ven horribles
+          -#%span= preregistered_fb_button
       - else
         %p
           = t(:we_are)
