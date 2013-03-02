@@ -40,7 +40,3 @@ group :test do
   gem "database_cleaner", ">= 0.9.1"
   gem "capybara", ">= 2.0.2"
 end
-
-group :production do
-  gem "heroku-deflater"
-end
