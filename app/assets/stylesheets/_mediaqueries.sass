@@ -100,7 +100,6 @@ $superior-fonts: 42px
   section .container,
   footer .container
     width: 480px
-    //border: 1px dotted orange
     border-top: none
     border-bottom: none
   .presentation
@@ -114,7 +113,7 @@ $superior-fonts: 42px
   .last-version
     .container
       .gallery
-        min-height: 270px
+        min-height: inherit
       p 
         font-size: 14px
   .counter
@@ -141,11 +140,89 @@ $superior-fonts: 42px
   section .container,
   footer .container
     width: 320px
-    //border: 1px dotted blue
     border-top: none
     border-bottom: none
-
-
+  section
+    .container
+      padding-bottom: 35px
+  header
+    .container
+      nav
+        position: absolute
+        top: 42px
+        width: 100%
+        ul
+          li 
+            a 
+              text-align: center
+      .language-selector
+        float: none
+        ul 
+          position: relative
+          li 
+            a
+              width: auto
+  .presentation
+    header
+      figure
+        img
+          width: 85%
+    hgroup
+      h2
+        font-size: 28px
+      h3
+        font-size: 17px
+      p 
+        font-size: 16px
+    .counter
+      .container
+        padding: 26px 0 55px 0
+        .preform
+          p 
+            font-size: 35px
+            width: 100%
+            text-align: center
+            float: none
+            span
+              font-size: 36px
+          .call-to
+            width: 78%
+            float: none
+            margin: 10px auto
+            a
+              padding: 10px 30px
+              font-size: 20px
+        .register-form
+          .fields
+            width: auto
+            float: none
+            text-align: center
+            input
+              width: 90%
+              padding: 12px
+              font-size: 18px
+          .button
+            float: none
+            margin: 5px auto
+            padding: 12px
+            width: 90%
+            font-size: 18px
+  .speakers, .last-version
+    .container
+      header.title
+        h2
+          padding: 10px 30px
+          font-size: 22px
+      p 
+        margin: 0
+    .speaker
+      margin: 16px 0
+  .last-version
+    .gallery
+      min-height: inherit
+  footer
+    nav
+      padding-left: 150px
 
 
 
