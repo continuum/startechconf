@@ -21,7 +21,7 @@ $ heroku git:remote --app startechconf
 
 Luego para hacer deploy:
 
-$ rake && git push && git push heroku master
+$ rake && git push && rake deploy
 
 Ver preregistros
 ----------------
