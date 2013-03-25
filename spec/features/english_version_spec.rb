@@ -10,8 +10,8 @@ describe "English Home page", js:true  do
     end
 
     it "changes the page to english" do
-      page.should have_no_text "ESTE AÑO"
-      page.should have_text "THIS YEAR"
+      page.should have_no_text "OCTUBRE"
+      page.should have_text "OCTOBER"
     end
   end
 end
