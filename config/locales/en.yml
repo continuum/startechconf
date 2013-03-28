@@ -1,14 +1,13 @@
 en:
-
+  sitename: "StarTechConf"
+  year: "2013"
   hello: "Hello world"
   loading: "Loading"
   colaborate: "Do you want to help with the 2013 edition?"
   spanish: "Spanish"
   english: "English"
   portugese: "Portuguese"
-  logo_start: "Logo Startechconf 2013"
-  startech_2013: "Startechconf 2013"
-  conference_dates: "October 25-26 2013"
+  conference_dates: "October 25-26th, 2013"
   presentation_title_html: "48 hours and the most important tech event in Chile"
   presentation_text_html: >
   "The great conference that brings together
@@ -16,7 +15,7 @@ en:
   to talk about HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile
   and more."
   startech_2011_html: "Startechconf 2011"
-  remember_2011_html: "Remember the past edition of this awesome conference"
+  remember_2011_html: "Revive the past edition of this conference"
   place: "Location"
   place_map_2011: "Location map"
   we_are: "We are"
@@ -27,8 +26,39 @@ en:
   speakers: "Speakers"
   stars: "Confirmed stars"
   to_be_announced: "To Be Announced"
-  sponsors: "Sponsors"
+  sponsors_name: "Sponsors"
   sponsors_text: "To be a sponsor"
-  sponsors_link: "download rules here;"
+  sponsors_link: "download rules here"
   prices: "Prices"
   entry_prices: "Ticket prices"
+
+  sponsor_slugs:
+    platinum:
+    gold:
+      - google
+    silver:
+    startups:
+      - getonbrd
+      - rhyboo
+
+  sponsors:
+    platinum:
+      title: "Platinum"
+    gold:
+      title: "Gold"
+      google:
+        name: "Google"
+        url: "http://www.google.com"
+        desc: "The world's leader in search."
+    silver:
+      title: "Silver"
+    startups:
+      title: "Startups"
+      getonbrd:
+        name: "Get on Board"
+        url: "http://www.getonbrd.com"
+        desc: "A job board for Web pros."
+      rhyboo:
+        name: "Rhyboo"
+        url: "http://www.rhyboo.com"
+        desc: "The second-screen app that rocks!"

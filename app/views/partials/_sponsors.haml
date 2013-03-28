@@ -12,33 +12,12 @@
           = image_tag "sponsors/"+s+".png"
 
 .category
-  .categorygroup{:style=>"display:none"}
-    %h4= t(".gold.title")
-    %ul
-      - t("sponsor_slugs.gold").each do |s|
-        %li
-          - name = t(".gold."+s+".name")
-          %a{:href=> t(".gold."+s+".url"), :title=> name, :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - Gold', '#{name}']);"}
-            = image_tag "sponsors/"+s+".png"
-
-  .categorygroup{:style=>"display:none"}
-    %h4= t(".silver.title")
-    %ul
-      - t("sponsor_slugs.silver").each do |s|
-        %li
-          - name = t(".silver."+s+".name")
-          %a{:href=> t(".silver."+s+".url"), :title=> name, :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - Silver', '#{name}']);"}
-            = image_tag "sponsors/"+s+".png"
-
-  .categorygroup
-    %h4= t(".startups.title")
-    %ul
-      - t("sponsor_slugs.startups").each do |s|
-        %li
-          - name = t(".startups."+s+".name")
-          %a{:href=> t(".startups."+s+".url"), :title=> name, :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - Startups', '#{name}']);"}
-            = image_tag "sponsors/"+s+".png"
-
--#%p= t(:sponsors_text)
-
-
+  - ["gold", "silver", "startups"].each do |cat|
+    .categorygroup
+      %h4= t("."+cat+".title")
+      %ul
+        - t("sponsor_slugs."+cat).each do |s|
+          %li
+            - name = t("."+cat+"."+s+".name")
+            %a{:href=> t("."+cat+"."+s+".url"), :title=> name, :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - #{cat}', '#{name}']);"}
+              = image_tag "sponsors/"+s+".png"

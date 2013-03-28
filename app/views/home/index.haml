@@ -14,9 +14,11 @@
     .container
       %header
         %figure.logo
-          = image_tag "logo_startechconf_2013@2x.png", alt: t("logo_start")
+          = image_tag "logo_startechconf_2013@2x.png", alt: t("sitename")
       %hgroup
-        %h1= t(:startech_2013)
+        %h1
+          = t("sitename")
+          = t("year")
         %h2= t(:conference_dates)
         %h3= raw t(:presentation_title_html)
         %p

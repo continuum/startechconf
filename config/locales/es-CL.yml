@@ -1,21 +1,20 @@
 es-CL:
-
+  sitename: "StarTechConf"
+  year: "2013"
   hello: "Hello world"
   loading: "Cargando"
-  colaborate: "¿Quieres colaborar con la versi&oacute;n 2013&#63;"
+  colaborate: "¿Quieres colaborar con la versi&oacute;n 2013?"
   spanish: "Español"
   english: "Inglés"
   portugese: "Portugués"
-  logo_start: "Logo Startechconf 2013"
-  startech_2013: "Startechconf 2013"
   conference_dates: "25 y 26 de Octubre 2013"
-  presentation_title_html: "48 horas y el evento de tecnolog&iacute;a m&aacute;s importante de Chile"
+  presentation_title_html: "48 horas y el evento de tecnolog&iacute;a m&aacute;s importante de Chile."
   presentation_text_html: >
   "La gran conferencia que une a estrellas mundiales en desarrollo
   de software y expertos locales en tecnolog&iacute;a para hablar de
   HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile entre otros."
   startech_2011_html: "Startechconf 2011"
-  remember_2011_html: "Recuerda como se vivi&oacute; la versi&oacute;n pasada de esta tremenda conferencia"
+  remember_2011_html: "Recuerda como se vivi&oacute; la versi&oacute;n pasada de esta conferencia"
   place: "Lugar"
   place_map_2011: "Mapa del lugar"
   we_are: "Ya somos"

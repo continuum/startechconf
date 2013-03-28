@@ -4,11 +4,13 @@
     %meta{:charset => "utf-8"}
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
     %meta{:name=>"viewport", :content=>"width=device-width, initial-scale=1, maximum-scale=1"}
-    %meta{:property => "Title", :content => "StarTechConf 2013"}
-    %meta{:property => "Site Name", :content => "StarTechConf"}
+    %meta{:property => "Title", :content => t("sitename") + " " + = t("year")}
+    %meta{:property => "Site Name", :content => t("sitename")}
     %meta{:property => "Url", :content=>"http://startechconf.com"}
     %meta{:property => "Description", :content => "48 horas y la conferencia de tecnología más grande de Chile"}
-    %title StarTechConf 2013
+    %title
+      = t("sitename")
+      = t("year")
     %link{:rel => "icon", :type => "image/png", :href => "favicon.png"}
     %link{:href => "http://roboto-webfont.googlecode.com/svn/trunk/roboto.all.css", :rel => "stylesheet", :type => "text/css"}
     = stylesheet_link_tag "application", media: "all"
