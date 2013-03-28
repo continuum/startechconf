@@ -24,7 +24,8 @@ es-CL:
   to_be_announced: "Por Anunciar"
   stars: "Estrellas mundiales confirmadas"
   sponsors: "Auspiciadores"
-  sponsors_list: "Lista de Auspiciadores"
+  sponsors_text: "Para ser auspiciador"
+  sponsors_link: "Descarga los planes Aqu&iacute;"
   prices: "Precios"
   entry_prices: "Precios de las entradas"
 

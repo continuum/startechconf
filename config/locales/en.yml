@@ -28,6 +28,7 @@ en:
   stars: "Confirmed stars"
   to_be_announced: "To Be Announced"
   sponsors: "Sponsors"
-  sponsors_list: "Sponsor List"
+  sponsors_text: "To be a sponsor"
+  sponsors_link: "download rules here;"
   prices: "Prices"
   entry_prices: "Ticket prices"
