@@ -9,10 +9,7 @@ es-CL:
   portuguese: "Portugués"
   conference_dates: "25 y 26 de Octubre 2013"
   presentation_title_html: "48 horas y el evento de tecnolog&iacute;a m&aacute;s importante de Chile."
-  presentation_text_html: >
-  "La gran conferencia que une a estrellas mundiales en desarrollo
-  de software y expertos locales en tecnolog&iacute;a para hablar de
-  HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile entre otros."
+  presentation_text_html: "La gran conferencia que une a estrellas mundiales en desarrollo de software y expertos locales en tecnolog&iacute;a para hablar de HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile entre otros."
   startech_2011_html: "Startechconf 2011"
   remember_2011_html: "Recuerda como se vivi&oacute; la versi&oacute;n pasada de esta conferencia"
   place: "Lugar"
@@ -40,27 +37,28 @@ es-CL:
       - getonbrd
       - rhyboo
 
-  sponsors:
-    platinum:
-      title: "Platinum"
-    gold:
-      title: "Gold"
-      google:
-        name: "Google"
-        url: "http://www.google.com"
-        desc: "The world's leader in search."
-    silver:
-      title: "Silver"
-    startups:
-      title: "Startups"
-      getonbrd:
-        name: "Get on Board"
-        url: "http://www.getonbrd.com"
-        desc: "A job board for Web pros."
-      rhyboo:
-        name: "Rhyboo"
-        url: "http://www.rhyboo.com"
-        desc: "The second-screen app that rocks!"
+  partials:
+    sponsors:
+      platinum:
+        title: "Platinum"
+      gold:
+        title: "Gold"
+        google:
+          name: "Google"
+          url: "http://www.google.com"
+          desc: "The world's leader in search."
+      silver:
+        title: "Silver"
+      startups:
+        title: "Startups"
+        getonbrd:
+          name: "Get on Board"
+          url: "http://www.getonbrd.com"
+          desc: "A job board for Web pros."
+        rhyboo:
+          name: "Rhyboo"
+          url: "http://www.rhyboo.com"
+          desc: "The second-screen app that rocks!"
 
   date:
     abbr_day_names:

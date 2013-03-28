@@ -9,11 +9,7 @@ en:
   portuguese: "Portuguese"
   conference_dates: "October 25-26th, 2013"
   presentation_title_html: "48 hours and the most important tech event in Chile"
-  presentation_text_html: >
-  "The great conference that brings together
-  world renowned stars in software development and local tech experts
-  to talk about HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile
-  and more."
+  presentation_text_html: "The great conference that brings together world renowned stars in software development and local tech experts to talk about HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile and more."
   startech_2011_html: "Startechconf 2011"
   remember_2011_html: "Revive the past edition of this conference"
   place: "Location"
@@ -32,5 +28,35 @@ en:
   prices: "Prices"
   entry_prices: "Ticket prices"
 
+  sponsor_slugs:
+    platinum:
+    gold:
+      - google
+    silver:
+    startups:
+      - getonbrd
+      - rhyboo
 
+  partials:
+    sponsors:
+      platinum:
+        title: "Platinum"
+      gold:
+        title: "Gold"
+        google:
+          name: "Google"
+          url: "http://www.google.com"
+          desc: "The world's leader in search."
+      silver:
+        title: "Silver"
+      startups:
+        title: "Startups"
+        getonbrd:
+          name: "Get on Board"
+          url: "http://www.getonbrd.com"
+          desc: "A job board for Web pros."
+        rhyboo:
+          name: "Rhyboo"
+          url: "http://www.rhyboo.com"
+          desc: "The second-screen app that rocks!"
 

@@ -2,17 +2,11 @@
   %h2
     = t(:sponsors_name)
 
-.category
-  %h4= t(".platinum.title")
-  %ul
-    - t("sponsor_slugs.platinum").each do |s|
-      %li
-        - name = t(".platinum."+s+".name")
-        %a{:href=> t(".platinum."+s+".url"), :title=> name, :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - Platinum', '#{name}']);"}
-          = image_tag "sponsors/"+s+".png"
+/#.category
+/#  %h4= t(".platinum.title")
 
 .category
-  - ["gold", "silver", "startups"].each do |cat|
+  - ["gold", "startups"].each do |cat|
     .categorygroup
       %h4= t("."+cat+".title")
       %ul
