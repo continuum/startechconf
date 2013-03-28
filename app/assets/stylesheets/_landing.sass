@@ -14,6 +14,7 @@ $soft-highlight-color-text:                         #888
 
 $dark-texture:                                      image-url("subtle_carbon.png") repeat
 $light-texture:                                     #FFF
+$soft-texture:                                      #f1f1f1
 $color-overlay:                                     rgba(17,17,17,0.5)
 
 $secondary-color:                                   #FFFF00
@@ -318,9 +319,51 @@ header
       a
         color: $links-color
 
+//Segundo Bloque
+.sponsors
+  background: $soft-texture
+  text-align: center
+  header.title
+    @include header-section
+    h2:after
+      border-left: 127px solid transparent
+      border-right: 127px solid transparent
+      left: 353px
+  .category
+    margin-top: 20px
+    h4
+      font-size: $medium-fonts
+      font-family: $main-font
+      color: $soft-color-text
+      font-weight: $font-light
+      padding: 12px 0
+      border-bottom: 1px dotted #ccc
+    ul
+      @include navlist
+      li
+        display: inline-block
+        margin: 14px
+        a
+          outline: 0px
+          display: block
+          img
+            width: 140px
+  .categorygroup
+    width: 31%
+    display: inline-block
+    margin: 0 1%
+    *display: block
+    *float: left
+    ul
+      @include navlist
+      li
+        float: none
+        margin-bottom: 4px
+        a
+          img
+            width: 150px
 
-
-//Segunda Sección
+//Ultimo Bloque
 .last-version
   background: $dark-texture
   header.title
@@ -389,7 +432,6 @@ footer
 
 
 
-.sponsors,
 .place,
 .tickets
   display: none

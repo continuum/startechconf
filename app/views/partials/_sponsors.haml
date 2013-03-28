@@ -1,4 +1,36 @@
 %header.title
   %h2
     = t(:sponsors)
-= t(:sponsors_list)
+
+.category
+  %h4 Platinum
+  %ul
+    %li
+      %a{:href=>"#", :title=>"Google"}
+        = image_tag "sponsors/google-official.png"
+.category
+  .categorygroup{:style=>"display:none"}
+    %h4 Golden
+    %ul
+      %li
+        %a
+          %img
+  .categorygroup{:style=>"display:none"}
+    %h4 Silver
+    %ul
+      %li
+        %a
+          %img
+  .categorygroup
+    %h4 Startups
+    %ul
+      %li
+        %a{:href=>"#", :title=>"GetonBoard"}
+          = image_tag "sponsors/logo-getonboard.png"
+      %li
+        %a{:href=>"#", :title=>"Rhyboo"}
+          = image_tag "sponsors/logo-rhyboo.png"
+
+-#%p= t(:sponsors_text)
+
+
