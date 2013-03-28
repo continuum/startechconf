@@ -9,7 +9,7 @@ es-CL:
   portuguese: "Portugués"
   conference_dates: "25 y 26 de Octubre 2013"
   presentation_title_html: "48 horas y el evento de tecnolog&iacute;a m&aacute;s importante de Chile."
-  presentation_text_html: "La gran conferencia que une a estrellas mundiales en desarrollo de software y expertos locales en tecnolog&iacute;a para hablar de HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile entre otros."
+  presentation_text_html: "La gran conferencia que une a estrellas mundiales en desarrollo de software y expertos locales en tecnolog&iacute;a para hablar de HTML5, CSS3, JavaScript, Ruby, Java, UX, Python y Mobile, entre otros."
   startech_2011_html: "Startechconf 2011"
   remember_2011_html: "Recuerda como se vivi&oacute; la versi&oacute;n pasada de esta conferencia"
   place: "Lugar"
@@ -18,7 +18,7 @@ es-CL:
   pre_register_thanks: "¡Gracias por pre-registrarte!"
   we_contact_you: "Te contactaremos cuando empiece la pre-venta."
   preregister: "Pre-Regístrate"
-  discount: "Obtén un 30% de dcto en la entrada"
+  discount: "Obtén un 30% de descuento en la entrada"
   speakers: "Charlistas"
   to_be_announced: "Por Anunciar"
   stars: "Estrellas mundiales confirmadas"
@@ -171,16 +171,16 @@ es-CL:
       greater_than: debe ser mayor que %{count}
       greater_than_or_equal_to: debe ser mayor que o igual a %{count}
       inclusion: no está incluido en la lista
-      invalid: no es válido
+      invalid: "no es válido"
       less_than: debe ser menor que %{count}
       less_than_or_equal_to: debe ser menor que o igual a %{count}
-      not_a_number: no es un número
-      not_an_integer: debe ser un entero
-      odd: debe ser impar
+      not_a_number: "no es un número"
+      not_an_integer: "debe ser un entero"
+      odd: "debe ser impar"
       record_invalid: ! 'La validación falló: %{errors}'
-      taken: ya está en uso
-      too_long: es demasiado largo (%{count} caracteres máximo)
-      too_short: es demasiado corto (%{count} caracteres mínimo)
+      taken: "ya está registrado"
+      too_long: "es demasiado largo (%{count} caracteres máximo)"
+      too_short: "es demasiado corto (%{count} caracteres mínimo)"
       wrong_length: no tiene la longitud correcta (%{count} caracteres exactos)
     template:
       body: ! 'Se encontraron problemas con los siguientes campos:'

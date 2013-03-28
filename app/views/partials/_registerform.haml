@@ -15,15 +15,13 @@
         %p
           = t(:we_are)
           %span= "%03d" % Preregistro.count
-        .call-to
-          %a.button#register-button{:href => "#", :title => t(:preregister)}
-            = t(:preregister)
-          %span
-            = t(:discount)
-    .register-form{:style => (@preregistro && @preregistro.errors.any?) ? "" : "display:none"}
+    .register-form
       %form{:action => preregister_path, :method => :post}
         .fields
-          %input#mail{:type => "email", :name => "mail", :placeholder => "mail@mail.com", :value => @preregistro.try(:mail) }
+          %input#mail{:type => "email", :name => "mail", :placeholder => "Tu e-mail...", :value => @preregistro.try(:mail) }
         %a{:href => "#", :class => "button", :title => "Enviar tus datos"}
-          Enviar
+          Pre-regístrate
+        .call-to
+          %span
+            = t(:discount)
         %span.error= "mail #{@preregistro.errors[:mail].join(',')}" if @preregistro && @preregistro.errors.any?

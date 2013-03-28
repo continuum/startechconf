@@ -123,11 +123,11 @@ footer .container
 
 section
   .container
-    padding: 60px 0
+    padding: 40px 0
     position: relative
     p
       text-align: center
-      color: $soft-color-text
+      color: $soft-highlight-color-text
       font-size: 18px
       margin: 24px 0
 
@@ -185,7 +185,7 @@ header
 
 //Primera Sección
 .wrapper
-  @include background(linear-gradient(bottom, rgba(17,17,17,0.1), #111 90%))
+  @include background(linear-gradient(bottom, rgba(17,17,17,0.1), #111 100%))
 
 .presentation
   header
@@ -222,12 +222,14 @@ header
       font-size: 20px
       padding: 0
       margin: 0
+.call-to
+  color: #fff
+  font-size: 13px
 
 .counter
-  background: $color-overlay
   //margin-top: 40px
   .container
-    padding: 68px 0
+    padding: 10px 0 68px
   .preform
     overflow: hidden
     p
@@ -235,20 +237,16 @@ header
       font-weight: $font-thin
       font-size: 50px
       @include no-spaces
-      float: left
-      text-align: right
-      width: 55%
+      text-align: center
       font-weight: $font-thin
       text-transform: uppercase
-      margin-right: 20px
+      margin: 0 0 20px
       text-shadow: 0 1px 2px #333
       span
         color: $secondary-color
         font-weight: $font-normal
         font-size: 54px
         display: inline
-    .call-to
-      float: left
       .button
         @include button-standar
         font-size: $big-fonts
@@ -266,7 +264,7 @@ header
       float: left
       width: 350px
       text-align: right
-      width: 65%
+      width: 61%
       input
         width: 440px
         border: none
@@ -275,11 +273,13 @@ header
         margin: 2px 0
         color: $main-font-color
         font-size: $big-fonts
+        &:focus
+          outline: 2px solid yellow
     .button
       @include button-standar
       font-size: $big-fonts
       float: left
-      margin: 2px 4px
+      margin: 2px 10px 2px 4px
 
 //Primer Bloque
 .speakers
