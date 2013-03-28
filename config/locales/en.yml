@@ -6,7 +6,7 @@ en:
   colaborate: "Do you want to help with the 2013 edition?"
   spanish: "Spanish"
   english: "English"
-  portugese: "Portuguese"
+  portuguese: "Portuguese"
   conference_dates: "October 25-26th, 2013"
   presentation_title_html: "48 hours and the most important tech event in Chile"
   presentation_text_html: >
@@ -32,33 +32,5 @@ en:
   prices: "Prices"
   entry_prices: "Ticket prices"
 
-  sponsor_slugs:
-    platinum:
-    gold:
-      - google
-    silver:
-    startups:
-      - getonbrd
-      - rhyboo
 
-  sponsors:
-    platinum:
-      title: "Platinum"
-    gold:
-      title: "Gold"
-      google:
-        name: "Google"
-        url: "http://www.google.com"
-        desc: "The world's leader in search."
-    silver:
-      title: "Silver"
-    startups:
-      title: "Startups"
-      getonbrd:
-        name: "Get on Board"
-        url: "http://www.getonbrd.com"
-        desc: "A job board for Web pros."
-      rhyboo:
-        name: "Rhyboo"
-        url: "http://www.rhyboo.com"
-        desc: "The second-screen app that rocks!"
+
