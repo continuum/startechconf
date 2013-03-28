@@ -1,35 +1,36 @@
 %header.title
   %h2
-    = t(:sponsors)
+    = t(:sponsors_name)
 
 .category
-  %h4 Platinum
+  %h4= t("sponsors.platinum.title")
   %ul
-    %li
-      %a{:href=>"#", :title=>"Google"}
-        = image_tag "sponsors/google-official.png"
+    - t("sponsor_slugs.platinum").each do |s|
+      %li
+        %a{:href=> t("sponsors.platinum."+s+".url"), :title=> t("sponsors.platinum."+s+".name")}
+          = image_tag "sponsors/"+s+".png"
 .category
   .categorygroup{:style=>"display:none"}
-    %h4 Golden
+    %h4= t("sponsors.gold.title")
     %ul
-      %li
-        %a
-          %img
+      - t("sponsor_slugs.gold").each do |s|
+        %li
+          %a{:href=> t("sponsors.gold."+s+".url"), :title=> t("sponsors.gold."+s+".name")}
+            = image_tag "sponsors/"+s+".png"
   .categorygroup{:style=>"display:none"}
-    %h4 Silver
+    %h4= t("sponsors.silver.title")
     %ul
-      %li
-        %a
-          %img
+      - t("sponsor_slugs.silver").each do |s|
+        %li
+          %a{:href=> t("sponsors.silver."+s+".url"), :title=> t("sponsors.silver."+s+".name")}
+            = image_tag "sponsors/"+s+".png"
   .categorygroup
-    %h4 Startups
+    %h4= t("sponsors.startups.title")
     %ul
-      %li
-        %a{:href=>"#", :title=>"GetonBoard"}
-          = image_tag "sponsors/logo-getonboard.png"
-      %li
-        %a{:href=>"#", :title=>"Rhyboo"}
-          = image_tag "sponsors/logo-rhyboo.png"
+      - t("sponsor_slugs.startups").each do |s|
+        %li
+          %a{:href=> t("sponsors.startups."+s+".url"), :title=> t("sponsors.startups."+s+".name")}
+            = image_tag "sponsors/"+s+".png"
 
 -#%p= t(:sponsors_text)
 

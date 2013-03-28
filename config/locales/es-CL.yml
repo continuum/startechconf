@@ -26,7 +26,7 @@ es-CL:
   speakers: "Charlistas"
   to_be_announced: "Por Anunciar"
   stars: "Estrellas mundiales confirmadas"
-  sponsors: "Auspiciadores"
+  sponsors_name: "Auspiciadores"
   sponsors_text: "Para ser auspiciador"
   sponsors_link: "Descarga los planes Aqu&iacute;"
   prices: "Precios"
@@ -43,13 +43,17 @@ es-CL:
 
   sponsors:
     platinum:
+      title: "Platinum"
     gold:
+      title: "Gold"
       google:
         name: "Google"
         url: "http://www.google.com"
         desc: "The world's leader in search."
     silver:
+      title: "Silver"
     startups:
+      title: "Startups"
       getonbrd:
         name: "Get on Board"
         url: "http://www.getonbrd.com"
