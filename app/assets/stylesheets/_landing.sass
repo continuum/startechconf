@@ -188,6 +188,7 @@ header
   @include background(linear-gradient(bottom, rgba(17,17,17,0.1), #111 100%))
 
 .presentation
+  color: $main-font-color
   header
     padding: 0 0 34px 0
     background: none
@@ -201,7 +202,6 @@ header
   hgroup
     text-align: $standar-align
     font-family: $main-font
-    color: $main-font-color
     h1,h2,h3,h4
       line-height: auto
       margin: 0.15em 0
@@ -223,8 +223,9 @@ header
       padding: 0
       margin: 0
 .call-to
-  color: #fff
-  font-size: 13px
+  color: yellow
+  text-align: center
+  font-size: 1.7em
 
 .counter
   //margin-top: 40px
@@ -252,11 +253,8 @@ header
         font-size: $big-fonts
     span
       display: block
-      font-size: $small-fonts
-      text-align: center
+      font-size: $medium-fonts
       padding: 12px 0
-      color: $main-font-color
-      font-weight: $font-thin
   .register-form
     form
       overflow: hidden
@@ -275,11 +273,20 @@ header
         font-size: $big-fonts
         &:focus
           outline: 2px solid yellow
+        &.red
+          outline: 2px solid red
     .button
       @include button-standar
       font-size: $big-fonts
       float: left
       margin: 2px 10px 2px 4px
+    .error
+      color: #fff
+      display: block
+      clear: left
+      color: red
+      text-align: center
+      padding-top: 5px
 
 //Primer Bloque
 .speakers
@@ -330,7 +337,8 @@ header
       border-right: 127px solid transparent
       left: 353px
   .category
-    margin-top: 20px
+    margin: 40px 0
+    overflow: hidden
     h4
       font-size: $medium-fonts
       font-family: $main-font
@@ -350,15 +358,13 @@ header
             width: 140px
   .categorygroup
     width: 31%
-    display: inline-block
     margin: 0 1%
-    *display: block
-    *float: left
+    float: left
     ul
       @include navlist
       li
         float: none
-        margin-bottom: 4px
+        margin-bottom: 10px
         a
           img
             width: 150px
