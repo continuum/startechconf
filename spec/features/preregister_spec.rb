@@ -5,9 +5,8 @@ describe "Home page", js:true  do
   context "when an email is entered in the preregistration" do
     before do
       visit "/es"
-      click_link "Pre-Regístrate"
       fill_in "mail", with: "foo@gmail.com"
-      click_link "Enviar"
+      click_link "Pre-regístrate"
     end
 
     it "increments the preregistration counter and tells the user that he is preregistered" do
