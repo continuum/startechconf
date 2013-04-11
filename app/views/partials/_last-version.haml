@@ -7,7 +7,7 @@
   #ri-grid.ri-grid.ri-grid-size-2
     = image_tag "loading.gif", class: "ri-loading-image"
     %ul
-      - 95.times do |i|
+      - images.each do |src, href|
         %li
-          %a{:href =>"#"}
-            = image_tag "medium/#{i + 1}.jpg"
+          %a{:href => href, :target => "_blank"}
+            = image_tag src

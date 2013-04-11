@@ -14,6 +14,7 @@ $(function() {
         w240        : {
             rows    : 3,
             columns : 4
-        }
+        },
+        preventClick: false
     } );
   });
