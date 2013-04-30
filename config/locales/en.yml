@@ -36,6 +36,7 @@ en:
     startups:
       - getonbrd
       - rhyboo
+      - str
 
   partials:
     sponsors:
@@ -54,9 +55,13 @@ en:
         getonbrd:
           name: "Get on Board"
           url: "http://www.getonbrd.com"
-          desc: "A job board for Web pros."
+          desc: "Design, Mobile and Programming jobs for Web pros."
         rhyboo:
           name: "Rhyboo"
           url: "http://www.rhyboo.com"
           desc: "The second-screen app that rocks!"
+        str:
+          name: "STR Chile"
+          url: "http://strchile.cl"
+          desc: "Soluciones y Servicios Audiovisuales"
 

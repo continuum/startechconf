@@ -13,5 +13,6 @@
         - t("sponsor_slugs."+cat).each do |s|
           %li
             - name = t("."+cat+"."+s+".name")
-            %a{:href=> t("."+cat+"."+s+".url"), :title=> name, :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - #{cat}', '#{name}']);"}
+            - desc = t("."+cat+"."+s+".desc")
+            %a{:href=> t("."+cat+"."+s+".url"), :title=> name+" - "+desc, :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - #{cat}', '#{name}']);"}
               = image_tag "sponsors/"+s+".png"
