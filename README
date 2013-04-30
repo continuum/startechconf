@@ -19,6 +19,10 @@ Setup inicial (solo la primera vez):
 
 $ heroku git:remote --app startechconf
 
+$ heroku login
+
+$ heroku keys:add
+
 Luego para hacer Test & Push & Deploy:
 
 $ rake && git push && rake deploy
