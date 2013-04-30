@@ -138,6 +138,13 @@ header
   color: $font-color
   .container
     height: $temp-height
+  nav
+    a
+      color: $font-color
+      padding: 11px 8px 11px 0
+      display: inline-block
+      &:hover
+        color: $secondary-color
   .language-selector
     float: right
     ul
@@ -195,7 +202,7 @@ header
     figure
       text-align: $standar-align
       img
-        width: 50%
+        width: 40%
         margin: 0 auto
         @include transition-duration(1s)
 

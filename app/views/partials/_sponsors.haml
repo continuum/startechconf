@@ -14,5 +14,5 @@
           %li
             - name = t("."+cat+"."+s+".name")
             - desc = t("."+cat+"."+s+".desc")
-            %a{:href=> t("."+cat+"."+s+".url"), :title=> name+" - "+desc, :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - #{cat}', '#{name}']);"}
+            %a{:href=> t("."+cat+"."+s+".url"), :title=> name+" - "+desc, :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - #{cat}', '#{name}']);", :target => "_blank"}
               = image_tag "sponsors/"+s+".png"
