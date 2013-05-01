@@ -6,7 +6,7 @@ describe "English Home page", js:true  do
     before do
       visit "/"
       click_link "Español"
-      click_link "Inglés"
+      click_link "English"
     end
 
     it "changes the page to english" do
