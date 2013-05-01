@@ -19,8 +19,8 @@
       %form{:action => preregister_path, :method => :post}
         .fields
           - classinput = @preregistro && @preregistro.errors.any? ? "red" : ""
-          %input#mail{:type => "email", :name => "mail", :placeholder => "Tu e-mail...", :value => @preregistro.try(:mail), :class => classinput }
-        %a{:href => "#", :class => "button", :title => "Enviar tus datos"}
-          Pre-regístrate
+          %input#mail{:type => "email", :name => "mail", :placeholder => t(:your_email), :value => @preregistro.try(:mail), :class => classinput }
+        %a{:href => "#", :class => "button", :title => t(:send_your_info)}
+          = t(:preregister)
         %span.discount= t(:discount)
         %span.error= "Este e-mail #{@preregistro.errors[:mail].join(',')}" if @preregistro && @preregistro.errors.any?
