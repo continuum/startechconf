@@ -1,3 +1,28 @@
+DEVELOPEMENT VERSION (NOT REQUIRED)
+-----------------------------------
+
+➜  startechconf $ ruby --version
+ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin12.2.0]
+
+➜  startechconf $ rvm --version
+rvm 1.15.9 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+
+➜  startechconf $ gem --version
+1.8.24
+
+➜  startechconf $ rails --version
+Rails 3.2.13
+
+➜  startechconf $ postgres --version
+postgres (PostgreSQL) 9.2.1
+
+➜  startechconf $ brew --version
+0.9.4
+
+➜  startechconf $ git --version
+git version 1.7.12.4 (Apple Git-37)
+
+
 Requirements
 ------------
 sudo gem install bundler
@@ -27,7 +52,7 @@ Luego para hacer Test & Push & Deploy:
 
 $ rake && git push && rake deploy
 
-Ver preregistros
+Ver pre-registros
 ----------------
 
 $ heroku run rake preregistros
