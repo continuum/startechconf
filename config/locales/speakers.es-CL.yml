@@ -13,15 +13,15 @@ es-CL:
     -
       photo: "jacobkaplanmoss.jpg"
       name: "Jacob Kaplan-Moss"
-      occupation: "Creator of the Django web framework"
+      occupation: "Creador del Frawework web Django"
       contact: "<a href = 'http://twitter.com/jacobian' title='Jacob Kaplan-Moss'> @jacobian </a>"
     -
       photo: "yehudakatz.jpg"
       name: "Yehuda Katz"
-      occupation: "Ember.js, Rails-core, JQuery, Bundler"
+      occupation: "Ember.js, Rails-core, jQuery, Bundler"
       contact: "<a href = 'http://twitter.com/wycats' title='Yehuda Katz'> @wycats </a>"
     -
       photo: "jaimeenewberry.jpg"
       name: "Jaimee Newberry"
-      occupation: "Director of User Experience, Black Pixel"
+      occupation: "Directora de Experiencia de Usuario, Black Pixel"
       contact: "<a href = 'http://twitter.com/jaimeejaimee' title='Jaimee Newberry'> @jaimeejaimee </a>"
