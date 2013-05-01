@@ -6,7 +6,7 @@ describe "Home page", js:true  do
     before do
       visit "/es"
       fill_in "mail", with: "foo@gmail.com"
-      click_link "Pre-regístrate"
+      find('.pre_register_button').click
     end
 
     it "increments the preregistration counter and tells the user that he is preregistered" do
