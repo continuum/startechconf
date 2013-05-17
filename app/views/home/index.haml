@@ -24,6 +24,25 @@
         %h3= raw t(:presentation_title_html)
         %p
           = raw t(:presentation_text_html)
+          = link_to t("see_speakers"), "#speakers"
+        .pricing
+          %h3
+            %em
+              Sólo para pre-registrados antes del 24 de mayo (ya somos
+              %strong= Preregistro.count
+              !):
+          %h3
+            %strong
+              US$
+              %s 150
+              105
+            ="- Pase general 2 días"
+            %br
+            %strong
+              US$
+              %s 60
+              42
+            ="- Estudiantes"
     = render partial: "partials/registerform"
   %section.speakers
     .container

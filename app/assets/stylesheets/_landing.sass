@@ -10,7 +10,7 @@ $main-font-color:                                   #fff
 $header-color:                                      #000
 $contrast-color-text:                               #000
 $soft-color-text:                                   #666
-$soft-highlight-color-text:                         #888
+$soft-highlight-color-text:                         #aaa
 
 $dark-texture:                                      image-url("subtle_carbon.png") repeat
 $light-texture:                                     #FFF
@@ -193,6 +193,8 @@ header
 //Primera Sección
 .wrapper
   @include background(linear-gradient(bottom, rgba(17,17,17,0.1), #111 100%))
+  a
+    color: yellow
 
 .presentation
   color: $main-font-color
@@ -205,6 +207,21 @@ header
         width: 40%
         margin: 0 auto
         @include transition-duration(1s)
+
+  .pricing
+    position: relative
+    top: 1.5em
+    padding-top: 1em
+    border-top: 2px solid yellow
+    h3
+      margin-bottom: 0.5em
+    em
+      color: #ccc
+    strong
+      color: yellow
+      font-size: 1.2em
+      s
+        color: $soft-highlight-color-text
 
   hgroup
     text-align: $standar-align
