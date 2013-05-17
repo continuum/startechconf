@@ -28,21 +28,19 @@
         .pricing
           %h3
             %em
-              Sólo para pre-registrados antes del 24 de mayo (ya somos
-              %strong= Preregistro.count
-              !):
+              = t("only_preregistered_before_html", :date => t("preregister_due_date"), :number => Preregistro.count)
           %h3
             %strong
               US$
               %s 150
               105
-            ="- Pase general 2 días"
+            =t("price_general")
             %br
             %strong
               US$
               %s 60
               42
-            ="- Estudiantes"
+            =t("price_students")
     = render partial: "partials/registerform"
   %section.speakers
     .container
