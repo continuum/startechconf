@@ -20,7 +20,7 @@ es-CL:
   we_are: "Ya somos"
   your_email: "Tu e-mail..."
   send_your_info: "Enviar tus datos"
-  only_preregistered_before_html: "Sólo para pre-registrados antes del %{date} (we are <strong>%{number}</strong>!):"
+  only_preregistered_before_html: "Sólo para pre-registrados antes del %{date} (Ya somos <strong>%{number}</strong>!):"
   price_general: "Pase general 2 días"
   price_students: "Estudiantes"
   pre_register_thanks: "¡Gracias por pre-registrarte!"

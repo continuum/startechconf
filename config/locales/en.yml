@@ -20,7 +20,7 @@ en:
   we_are: "We are"
   your_email: "Your e-mail..."
   send_your_info: "Send your info"
-  only_preregistered_before_html: "Early bird tickets, pre-register before %{date} (we are <strong>%{number}</strong>!):"
+  only_preregistered_before_html: "Early bird tickets, pre-register before %{date} (We are <strong>%{number}</strong>!):"
   price_general: "2-day pass"
   price_students: "Students"
   pre_register_thanks: "Thanks for pre-registering!"

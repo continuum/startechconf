@@ -10,7 +10,7 @@ describe "Home page", js:true  do
     end
 
     it "increments the preregistration counter and tells the user that he is preregistered" do
-      page.should have_text "001"
+      page.should have_text "1"
       page.should have_text "Gracias por pre-registrarte"
     end
   end
