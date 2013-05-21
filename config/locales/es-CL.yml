@@ -46,6 +46,7 @@ es-CL:
       - getonbrd
       - rhyboo
       - str
+      - qompazz
 
   partials:
     sponsors:
@@ -73,6 +74,11 @@ es-CL:
           name: "STR Chile"
           url: "http://strchile.cl"
           desc: "Soluciones y Servicios Audiovisuales"
+        qompazz:
+          name: "Qompazz"
+          url: "http://www.qompazz.com"
+          desc: ""
+
 
   date:
     abbr_day_names:
