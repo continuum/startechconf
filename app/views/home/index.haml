@@ -28,7 +28,7 @@
         .pricing
           %h3
             %em
-              = t("only_preregistered_before_html", :date => t("preregister_due_date"), :number => Preregistro.count)
+              = t("only_preregistered_before_html", :number => Preregistro.count)
           %h3
             %strong
               US$
@@ -41,7 +41,10 @@
               %s 60
               42
             =t("price_students")
-    = render partial: "partials/registerform"
+          %span
+            = t("preregistered_text_1")
+            %br
+            = t("preregistered_text_2")
   %section.speakers
     .container
       = render partial: "partials/speakers"

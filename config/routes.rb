@@ -4,6 +4,5 @@ Startechconf::Application.routes.draw do
   match 'SponsorsPlan.pdf' => redirect("/sponsors-en.pdf")
   scope '(:locale)', constraints: {locale: 'en|es|pt'} do
     root to: 'home#index'
-    post 'preregister' => 'home#preregister'
   end
 end

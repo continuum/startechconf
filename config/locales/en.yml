@@ -20,11 +20,10 @@ en:
   we_are: "We are"
   your_email: "Your e-mail..."
   send_your_info: "Send your info"
-  only_preregistered_before_html: "Early bird tickets, pre-register before %{date} (We are <strong>%{number}</strong>!):"
+  only_preregistered_before_html: "<strong>Prices</strong> for the <strong>%{number}</strong> pre-registered people"
   price_general: "2-day pass"
   price_students: "Students"
   pre_register_thanks: "Thanks for pre-registering!"
-  preregister_due_date: "May 24th"
   we_contact_you: "Ticket sale for pre-registered users begin %{date}."
   preregister: "Pre-register"
   discount: "Get 30% off in the ticket price"
@@ -35,6 +34,8 @@ en:
   sponsors_text: "To be a sponsor"
   sponsors_link: "download rules here"
   prices: "Prices"
+  preregistered_text_1: "* pre-registered people will receive an email with instructions to buy the ticket with discount"
+  preregistered_text_2: "** people who could not pre-register will have to wait if there are quotas once the sale ends for pre-registered"
   entry_prices: "Ticket prices"
 
   sponsor_slugs:

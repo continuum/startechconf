@@ -20,11 +20,10 @@ es-CL:
   we_are: "Ya somos"
   your_email: "Tu e-mail..."
   send_your_info: "Enviar tus datos"
-  only_preregistered_before_html: "Sólo para pre-registrados antes del %{date} (Ya somos <strong>%{number}</strong>!):"
+  only_preregistered_before_html: "<strong>Precios</strong> para las <strong>%{number}</strong> personas pre-registradas!"
   price_general: "Pase general 2 días"
   price_students: "Estudiantes"
   pre_register_thanks: "¡Gracias por pre-registrarte!"
-  preregister_due_date: "24 de mayo"
   we_contact_you: "La venta a los pre-registrados comienza el %{date}."
   preregister: "Pre-Regístrate"
   discount: "Obtén un 30% de descuento en la entrada"
@@ -35,6 +34,8 @@ es-CL:
   sponsors_text: "Para ser auspiciador"
   sponsors_link: "Descarga los planes Aqu&iacute;"
   prices: "Precios"
+  preregistered_text_1: "* pre-registrados recibirán un email con las instrucciones para comprar su ticket con descuento"
+  preregistered_text_2: "** las personas que no pudieron pre-registrarse deberán esperar si quedan cupos una vez termine la venta para pre-regitrados"
   entry_prices: "Precios de las entradas"
 
   sponsor_slugs:
