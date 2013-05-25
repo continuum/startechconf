@@ -3,12 +3,6 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $(document).ready ->
-  $('#register-button').click ->
-    $('.register-form').show()
-    false
-  $('.register-form a').click ->
-    $(this).closest('form').submit()
-    false
   $('.language-selector li.selected').click ->
     $(this).siblings().toggle()
     false
