@@ -35,7 +35,9 @@ en:
   sponsors_link: "download rules here"
   prices: "Prices"
   preregistered_text_1: "* pre-registered people will receive an email with instructions to buy the ticket with discount"
-  preregistered_text_2: "** Who did not pre-register will have to wait until General Ticket Sale (July 29th), only if there quotas once the pre-register sale ends"
+  preregistered_text_2: "** Those who did not pre-register will have
+  to wait until General Ticket Sale (July 29th), as long as there are
+  tickets left"
   entry_prices: "Ticket prices"
 
   sponsor_slugs:
@@ -79,4 +81,3 @@ en:
           name: "Qompazz"
           url: "http://www.qompazz.com"
           desc: ""
-
