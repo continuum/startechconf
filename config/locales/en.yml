@@ -35,15 +35,14 @@ en:
   sponsors_link: "download rules here"
   prices: "Prices"
   preregistered_text_1: "* pre-registered people will receive an email with instructions to buy the ticket with discount"
-  preregistered_text_2: "** Those who did not pre-register will have
-  to wait until General Ticket Sale (July 29th), as long as there are
-  tickets left"
+  preregistered_text_2: "** Those who did not pre-register will have to wait until General Ticket Sale (July 29th), as long as there are tickets left"
   entry_prices: "Ticket prices"
 
   sponsor_slugs:
     platinum:
     gold:
       - google
+      - mediastream
     silver:
     startups:
       - getonbrd
@@ -61,6 +60,10 @@ en:
           name: "Google"
           url: "http://www.google.com"
           desc: "The world's leader in search."
+        mediastream:
+          name: "Mediastream"
+          url: "http://www.mediastre.am"
+          desc: "Servicios streaming con énfasis en la efectividad."
       silver:
         title: "Silver"
       startups:

@@ -42,6 +42,7 @@ es-CL:
     platinum:
     gold:
       - google
+      - mediastream
     silver:
     startups:
       - getonbrd
@@ -59,6 +60,10 @@ es-CL:
           name: "Google"
           url: "http://www.google.com"
           desc: "The world's leader in search."
+        mediastream:
+          name: "Mediastream"
+          url: "http://www.mediastre.am"
+          desc: "Servicios streaming con énfasis en la efectividad."
       silver:
         title: "Silver"
       startups:
