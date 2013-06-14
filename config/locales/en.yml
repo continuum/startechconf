@@ -37,6 +37,7 @@ en:
   preregistered_text_1: "* pre-registered people will receive an email with instructions to buy the ticket with discount"
   preregistered_text_2: "** Those who did not pre-register will have to wait until General Ticket Sale (July 29th), as long as there are tickets left"
   entry_prices: "Ticket prices"
+  propose_a_talk: "Want to be a speaker? Send your proposal here!"
 
   sponsor_slugs:
     platinum:

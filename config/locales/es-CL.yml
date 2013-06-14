@@ -37,6 +37,7 @@ es-CL:
   preregistered_text_1: "* pre-registrados recibirán un email con las instrucciones para comprar su ticket con descuento"
   preregistered_text_2: "** Quienes no se pre-registraron deberán esperar al inicio de venta de tickets generales (29 de Julio), sólo si quedan tickets disponibles"
   entry_prices: "Precios de las entradas"
+  propose_a_talk: "¿Quieres ser charlista? ¡Envía tu propuesta aquí!"
 
   sponsor_slugs:
     platinum:
