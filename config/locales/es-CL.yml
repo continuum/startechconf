@@ -44,12 +44,14 @@ es-CL:
     gold:
       - google
       - mediastream
+      - groupon
     silver:
     startups:
       - getonbrd
       - rhyboo
       - str
       - qompazz
+      - eventioz
 
   partials:
     sponsors:
@@ -65,6 +67,10 @@ es-CL:
           name: "Mediastream"
           url: "http://www.mediastre.am"
           desc: "Servicios streaming con énfasis en la efectividad."
+        groupon:
+          name: "Groupon"
+          url: "http://www.groupon.com"
+          desc: "Descuentos únicos en productos, servicios y entretención."
       silver:
         title: "Silver"
       startups:
@@ -85,6 +91,10 @@ es-CL:
           name: "Qompazz"
           url: "http://www.qompazz.com"
           desc: ""
+        eventioz:
+          name: "Eventioz"
+          url: "http://www.eventioz.com"
+          desc: "Inscripción y cobro online para eventos."
 
 
   date:
