@@ -8,11 +8,11 @@
 .category
   - ["gold", "startups"].each do |cat|
     .categorygroup
-      %h4= t("."+cat+".title")
+      %h4= t(".#{cat}.title")
       %ul
-        - t("sponsor_slugs."+cat).each do |s|
+        - t("sponsor_slugs.#{cat}").each do |s|
           %li
-            - name = t("."+cat+"."+s+".name")
-            - desc = t("."+cat+"."+s+".desc")
-            %a{:href=> t("."+cat+"."+s+".url"), :title=> name+" - "+desc, :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - #{cat}', '#{name}']);", :target => "_blank"}
-              = image_tag "sponsors/"+s+".png"
+            - name = t(".#{cat}.#{s}.name")
+            - desc = t(".#{cat}.#{s}.desc")
+            %a{:href=> t(".#{cat}.#{s}.url"), :title=> "#{name} - #{desc}", :onclick => "_gaq.push(['_trackEvent', 'Sponsors', 'View - #{cat}', '#{name}']);", :target => "_blank"}
+              = image_tag "sponsors/#{s}.png"
