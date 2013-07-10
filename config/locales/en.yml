@@ -69,7 +69,7 @@ en:
           desc: "Effective streaming services."
         groupon:
           name: "Groupon"
-          url: "http://www.groupon.cl/ingenieria"
+          url: "http://www.groupon.com"
           desc: "Daily deals on the best stuff to do, see, eat, and buy."
       silver:
         title: "Silver"
