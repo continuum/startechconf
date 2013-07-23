@@ -41,6 +41,7 @@ en:
 
   sponsor_slugs:
     platinum:
+      - bci
     gold:
       - google
       - mediastream
@@ -50,6 +51,7 @@ en:
       - getonbrd
       - rhyboo
       - str
+    startups2:
       - qompazz
       - eventioz
 
@@ -57,6 +59,10 @@ en:
     sponsors:
       platinum:
         title: "Platinum"
+        bci:
+          name: "Bci"
+          url: "http://www.bci.cl"
+          desc: "At Bci, we are different."
       gold:
         title: "Gold"
         google:
@@ -87,6 +93,8 @@ en:
           name: "STR Chile"
           url: "http://strchile.cl"
           desc: "Soluciones y Servicios Audiovisuales"
+      startups2:
+        title: "Startups"
         qompazz:
           name: "Qompazz"
           url: "http://www.qompazz.com"
