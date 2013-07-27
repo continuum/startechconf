@@ -3,12 +3,12 @@
     = t(:collaborators)
 %p= t(:thanks)
 
-- t(:confirmed_speakers).each do |speaker|
+- t(:collaborators_list).each do |speaker|
 
   .person
     %figure.photo
       .shadow
-      = image_tag speaker["photo"]
+      = link_to image_tag(speaker["photo"]), speaker["link"]
     %span.name
       = speaker["name"]
     %span.occupation
@@ -17,7 +17,7 @@
       = raw speaker["contact"]
 
 
-- (6 - t(:confirmed_speakers).count).times do
+- (6 - t(:collaborators_list).count).times do
   .person
     %figure.photo
       .shadow
