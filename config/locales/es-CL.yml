@@ -21,7 +21,7 @@ es-CL:
   we_are: "Ya somos"
   your_email: "Tu e-mail..."
   send_your_info: "Enviar tus datos"
-  only_preregistered_before_html: "<strong>Precios</strong> para las <strong>%{number}</strong> personas pre-registradas!"
+  early_birds_html: "<strong>Precios</strong> hasta el <strong>6 de Noviembre</strong>"
   price_general: "Pase general 2 días"
   price_students: "Estudiantes"
   pre_register_thanks: "¡Gracias por pre-registrarte!"
@@ -35,10 +35,9 @@ es-CL:
   sponsors_text: "Para ser auspiciador"
   sponsors_link: "Descarga los planes Aqu&iacute;"
   prices: "Precios"
-  preregistered_text_1: "* pre-registrados recibirán un email con las instrucciones para comprar su ticket con descuento"
-  preregistered_text_2: "** Quienes no se pre-registraron deberán esperar al inicio de venta de tickets generales (29 de Julio), sólo si quedan tickets disponibles"
   entry_prices: "Precios de las entradas"
   propose_a_talk: "¿Quieres ser charlista? ¡Envía tu propuesta aquí!"
+  buy_ticket: "Comprar entrada"
 
   sponsor_slugs:
     platinum:

@@ -21,7 +21,7 @@ en:
   we_are: "We are"
   your_email: "Your e-mail..."
   send_your_info: "Send your info"
-  only_preregistered_before_html: "<strong>Prices</strong> for the <strong>%{number}</strong> pre-registered people"
+  early_birds_html: "<strong>Prices</strong> until <strong>November 6th</strong>"
   price_general: "2-day pass"
   price_students: "Students"
   pre_register_thanks: "Thanks for pre-registering!"
@@ -35,10 +35,9 @@ en:
   sponsors_text: "To be a sponsor"
   sponsors_link: "download rules here"
   prices: "Prices"
-  preregistered_text_1: "* pre-registered people will receive an email with instructions to buy the ticket with discount"
-  preregistered_text_2: "** Those who did not pre-register will have to wait until General Ticket Sale (July 29th), as long as there are tickets left"
   entry_prices: "Ticket prices"
   propose_a_talk: "Want to be a speaker? Send your proposal here!"
+  buy_ticket: "Buy ticket"
 
   sponsor_slugs:
     platinum:
