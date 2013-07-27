@@ -2,10 +2,14 @@
 %header
   .container
     %nav
-      = link_to t("blog"), "http://blog.startechconf.com", :target => "_blank"
-      = link_to t("version_2011"), "http://2011.startechconf.com", :target => "_blank"
-      = link_to t("store"), "http://tienda.startechconf.com", :target => "_blank"
-      = link_to t(:buy_ticket), "https://eventioz.cl/e/startechconf-2013/registrations/new", target: "_blank"
+      %span
+        = link_to t("blog"), "http://blog.startechconf.com", :target => "_blank"
+      %span
+        = link_to t("version_2011"), "http://2011.startechconf.com", :target => "_blank"
+      %span
+        = link_to t("store"), "http://tienda.startechconf.com", :target => "_blank"
+      %span
+        = link_to t(:buy_ticket), "https://eventioz.cl/e/startechconf-2013/registrations/new", target: "_blank"
     .language-selector
       %ul
         = locale_li(current_locale)
