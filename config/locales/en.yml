@@ -15,6 +15,8 @@ en:
   store: "Store (new)"
   blog: "Blog"
   organizers: "Organizers"
+  collaborators: "Collaborators"
+  thanks: "This Conference is realized thanks to the help of these amazing people"
   startech_2011_html: "Startechconf 2011"
   remember_2011_html: "Revive the past edition of this great conference"
   place: "Location"

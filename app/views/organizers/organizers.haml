@@ -8,49 +8,13 @@
       %header
         %figure.logo
           = link_to image_tag("logo_startechconf_2013@2x.png", alt: t("sitename")), "/"
-      %hgroup
-        %h1
-          = t("sitename")
-          = t("year")
-        %h2= t(:conference_dates)
-        %h3= raw t(:presentation_title_html)
-        %p
-          = raw t(:presentation_text_html)
-          = link_to t("see_speakers"), "#speakers"
-        .pricing
-          %h3
-            %em
-              = t("early_birds_html")
-          %h3
-            %strong
-              US$
-              %s 150
-              128
-            =t("price_general")
-            %br
-            %strong
-              US$
-              %s 60
-              50
-            =t("price_students")
-          %h3.button-buy
-            = link_to t(:buy_your_ticket_here), "https://eventioz.cl/e/startechconf-2013/registrations/new"
-  %section.speakers
-    .container
-      = render partial: "partials/speakers"
-  %section.sponsors
-    .container
-      = render partial: "partials/sponsors"
-  %section.place
-    .container
-      = render partial: "partials/place"
-  %section.last-version
-    .container
-      = render partial: "partials/last-version"
-  %section.tickets
-    .container
-      = render partial: "partials/tickets"
 
+        .people.organizers
+          = render partial: "partials/organizers"
+  %section.people
+    .container
+      = render partial: "partials/collaborators"
+  
 %footer
   .container
     %nav
