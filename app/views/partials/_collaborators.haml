@@ -1,0 +1,39 @@
+%header.title
+  %h2
+    = t(:collaborators)
+%p= t(:thanks)
+
+- t(:collaborators_list).each do |speaker|
+
+  .person
+    %figure.photo
+      .shadow
+      - if speaker["link"]
+        = image_tag(speaker["photo"])
+      - else
+        = image_tag "default.png"
+    %span.name
+      = speaker["name"]
+    - if speaker["occupation"]
+      %span.occupation
+        = speaker["occupation"]
+    %span.contact
+      = raw speaker["contact"]
+    - if speaker["link"]
+      %span.contact
+        %a{'href' => speaker["link"], 'target' => '_blank'}
+          = raw speaker["link"]
+
+
+- (8 - t(:collaborators_list).count).times do
+  .person
+    %figure.photo
+      .shadow
+      = image_tag "default.png"
+    %span.name
+      = t(:to_be_announced)
+    %span.occupation
+      &nbsp;
+    %span.contact
+      %a{:href=>"javascript:;", :title=>""}
+        &nbsp;

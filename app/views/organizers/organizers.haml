@@ -1,0 +1,32 @@
+= image_tag "loading.gif", style: "display:none"
+
+= render partial: "partials/header"
+
+.wrapper
+  %section.presentation
+    .container
+      %header
+        %figure.logo
+          = link_to image_tag("logo_startechconf_2013@2x.png", alt: t("sitename")), "/"
+
+        .people.organizers
+          = render partial: "partials/organizers"
+  %section.people.collaborators
+    .container
+      = render partial: "partials/collaborators"
+  
+%footer
+  .container
+    %nav
+      %ul
+        %li
+          %a{:href => "mailto:contact@startechconf.com"}
+            Email us:
+            %strong contact@startechconf.com
+    .social-links
+      %a{:href => "https://www.facebook.com/StarTechConf?fref=ts", :title => "Facebook", :class => "facebook", :target => "_blank"}
+        %b Facebook
+      %a{:href => "http://twitter.com/startechconf", :title => "Twitter", :class => "twitter", :target => "_blank"}
+        %b Twitter
+      %a{:href => "http://feeds.feedburner.com/startechconf", :title => "RSS", :class => "rss", :target => "_blank"}
+        %b RSS
