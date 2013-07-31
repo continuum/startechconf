@@ -293,7 +293,7 @@ header
       padding: 12px 0
 
 //Primer Bloque
-.speakers
+.people
   background: $light-texture
   text-align: center
   header.title
@@ -302,7 +302,7 @@ header
       border-left: 127px solid transparent
       border-right: 127px solid transparent
       left: 353px
-  .speaker
+  .person
     display: inline-block
     width: 250px
     margin: 24px 0
@@ -329,6 +329,33 @@ header
       height: 30px
       a
         color: $links-color
+
+//Bloque Organizadores
+.organizers
+  margin-top: 40px
+  background: none
+  h2
+    color: yellow
+    text-transform: uppercase
+  .person
+    vertical-align: top
+    .name, .occupation
+      color: white
+    .occupation
+      height: 50px
+    .contact
+      height: auto
+.people.collaborators
+  .person
+    vertical-align: top
+    width: 220px
+    .occupation
+      height: auto
+      padding-bottom: 5px
+    .contact
+      height: auto
+
+
 
 //Segundo Bloque
 .sponsors

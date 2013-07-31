@@ -7,7 +7,7 @@
 
 - t(:confirmed_speakers).each do |speaker|
 
-  .speaker
+  .person
     %figure.photo
       .shadow
       = image_tag speaker["photo"]
@@ -20,7 +20,7 @@
 
 
 - (6 - t(:confirmed_speakers).count).times do
-  .speaker
+  .person
     %figure.photo
       .shadow
       = image_tag "default.png"
