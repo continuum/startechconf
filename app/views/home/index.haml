@@ -12,27 +12,32 @@
         %h1
           = t("sitename")
           = t("year")
-        %h2= t(:conference_dates)
-        %h3= raw t(:presentation_title_html)
+        %h2
+          %strong= t(:conference_dates)
+        %h3
+          %a{:href=>"#place"}
+            %i.icon-map-marker
+            Universidad Técnica Federico Santa María, Campus San Joaquín
         %p
           = raw t(:presentation_text_html)
           = link_to t("see_speakers"), "#speakers"
         .pricing
-          %h3
-            %em
-              = t("early_birds_html")
-          %h3
-            %strong
-              US$
-              %s 150
-              128
-            =t("price_general")
-            %br
-            %strong
-              US$
-              %s 60
-              50
-            =t("price_students")
+          %table
+            %tr
+              %td.left
+                %em
+                  = t("early_birds_html")
+                  %i.icon-arrow-right
+              %td.right
+                %strong
+                  %s 150
+                  128 USD
+                =t("price_general")
+                %br
+                %strong
+                  %s 60
+                  50 USD
+                =t("price_students")
           %h3.button-buy
             = link_to t(:buy_your_ticket_here), "https://eventioz.cl/e/startechconf-2013/registrations/new"
   %section.people
@@ -41,7 +46,7 @@
   %section.sponsors
     .container
       = render partial: "partials/sponsors"
-  %section.place
+  %section#place
     .container
       = render partial: "partials/place"
   %section.last-version
