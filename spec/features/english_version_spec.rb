@@ -4,7 +4,9 @@ require 'spec_helper'
 describe "English Home page", js:true  do
   context "when english language is selected" do
     before do
-      visit "/en"
+      visit "/"
+      click_link "Español"
+      click_link "English"
     end
 
     it "changes the page to english" do
