@@ -25,6 +25,8 @@ git version 1.7.12.4 (Apple Git-37)
 
 Requirements
 ------------
+Brew:
+  ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 sudo gem install bundler
 brew install postgres
 
@@ -36,6 +38,10 @@ $ bundle install
 $ createuser -d -P startechconf
 $ rake db:create
 $ rails s
+
+NOTE: If you have an Socket Error in Postgress: /var/pgsql_socket/.s.PGSQL.5432 add this line to your .bash_profile or .zshrc
+  
+  export PGHOST=localhost
 
 Deploy
 ------
