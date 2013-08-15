@@ -58,6 +58,7 @@ en:
     startups2:
       - qompazz
       - eventioz
+      - nic
 
   partials:
     sponsors:
@@ -107,3 +108,7 @@ en:
           name: "Eventioz"
           url: "http://www.eventioz.com"
           desc: "Online sign-up and payment for events."
+        nic:
+          name: "Nic Chile"
+          url: "http://www.nic.cl"
+          desc: "Somos el punto CL."
