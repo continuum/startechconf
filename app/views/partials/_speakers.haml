@@ -1,6 +1,6 @@
 %header.title#speakers
   %h2
-    = t(:speakers)
+    = t(:speakers_title)
 %p
   = t(:stars)
 
@@ -30,3 +30,7 @@
     %span.contact
       %a{:href=>"javascript:;", :title=>""}
         &nbsp;
+
+%p
+  = t('speakers_plus')
+  = link_to t('see_all_speakers'), '/speakers'

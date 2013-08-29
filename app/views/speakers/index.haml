@@ -5,7 +5,47 @@
 .wrapper
   %section.presentation
     .container
-      %header
+      %header.innerpage
         %figure.logo
           = link_to image_tag("logo_startechconf_2013@2x.png", alt: t("sitename")), "/"
-      Hola Mundo!
+        %h1= t(".title")
+  %section.speakers
+    .container
+      %h2= t(".headliners")
+      %p= t(".headliners_desc")
+      %table.speakers-table.headliners
+        %tr
+          %th{ :width => "48"}
+          %th= t(".speaker")
+          %th= t(".talk")
+        - t('confirmed_speakers').each do |speaker|
+          %tr{:class=> cycle('', 'odd')}
+            %td.photo
+              = image_tag speaker["photo"]
+            %td.name
+              %strong= speaker['name']
+              %small
+                = speaker['occupation']
+                %br/
+                %em= speaker['country']
+            %td
+              = speaker['talk_name']
+      %h2= t(".lightning")
+      %p= t(".lightning_desc")
+      %table.speakers-table
+        %tr
+          %th{ :width => "48"}
+          %th= t(".speaker")
+          %th= t(".talk")
+        - t('lightning_talks').each do |speaker|
+          %tr{:class=> cycle('', 'odd')}
+            %td.photo
+              = image_tag speaker["photo"]
+            %td.name
+              %strong= speaker['name']
+              %small
+                = speaker['occupation']
+                %br/
+                %em= speaker['country']
+            %td
+              = speaker['talk_name']
