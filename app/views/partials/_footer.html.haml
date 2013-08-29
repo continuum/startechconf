@@ -1,20 +1,3 @@
-= image_tag "loading.gif", style: "display:none"
-
-= render partial: "partials/header"
-
-.wrapper
-  %section.presentation
-    .container
-      %header
-        %figure.logo
-          = link_to image_tag("logo_startechconf_2013@2x.png", alt: t("sitename")), "/"
-
-        .people.organizers
-          = render partial: "partials/organizers"
-  %section.people.collaborators
-    .container
-      = render partial: "partials/collaborators"
-  
 %footer
   .container
     %nav

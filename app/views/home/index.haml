@@ -55,19 +55,3 @@
   %section.tickets
     .container
       = render partial: "partials/tickets"
-
-%footer
-  .container
-    %nav
-      %ul
-        %li
-          %a{:href => "mailto:contact@startechconf.com"}
-            Email us:
-            %strong contact@startechconf.com
-    .social-links
-      %a{:href => "https://www.facebook.com/StarTechConf?fref=ts", :title => "Facebook", :class => "facebook", :target => "_blank"}
-        %b Facebook
-      %a{:href => "http://twitter.com/startechconf", :title => "Twitter", :class => "twitter", :target => "_blank"}
-        %b Twitter
-      %a{:href => "http://feeds.feedburner.com/startechconf", :title => "RSS", :class => "rss", :target => "_blank"}
-        %b RSS

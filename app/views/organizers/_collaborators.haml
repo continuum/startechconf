@@ -1,0 +1,25 @@
+%header.title
+  %h2
+    = t(:collaborators)
+%p= t(:thanks)
+
+- t(:collaborators_list).each do |collaborator|
+
+  .person
+    %figure.photo
+      .shadow
+      - if collaborator["link"]
+        = image_tag(collaborator["photo"])
+      - else
+        = image_tag "default.png"
+    %span.name
+      = collaborator["name"]
+    - if collaborator["occupation"]
+      %span.occupation
+        = collaborator["occupation"]
+    %span.contact
+      = raw collaborator["contact"]
+    - if collaborator["link"]
+      %span.contact
+        %a{'href' => collaborator["link"], 'target' => '_blank'}
+          = raw collaborator["link"]
