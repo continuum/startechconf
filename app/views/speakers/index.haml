@@ -11,8 +11,8 @@
         %h1= t(".title")
   %section.speakers
     .container
-      %h2= t(".headliners")
-      %p= t(".headliners_desc")
+      %h2= t(".keynoters")
+      %p= t(".keynoters_desc")
       %table.speakers-table.headliners
         %tr
           %th{ :width => "48"}
@@ -30,14 +30,14 @@
                 %em= speaker['country']
             %td
               = speaker['talk_name']
-      %h2= t(".lightning")
-      %p= t(".lightning_desc")
+      %h2= t(".selected")
+      %p= t(".selected_desc")
       %table.speakers-table
         %tr
           %th{ :width => "48"}
           %th= t(".speaker")
           %th= t(".talk")
-        - t('lightning_talks').each do |speaker|
+        - t('selected_talks').each do |speaker|
           %tr{:class=> cycle('', 'odd')}
             %td.photo
               = image_tag speaker["photo"]

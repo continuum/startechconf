@@ -2,10 +2,10 @@ es-CL:
   speakers:
     index:
       title: "Charlistas confirmados"
-      headliners: "Headliners"
-      headliners_desc: "Éstas son las principales charlas de estrellas internacionales en programación y diseño."
-      lightning: "Lightning Talks"
-      lightning_desc: "Charlas rápidas de 20-30 minutos, en diferentes tracks. ¡No te las pierdas!"
+      keynoters: "Keynotes"
+      keynoters_desc: "Éstas son las principales charlas de expertos de renombre internacional en programación y diseño."
+      selected: "Charlas seleccionadas"
+      selected_desc: "Más increíbles charlistas que quisieron estar presentes. ¡No te pierdas sus charlas!"
       speaker: Charlista
       talk: Charla
 
@@ -15,54 +15,54 @@ es-CL:
       name: "Lea Verou"
       occupation: "Developer Relations W3C"
       contact: "<a href = 'http://twitter.com/LeaVerou' title='Lea Verou'> @LeaVerou </a>"
-      talk_name: ""
-      country: ""
+      talk_name: "Por anunciar"
+      country: "Grecia"
     -
       photo: "aaronpatterson.jpg"
       name: "Aaron Patterson"
       occupation: "Ruby-core, Rails-core, Nokogiri"
       contact: "<a href = 'http://twitter.com/tenderlove' title='Aaron Patterson'> @tenderlove </a>"
-      talk_name: ""
-      country: ""
+      talk_name: "Por anunciar"
+      country: "EEUU"
     -
       photo: "jacobkaplanmoss.jpg"
       name: "Jacob Kaplan-Moss"
       occupation: "Creador del Frawework web Django"
       contact: "<a href = 'http://twitter.com/jacobian' title='Jacob Kaplan-Moss'> @jacobian </a>"
-      talk_name: ""
-      country: ""
+      talk_name: "Por anunciar"
+      country: "EEUU"
     -
       photo: "yehudakatz.jpg"
       name: "Yehuda Katz"
       occupation: "Ember.js, Rails-core, jQuery, Bundler"
       contact: "<a href = 'http://twitter.com/wycats' title='Yehuda Katz'> @wycats </a>"
-      talk_name: ""
-      country: ""
+      talk_name: "Por anunciar"
+      country: "EEUU"
     -
       photo: "jaimeenewberry.jpg"
       name: "Jaimee Newberry"
       occupation: "Co-fundadora de Bests.com. Ex-directora de UX en Black Pixel"
       contact: "<a href = 'http://twitter.com/jaimeejaimee' title='Jaimee Newberry'> @jaimeejaimee </a>"
-      talk_name: ""
-      country: ""
+      talk_name: "Por anunciar"
+      country: "EEUU"
     -
       photo: "laurentsamsonetti.jpg"
       name: "Laurent Sansonetti"
       occupation: "Creador de RubyMotion"
       contact: "<a href = 'http://twitter.com/lrz' title='Laurent Sansonetti'> @lrz </a>"
-      talk_name: ""
-      country: ""
+      talk_name: "Por anunciar"
+      country: "Bélgica"
 
-  lightning_talks:
+  selected_talks:
     -
-      photo: "laurentsamsonetti.jpg"
+      photo: "default.png"
       name: "John Doe"
       occupation: "Speaker at conferences"
       contact: ""
       talk_name: "How to speak at conferences"
       country: "Chile"
     -
-      photo: "laurentsamsonetti.jpg"
+      photo: "default.png"
       name: "Jane Doe"
       occupation: "Speaker at conferences 2"
       contact: ""
