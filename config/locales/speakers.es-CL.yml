@@ -27,7 +27,7 @@ es-CL:
     -
       photo: "jacobkaplanmoss.jpg"
       name: "Jacob Kaplan-Moss"
-      occupation: "Co-autor del Frawework web Django, Director de seguirdad de plataforma en Heroku"
+      occupation: "Co-autor del Frawework web Django, Director de seguridad de plataforma en Heroku"
       contact: "<a href = 'http://twitter.com/jacobian' title='Jacob Kaplan-Moss'> @jacobian </a>"
       talk_name: "Por anunciar"
       country: "EEUU"
@@ -78,7 +78,7 @@ es-CL:
     -
       photo: "alanearle.jpg"
       name: "Alan Earle"
-      occupation: "Founder of MangaCorta.cl and LaComparto.com"
+      occupation: "Founder of MangaCorta.cl se LaComparto.com"
       contact: ""
       talk_name: "Emprender desde la Universidad hasta formar una empresa sustentable en el tiempo"
       country: "Chile"
