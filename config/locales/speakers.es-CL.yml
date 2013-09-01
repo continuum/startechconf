@@ -64,14 +64,14 @@ es-CL:
     -
       photo: "borisstaal.jpg"
       name: "Boris Staal"
-      occupation: "Double agent of on‐the‐edge Ruby stuff and the enterprise software"
+      occupation: "IT Entrepreneur. Author of Joosy and the protector gem."
       contact: ""
       talk_name: "Data-centric security in Ruby (and Rails)"
       country: "Singapore"
     -
-      photo: "default.png"
+      photo: "antonioognio.jpg"
       name: "Antonio Ognio"
-      occupation: "System architect in perpetual training"
+      occupation: "Chief system architect at Red Científica Peruana"
       contact: ""
       talk_name: "REST for the rest of us"
       country: "Perú"
@@ -84,7 +84,7 @@ es-CL:
       country: "Chile"
     -
       photo: "default.png"
-      name: "Servio Nouvel"
+      name: "Sergio Nouvel"
       occupation: "UX/Innovation Strategist at Continuum, co-founder of GetOnBrd"
       contact: ""
       talk_name: "Lean UX using minideliverables"
@@ -105,8 +105,15 @@ es-CL:
       country: "Argentina"
     -
       photo: "default.png"
+      name: "Herman Vega"
+      occupation: "COO at E-Sign"
+      contact: ""
+      talk_name: "Desarrollo web rápido y seguro"
+      country: "Chile"
+    -
+      photo: "default.png"
       name: "Agustín Villena"
-      occupation: "Leader of the ChileAgil community"
+      occupation: "Founder and leader of the ChileAgil community"
       contact: ""
       talk_name: "La revolución de los geeks"
       country: "Chile"
