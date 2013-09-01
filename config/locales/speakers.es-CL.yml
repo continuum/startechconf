@@ -57,7 +57,7 @@ es-CL:
     -
       photo: "janogonzalez.png"
       name: "Jano Gonzalez"
-      occupation: "CTO at Hop.in"
+      occupation: "CTO en Hop.in"
       contact: ""
       talk_name: "El programador bipolar"
       country: "Chile"
@@ -78,7 +78,7 @@ es-CL:
     -
       photo: "alanearle.jpg"
       name: "Alan Earle"
-      occupation: "Founder of MangaCorta.cl se LaComparto.com"
+      occupation: "Fundador de MangaCorta.cl y LaComparto.com"
       contact: ""
       talk_name: "Emprender desde la Universidad hasta formar una empresa sustentable en el tiempo"
       country: "Chile"
