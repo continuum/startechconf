@@ -27,7 +27,7 @@ es-CL:
     -
       photo: "jacobkaplanmoss.jpg"
       name: "Jacob Kaplan-Moss"
-      occupation: "Creador del Frawework web Django"
+      occupation: "Co-autor del Frawework web Django, Director de seguirdad de plataforma en Heroku"
       contact: "<a href = 'http://twitter.com/jacobian' title='Jacob Kaplan-Moss'> @jacobian </a>"
       talk_name: "Por anunciar"
       country: "EEUU"

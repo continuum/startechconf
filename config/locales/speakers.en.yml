@@ -27,7 +27,7 @@ en:
     -
       photo: "jacobkaplanmoss.jpg"
       name: "Jacob Kaplan-Moss"
-      occupation: "Creator of the Django web framework"
+      occupation: "Co-author of the Django web framework, Director of Platform Security at Heroku"
       contact: "<a href = 'http://twitter.com/jacobian' title='Jacob Kaplan-Moss'> @jacobian </a>"
       talk_name: "To be announced"
       country: "USA"
