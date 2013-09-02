@@ -131,3 +131,10 @@ en:
       contact: ""
       talk_name: "Automatizando tu flujo de trabajo front-end con Yeoman"
       country: "Chile"
+    -
+      photo: "default.png"
+      name: "Eduardo Díaz"
+      occupation: "VP of Technology at Previred"
+      contact: ""
+      talk_name: "Creadores de Universos"
+      country: "Chile"
