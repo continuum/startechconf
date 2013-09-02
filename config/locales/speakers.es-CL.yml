@@ -62,6 +62,13 @@ es-CL:
       talk_name: "El programador bipolar"
       country: "Chile"
     -
+      photo: "phillippecamacho.jpg"
+      name: "Phillipe Camacho"
+      occupation: "Criptógrafo, co-fundador de Coin4ce.com"
+      contact: ""
+      talk_name: "Hackeando la economía con Bitcoin"
+      country: "Chile"
+    -
       photo: "borisstaal.jpg"
       name: "Boris Staal"
       occupation: "IT Entrepreneur. Author of Joosy and the protector gem."
