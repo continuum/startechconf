@@ -125,6 +125,13 @@ en:
       talk_name: "La revolución de los geeks"
       country: "Chile"
     -
+      photo: "default.png"
+      name: "Eduardo Díaz"
+      occupation: "VP of Technology at Previred"
+      contact: ""
+      talk_name: "Creadores de Universos"
+      country: "Chile"
+    -
       photo: "sebastianlara.jpg"
       name: "Sebastián Lara"
       occupation: "Socio de E2i, Desarrollador del Centro de Óptica y Fotónica de la Universidad de Concepción"
@@ -133,8 +140,8 @@ en:
       country: "Chile"
     -
       photo: "default.png"
-      name: "Eduardo Díaz"
-      occupation: "VP of Technology at Previred"
+      name: "Jonathan Reyes"
+      occupation: "CTO at FirstJob"
       contact: ""
-      talk_name: "Creadores de Universos"
+      talk_name: "Ginga, el middleware que revoluciona la TV Digital"
       country: "Chile"
