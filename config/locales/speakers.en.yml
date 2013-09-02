@@ -112,6 +112,13 @@ en:
       country: "Argentina"
     -
       photo: "default.png"
+      name: "Andres Junge"
+      occupation: "CEO at Totexa"
+      contact: ""
+      talk_name: "Bitcoin, la moneda digital del futuro"
+      country: "Chile"
+    -
+      photo: "default.png"
       name: "Herman Vega"
       occupation: "COO at E-Sign"
       contact: ""
