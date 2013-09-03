@@ -76,6 +76,13 @@ es-CL:
       talk_name: "Hackeando la economía con Bitcoin"
       country: "Chile"
     -
+      photo: "default.png"
+      name: "Fabrice Le Fessant"
+      occupation: "Investigador en INRIA"
+      contact: ""
+      talk_name: "Faster software development with static types"
+      country: "Francia"
+    -
       photo: "borisstaal.jpg"
       name: "Boris Staal"
       occupation: "IT Entrepreneur. Author of Joosy and the protector gem."
@@ -138,6 +145,13 @@ es-CL:
       contact: ""
       talk_name: "Challenges in Enterprise Mobile Development"
       country: "Argentina"
+    -
+      photo: "default.png"
+      name: "Sebastián Gamboa"
+      occupation: "CTO en Welcu"
+      contact: ""
+      talk_name: "Métodos de pago para Chile y el mundo"
+      country: "Chile"
     -
       photo: "andresjunge.jpg"
       name: "Andres Junge"
