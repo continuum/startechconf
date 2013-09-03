@@ -146,6 +146,13 @@ en:
       talk_name: "Bitcoin, la moneda digital del futuro"
       country: "Chile"
     -
+      photo: "guillermodiaz.png"
+      name: "Guillermo Díaz"
+      occupation: "Fundador Open Device Lab Santiago, Director en Ibex Technologies"
+      contact: ""
+      talk_name: "Open Device Lab"
+      country: "Chile"
+    -
       photo: "default.png"
       name: "Herman Vega"
       occupation: "COO at E-Sign"
