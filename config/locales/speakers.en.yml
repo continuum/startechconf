@@ -62,6 +62,13 @@ en:
       talk_name: "El programador bipolar"
       country: "Chile"
     -
+      photo: "benlangfeld.jpg"
+      name: "Ben Langfeld"
+      occupation: "Voice Application Architect at Mojo Lingo"
+      contact: ""
+      talk_name: "Adhearsion 3, the future of Ruby communications"
+      country: "England"
+    -
       photo: "phillippecamacho.jpg"
       name: "Phillipe Camacho"
       occupation: "Cryptographer, co-founder of Coin4ce.com"
