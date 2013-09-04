@@ -69,6 +69,13 @@ es-CL:
       talk_name: "Adhearsion 3, the future of Ruby communications"
       country: "Inglaterra"
     -
+      photo: "pitrvernigorov.png"
+      name: "Pitr Vernigorov"
+      occupation: "Senior Architect en Uken Games"
+      contact: ""
+      talk_name: "Rethinking HTML5 for Mobile Games"
+      country: "Canada"
+    -
       photo: "phillippecamacho.jpg"
       name: "Phillipe Camacho"
       occupation: "Criptógrafo, co-fundador de Coin4ce.com"
