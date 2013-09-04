@@ -11,7 +11,7 @@
         %h1= t(".title")
   %section.speakers
     .container
-      %h2= t(".keynoters")
+      %h2#keynoters= t(".keynoters")
       %p= t(".keynoters_desc")
       %table.speakers-table.headliners
         %tr
@@ -30,7 +30,7 @@
                 %em= speaker['country']
             %td
               = speaker['talk_name']
-      %h2= t(".selected")
+      %h2#selected= t(".selected")
       %p= t(".selected_desc")
       %table.speakers-table
         %tr
