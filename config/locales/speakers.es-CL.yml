@@ -97,6 +97,13 @@ es-CL:
       talk_name: "REST for the rest of us"
       country: "Perú"
     -
+      photo: "felipehoffa.jpg"
+      name: "Felipe Hoffa"
+      occupation: "Developer Relations Engineer en Google"
+      contact: ""
+      talk_name: "De open data a accessible data - el censo Chile 2002 y BigQuery"
+      country: "Chile"
+    -
       photo: "alanearle.jpg"
       name: "Alan Earle"
       occupation: "Fundador de MangaCorta.cl y LaComparto.com"
