@@ -29,7 +29,10 @@
                 %br/
                 %em= speaker['country']
             %td
-              = speaker['talk_name']
+              - unless speaker['talk_name'] == ""
+                = speaker['talk_name']
+              - else
+                = t('to_be_announced')
       %h2#selected= t(".selected")
       %p= t(".selected_desc")
       %table.speakers-table
@@ -48,4 +51,7 @@
                 %br/
                 %em= speaker['country']
             %td
-              = speaker['talk_name']
+              - unless speaker['talk_name'] == ""
+                = speaker['talk_name']
+              - else
+                = t('to_be_announced')

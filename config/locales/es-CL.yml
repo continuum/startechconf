@@ -316,3 +316,13 @@ es-CL:
   activerecord:
     errors:
       <<: *errors
+
+  speakers:
+    index:
+      title: "Charlistas confirmados"
+      keynoters: "Keynotes"
+      keynoters_desc: "Éstas son las principales charlas de expertos de renombre internacional en programación y diseño."
+      selected: "Charlas seleccionadas"
+      selected_desc: "Más increíbles charlistas que quisieron estar presentes. ¡No te pierdas sus charlas!"
+      speaker: Charlista
+      talk: Charla

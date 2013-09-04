@@ -1,56 +1,53 @@
 es-CL:
-  speakers:
-    index:
-      title: "Charlistas confirmados"
-      keynoters: "Keynotes"
-      keynoters_desc: "Éstas son las principales charlas de expertos de renombre internacional en programación y diseño."
-      selected: "Charlas seleccionadas"
-      selected_desc: "Más increíbles charlistas que quisieron estar presentes. ¡No te pierdas sus charlas!"
-      speaker: Charlista
-      talk: Charla
 
   confirmed_speakers:
     -
       photo: "leaverou.jpg"
       name: "Lea Verou"
-      occupation: "Invitada Experta en el CSS Working Group, anteriormente Developer Relations W3C"
+      occupation: "Invited Expert in the CSS Working Group, previously Developer Relations W3C"
       contact: "<a href = 'http://twitter.com/LeaVerou' title='Lea Verou'> @LeaVerou </a>"
-      talk_name: "Por anunciar"
+      talk_name: ""
+      talk_desc: ""
       country: "Grecia"
     -
       photo: "aaronpatterson.jpg"
       name: "Aaron Patterson"
       occupation: "Ruby-core, Rails-core, Nokogiri"
       contact: "<a href = 'http://twitter.com/tenderlove' title='Aaron Patterson'> @tenderlove </a>"
-      talk_name: "Por anunciar"
+      talk_name: ""
+      talk_desc: ""
       country: "EEUU"
     -
       photo: "jacobkaplanmoss.jpg"
       name: "Jacob Kaplan-Moss"
-      occupation: "Co-autor del Frawework web Django, Director de seguridad en Heroku"
+      occupation: "Co-author of the Django web framework, Director of Platform Security at Heroku"
       contact: "<a href = 'http://twitter.com/jacobian' title='Jacob Kaplan-Moss'> @jacobian </a>"
-      talk_name: "Por anunciar"
+      talk_name: ""
+      talk_desc: ""
       country: "EEUU"
     -
       photo: "yehudakatz.jpg"
       name: "Yehuda Katz"
       occupation: "Ember.js, Rails-core, jQuery, Bundler"
       contact: "<a href = 'http://twitter.com/wycats' title='Yehuda Katz'> @wycats </a>"
-      talk_name: "Por anunciar"
+      talk_name: ""
+      talk_desc: ""
       country: "EEUU"
     -
       photo: "jaimeenewberry.jpg"
       name: "Jaimee Newberry"
-      occupation: "Co-fundadora de Bests.com. Ex-directora de UX en Black Pixel"
+      occupation: "Co-founder at Bests.com. Ex-director of UX at Black Pixel"
       contact: "<a href = 'http://twitter.com/jaimeejaimee' title='Jaimee Newberry'> @jaimeejaimee </a>"
       talk_name: "Designing for Engagement"
+      talk_desc: ""
       country: "EEUU"
     -
       photo: "laurentsamsonetti.jpg"
       name: "Laurent Sansonetti"
-      occupation: "Creador de RubyMotion"
+      occupation: "Creator of RubyMotion"
       contact: "<a href = 'http://twitter.com/lrz' title='Laurent Sansonetti'> @lrz </a>"
-      talk_name: "Por anunciar"
+      talk_name: ""
+      talk_desc: ""
       country: "Bélgica"
 
   selected_talks:
@@ -60,6 +57,7 @@ es-CL:
       occupation: "CTO en Hop.in"
       contact: ""
       talk_name: "El programador bipolar"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "benlangfeld.jpg"
@@ -67,6 +65,7 @@ es-CL:
       occupation: "Voice Application Architect en Mojo Lingo"
       contact: ""
       talk_name: "Adhearsion 3, the future of Ruby communications"
+      talk_desc: ""
       country: "Inglaterra"
     -
       photo: "pitrvernigorov.png"
@@ -74,6 +73,7 @@ es-CL:
       occupation: "Senior Architect en Uken Games"
       contact: ""
       talk_name: "Rethinking HTML5 for Mobile Games"
+      talk_desc: ""
       country: "Canada"
     -
       photo: "phillippecamacho.jpg"
@@ -81,6 +81,7 @@ es-CL:
       occupation: "Criptógrafo, co-fundador de Coin4ce.com"
       contact: ""
       talk_name: "Hackeando la economía con Bitcoin"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "default.png"
@@ -88,6 +89,7 @@ es-CL:
       occupation: "Manager de Google Apps Premium Services para América Latina"
       contact: ""
       talk_name: "En todas partes, con todo y para todos"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "default.png"
@@ -95,6 +97,7 @@ es-CL:
       occupation: "Investigador en INRIA"
       contact: ""
       talk_name: "Faster software development with static types"
+      talk_desc: ""
       country: "Francia"
     -
       photo: "borisstaal.jpg"
@@ -102,6 +105,7 @@ es-CL:
       occupation: "IT Entrepreneur. Author of Joosy and the protector gem."
       contact: ""
       talk_name: "Data-centric security in Ruby (and Rails)"
+      talk_desc: ""
       country: "Singapore"
     -
       photo: "antonioognio.jpg"
@@ -109,6 +113,7 @@ es-CL:
       occupation: "Chief system architect at Red Científica Peruana"
       contact: ""
       talk_name: "REST for the rest of us"
+      talk_desc: ""
       country: "Perú"
     -
       photo: "felipehoffa.jpg"
@@ -116,6 +121,7 @@ es-CL:
       occupation: "Developer Relations Engineer en Google"
       contact: ""
       talk_name: "De open data a accessible data - el censo Chile 2002 y BigQuery"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "alanearle.jpg"
@@ -123,13 +129,15 @@ es-CL:
       occupation: "Fundador de MangaCorta.cl y LaComparto.com"
       contact: ""
       talk_name: "Emprender desde la Universidad hasta formar una empresa sustentable en el tiempo"
+      talk_desc: ""
       country: "Chile"
     -
-      photo: "default.png"
+      photo: "sergionouvel.jpg"
       name: "Sergio Nouvel"
-      occupation: "UX/Innovation Strategist at Continuum, co-founder of GetOnBrd"
+      occupation: "UX/Innovation Strategist at Continuum, co-founder of GetOnBoard"
       contact: ""
-      talk_name: "Lean UX using minideliverables"
+      talk_name: "Lean UX para potenciar productos y negocios digitales"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "diegosapriza.jpg"
@@ -137,6 +145,7 @@ es-CL:
       occupation: "Senior developer en Case Design"
       contact: ""
       talk_name: "Búsquedas full text con esteroides"
+      talk_desc: ""
       country: "Uruguay"
     -
       photo: "phillipneumann.jpg"
@@ -144,6 +153,7 @@ es-CL:
       occupation: "A cargo del área de tecnología en BetaZeta"
       contact: ""
       talk_name: "FiFo: The cloud in your hands!"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "tomasolivares.png"
@@ -151,6 +161,7 @@ es-CL:
       occupation: "Consultor Senior de Infrastructura en RedHat"
       contact: ""
       talk_name: "Deployando con Openshift"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "pablolobos.png"
@@ -158,6 +169,7 @@ es-CL:
       occupation: "UI/UX designer at Cumplo"
       contact: ""
       talk_name: "Responsive web design para todos"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "gustavomachado.png"
@@ -165,6 +177,7 @@ es-CL:
       occupation: "VP of Engineering at KidoZen"
       contact: ""
       talk_name: "Challenges in Enterprise Mobile Development"
+      talk_desc: ""
       country: "Argentina"
     -
       photo: "sebastiangamboa.jpg"
@@ -172,6 +185,7 @@ es-CL:
       occupation: "CTO en Welcu"
       contact: ""
       talk_name: "Métodos de pago para Chile y el mundo"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "andresjunge.jpg"
@@ -179,6 +193,7 @@ es-CL:
       occupation: "CEO at Totexa"
       contact: ""
       talk_name: "Bitcoin, la moneda digital del futuro"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "guillermodiaz.png"
@@ -186,6 +201,7 @@ es-CL:
       occupation: "Fundador Open Device Lab Santiago, Director en Ibex Technologies"
       contact: ""
       talk_name: "Open Device Lab"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "default.png"
@@ -193,6 +209,7 @@ es-CL:
       occupation: "COO at E-Sign"
       contact: ""
       talk_name: "Desarrollo web rápido y seguro"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "agustinvillena.jpg"
@@ -200,6 +217,7 @@ es-CL:
       occupation: "Fundador y líder de la comunidad ChileAgil"
       contact: ""
       talk_name: "La revolución de los geeks"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "denisfuenzalida.jpg"
@@ -207,6 +225,7 @@ es-CL:
       occupation: "Senior web developer en Law of the Jungle"
       contact: ""
       talk_name: "Introducción a la programación funcional con Clojure"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "eduardodiaz.jpg"
@@ -214,6 +233,7 @@ es-CL:
       occupation: "Subgerente de tecnología en Previred"
       contact: ""
       talk_name: "Creadores de Universos"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "pabloastigarraga.jpg"
@@ -221,6 +241,7 @@ es-CL:
       occupation: "Ingeniero de software en Vivid Cortex"
       contact: ""
       talk_name: "50 sombras de MVC"
+      talk_desc: ""
       country: "Uruguay"
     -
       photo: "sebastianlara.jpg"
@@ -228,6 +249,7 @@ es-CL:
       occupation: "Socio de E2i, Desarrollador del Centro de Óptica y Fotónica de la Universidad de Concepción"
       contact: ""
       talk_name: "Automatizando tu flujo de trabajo front-end con Yeoman"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "default.png"
@@ -235,6 +257,7 @@ es-CL:
       occupation: "Strategic Relationship Manager en Kibernum"
       contact: ""
       talk_name: "Transforme nuestra sociedad con Informática"
+      talk_desc: ""
       country: "Brasil"
     -
       photo: "default.png"
@@ -242,6 +265,7 @@ es-CL:
       occupation: "CTO en FirstJob"
       contact: ""
       talk_name: "Ginga, el middleware que revoluciona la TV Digital"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "cristianrojas.jpg"
@@ -249,6 +273,7 @@ es-CL:
       occupation: "Especialista en seguridad de software, profesor en la Universidad de Chile"
       contact: ""
       talk_name: "SSL instalado... ¿estamos realmente seguros?"
+      talk_desc: ""
       country: "Chile"
     -
       photo: "renemujica.png"
@@ -256,4 +281,5 @@ es-CL:
       occupation: "Estudiante de Informática en Universidad Santa María"
       contact: ""
       talk_name: "GPIO and you: Hackeando la Raspberry"
+      talk_desc: ""
       country: "Chile"

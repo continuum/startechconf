@@ -113,3 +113,13 @@ en:
           name: "Nic Chile"
           url: "http://www.nic.cl"
           desc: "Somos el punto CL."
+
+  speakers:
+    index:
+      title: "Confirmed speakers"
+      keynoters: "Keynotes"
+      keynoters_desc: "These are the main keynote talks by world renowned programming and design experts."
+      selected: "Selected Talks"
+      selected_desc: "More awesome speakers who wanted to be present. Don't miss their talks!"
+      speaker: Speaker
+      talk: Talk
