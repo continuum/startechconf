@@ -198,7 +198,7 @@ es-CL:
     -
       photo: "guillermodiaz.png"
       name: "Guillermo Díaz"
-      occupation: "Fundador Open Device Lab Santiago, Director en Ibex Technologies"
+      occupation: "Co-Founder of Open Device Lab Santiago, Director at Ibex Technologies"
       contact: ""
       talk_name: "Open Device Lab"
       talk_desc: "Cómo y para qué probar tus aplicaciones y sitios móviles. Invitaciones gratuitas al Open Device Lab Santiago."
@@ -214,7 +214,7 @@ es-CL:
     -
       photo: "agustinvillena.jpg"
       name: "Agustín Villena"
-      occupation: "Fundador y líder de la comunidad ChileAgil"
+      occupation: "Founder and Leader of ChileAgil community"
       contact: ""
       talk_name: "La revolución de los geeks"
       talk_desc: ""
@@ -222,7 +222,7 @@ es-CL:
     -
       photo: "denisfuenzalida.jpg"
       name: "Denis Fuenzalida"
-      occupation: "Senior web developer en Law of the Jungle"
+      occupation: "Senior Web Developer at Law of the Jungle"
       contact: ""
       talk_name: "Introducción a la programación funcional con Clojure"
       talk_desc: "Clojure es un lenguaje funcional moderno, multipropósito, que hace énfasis en la inmutabilidad, concurrencia y simbiosis con el ecosistema de Java. Esta charla es una introducción a su filosofía, cómo entenderlo (si vienes de otros lenguages como JavaScript o Ruby) y como usarlo."
@@ -238,7 +238,7 @@ es-CL:
     -
       photo: "pabloastigarraga.jpg"
       name: "Pablo Astigarraga"
-      occupation: "Ingeniero de software en Vivid Cortex"
+      occupation: "Software Engineer at Vivid Cortex"
       contact: ""
       talk_name: "50 sombras de MVC"
       talk_desc: ""
@@ -262,7 +262,7 @@ es-CL:
     -
       photo: "jonathanreyes.jpg"
       name: "Jonathan Reyes"
-      occupation: "CTO en FirstJob"
+      occupation: "CTO at FirstJob"
       contact: ""
       talk_name: "Ginga, el middleware que revoluciona la TV Digital"
       talk_desc: ""
@@ -270,7 +270,7 @@ es-CL:
     -
       photo: "cristianrojas.jpg"
       name: "Cristián Rojas"
-      occupation: "Especialista en seguridad de software, profesor en la Universidad de Chile"
+      occupation: "Software security specialist, teacher at University of Chile"
       contact: ""
       talk_name: "SSL instalado... ¿estamos realmente seguros?"
       talk_desc: ""
