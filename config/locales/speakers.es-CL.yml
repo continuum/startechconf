@@ -73,7 +73,7 @@ es-CL:
       occupation: "Senior Architect en Uken Games"
       contact: ""
       talk_name: "Rethinking HTML5 for Mobile Games"
-      talk_desc: ""
+      talk_desc: "From optimizing Javascript for mobile browsers, to building services that cater to mobile clients, to evolving infrastructure to handle for high-latency connections, this talk covers tips from 4 years of experience in building mobile games using HTML5. The underlying goal, however, is to illustrate the thought process of optimizing a system for niche audience and questioning status quo."
       country: "Canada"
     -
       photo: "phillippecamacho.jpg"
@@ -166,10 +166,10 @@ es-CL:
     -
       photo: "pablolobos.png"
       name: "Pablo Lobos"
-      occupation: "UI/UX designer at Cumplo"
+      occupation: "UI/UX designer at Cumplo, teacher at Universidad Diego Portales"
       contact: ""
       talk_name: "Responsive web design para todos"
-      talk_desc: ""
+      talk_desc: "Más que una tendencia o una moda, Responsive Web Design es el camino a seguir para hacer los contenidos accesibles para todos los usuarios. Revisaremos fundamentos, metodologías y técnicas básicas y avanzadas para estar alineados con el futuro de la Web."
       country: "Chile"
     -
       photo: "gustavomachado.png"
@@ -177,7 +177,7 @@ es-CL:
       occupation: "VP of Engineering at KidoZen"
       contact: ""
       talk_name: "Challenges in Enterprise Mobile Development"
-      talk_desc: ""
+      talk_desc: "Exploraremos las principales desafíos de desarrollar aplicaciones móviles para grandes empresas. Discutiremos cosas como BYOD, Seguridad y una amplia gama de Servicios necesarios para crear experiencias realmente mobile."
       country: "Argentina"
     -
       photo: "sebastiangamboa.jpg"
@@ -189,8 +189,8 @@ es-CL:
       country: "Chile"
     -
       photo: "andresjunge.jpg"
-      name: "Andres Junge"
-      occupation: "CEO at Totexa"
+      name: "Andrés Junge"
+      occupation: "Co-Founder of Yaykuy Bitcoin"
       contact: ""
       talk_name: "Bitcoin, la moneda digital del futuro"
       talk_desc: ""
@@ -201,7 +201,7 @@ es-CL:
       occupation: "Fundador Open Device Lab Santiago, Director en Ibex Technologies"
       contact: ""
       talk_name: "Open Device Lab"
-      talk_desc: ""
+      talk_desc: "Cómo y para qué probar tus aplicaciones y sitios móviles. Invitaciones gratuitas al Open Device Lab Santiago."
       country: "Chile"
     -
       photo: "default.png"
@@ -225,7 +225,7 @@ es-CL:
       occupation: "Senior web developer en Law of the Jungle"
       contact: ""
       talk_name: "Introducción a la programación funcional con Clojure"
-      talk_desc: ""
+      talk_desc: "Clojure es un lenguaje funcional moderno, multipropósito, que hace énfasis en la inmutabilidad, concurrencia y simbiosis con el ecosistema de Java. Esta charla es una introducción a su filosofía, cómo entenderlo (si vienes de otros lenguages como JavaScript o Ruby) y como usarlo."
       country: "Chile"
     -
       photo: "eduardodiaz.jpg"
