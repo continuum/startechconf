@@ -19,7 +19,7 @@
           %th= t(".speaker")
           %th= t(".talk")
         - t('confirmed_speakers').each do |speaker|
-          %tr{:class=> cycle('', 'odd')}
+          %tr{:class=> cycle('', 'odd'), :id=> speaker['name'].parameterize}
             %td.photo
               = image_tag speaker["photo"]
             %td.name
@@ -41,7 +41,7 @@
           %th= t(".speaker")
           %th= t(".talk")
         - t('selected_talks').each do |speaker|
-          %tr{:class=> cycle('', 'odd'), :id=> speaker['name'].gsub(' ','_').downcase}
+          %tr{:class=> cycle('', 'odd'), :id=> speaker['name'].parameterize}
             %td.photo
               = image_tag speaker["photo"]
             %td.name
