@@ -77,6 +77,13 @@ es-CL:
       country: "Chile"
     -
       photo: "default.png"
+      name: "Sebastian Robles"
+      occupation: "Manager de Google Apps Premium Services para América Latina"
+      contact: ""
+      talk_name: "En todas partes, con todo y para todos"
+      country: "Chile"
+    -
+      photo: "default.png"
       name: "Fabrice Le Fessant"
       occupation: "Investigador en INRIA"
       contact: ""
