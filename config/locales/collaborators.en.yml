@@ -12,18 +12,27 @@ en:
       link: ""
       photo: "people/marcelo.png"
       name: "Marcelo Lara"
-      ocuppation: ""
+      occupation: ""
       contact: "<a href = 'http://twitter.com/marcelo_lara' title='Marcelo Lara'> @marcelo_lara </a>"
     -
       name: "Sergio Nouvel"
     -
       name: "Roberto Sanchez"
     -
+      link: ""
+      photo: "people/isaiasmoraga.png"
       name: "Isaias Moraga"
+      occupation: "Students and Organizers Coordinator"
     -
       link: "http://www.codenow.cl/"
       photo: "people/felipegonzalez.png"
       name: "Felipe Gonzalez"
       occupation: "Coordination with the students' association & Venue"
-      contact: "<a href = 'http://twitter.com/gonzalez_f' title='Felipe Gonzalez'>@gonzalez_f</a><br>
-                <a href='http://facebook.com/felipe.gonzalezpizarro' title='Felipe Gonzalez'>http://facebook.com/felipe.gonzalezpizarro</a>"
+      contact: "<a href = 'http://twitter.com/gonzalez_f' title='Felipe Gonzalez'>@gonzalez_f</a>"
+    -
+      link: "http://leanbirds.com/"
+      photo: "people/lucilacampos.jpg"
+      name: "Lucila Campos"
+      occupation: "Speakers Relationship"
+      contact: "<a href = 'http://twitter.com/Lupincampos' title='Lucila Campos'>@Lupincampos</a><br>
+                <a href = 'http://www.linkedin.com/in/lucilacampos' title='Lucila Campos'>http://www.linkedin.com/in/lucilacampos</a>"
