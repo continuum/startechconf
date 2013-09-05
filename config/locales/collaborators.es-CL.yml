@@ -8,14 +8,21 @@ es-CL:
       contact: "<a href = 'http://twitter.com/brennakL' title='Brenna Loury'> @brennakL </a>"
     -
       name: "Edison Acuña"
+      link: "http://facebook.com/edison.acuna"
+      photo: "people/edison.jpg"
+      occupation: "Relaciones con Auspiciadores"
+      contact: "<a href = 'http://twitter.com/edisonacuna' title='Edison Acuña'> @edisonacuna </a>"
     -
       link: ""
       photo: "people/marcelo.png"
       name: "Marcelo Lara"
-      occupation: ""
+      occupation: "Desarrollo Web"
       contact: "<a href = 'http://twitter.com/marcelo_lara' title='Marcelo Lara'> @marcelo_lara </a>" 
     -
       name: "Sergio Nouvel"
+      photo: "people/sergionouvel.jpg"
+      occupation: "Diseño Web y Experiencia de Usuario"
+      contact: "<a href = 'http://twitter.com/shesho' title='Sergio Nouvel'> @shesho </a>"
     -
       name: "Roberto Sanchez"
     -
