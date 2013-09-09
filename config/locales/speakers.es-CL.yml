@@ -94,7 +94,7 @@ es-CL:
     -
       photo: "default.png"
       name: "Fabrice Le Fessant"
-      occupation: "Investigador en INRIA"
+      occupation: "Researcher at INRIA"
       contact: ""
       talk_name: "Faster software development with static types"
       talk_desc: ""
@@ -126,7 +126,7 @@ es-CL:
     -
       photo: "alanearle.jpg"
       name: "Alan Earle"
-      occupation: "Fundador de MangaCorta.cl y LaComparto.com"
+      occupation: "Founder of MangaCorta.cl and LaComparto.com"
       contact: ""
       talk_name: "Emprender desde la Universidad hasta formar una empresa sustentable en el tiempo"
       talk_desc: "¿Quieres emprender? ¡El mejor momento para partir fue ayer! Inspírate con la historia de Manga Corta y aprende con los tips y fails que sólo se aprenden haciendo y no de un gordo libro."
@@ -142,7 +142,7 @@ es-CL:
     -
       photo: "diegosapriza.jpg"
       name: "Diego Sapriza"
-      occupation: "Senior developer en Case Design"
+      occupation: "Senior developer at Case Design"
       contact: ""
       talk_name: "Búsquedas full text con esteroides"
       talk_desc: ""
@@ -150,15 +150,15 @@ es-CL:
     -
       photo: "phillipneumann.jpg"
       name: "Phillip Neumann"
-      occupation: "A cargo del área de tecnología en BetaZeta"
+      occupation: "CTO at BetaZeta"
       contact: ""
-      talk_name: "FiFo: The cloud in your hands!"
+      talk_name: "Arma tu propia nube moderna y robusta con ayuda del proyecto FIFO (IaaS)"
       talk_desc: ""
       country: "Chile"
     -
       photo: "tomasolivares.png"
       name: "Tomás Olivares"
-      occupation: "Consultor Senior de Infrastructura en RedHat"
+      occupation: "Infrastructure Senior Consultant at RedHat"
       contact: ""
       talk_name: "Deployando con Openshift"
       talk_desc: ""
