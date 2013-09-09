@@ -10,8 +10,6 @@
       .shadow
       - if collaborator["link"]
         = image_tag(collaborator["photo"])
-      - else
-        = image_tag "default.png"
     %span.name
       = collaborator["name"]
     - if collaborator["occupation"]
