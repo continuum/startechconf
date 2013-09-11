@@ -472,12 +472,21 @@ section#place
     display: block
     font-weight: 100
     color: $soft-color-text
-  &.headliners
+  &.orgs
+    img
+      width: 96px
+      height: 96px
+      border-radius: 48px
+      -moz-border-radius: 48px
+      background-color: white
+  &.headliners, &.collabs
     img
       width: 72px
       height: 72px
       border-radius: 36px
       -moz-border-radius: 36px
+  a
+    color: $links-color
 
 //Ultimo Bloque
 .last-version

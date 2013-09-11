@@ -5,12 +5,49 @@
 .wrapper
   %section.presentation
     .container
-      %header
+      %header.innerpage
         %figure.logo
           = link_to image_tag("logo_startechconf_2013@2x.png", alt: t("sitename")), "/"
+        %h1= t("organizers")
 
-        .people.organizers
-          = render partial: "organizers"
-  %section.people.collaborators
+  %section.speakers
     .container
-      = render partial: "collaborators"
+      %table.speakers-table.orgs
+        - t(:organizers_list).each do |organizer|
+          %tr{:class=> cycle('odd', ''), :id=> organizer['name'].parameterize}
+            %td.photo
+              = image_tag organizer["photo"]
+            %td.name
+              - if organizer['link'] != ""
+                %strong= link_to organizer['name'], organizer['link'], :target => "_blank"
+              - else
+                %strong= organizer['name']
+              - unless organizer['team'] == nil
+                %br/
+                - organizer['team'].each do |member|
+                  %strong= member
+                  %br/
+              %small
+                = organizer['occupation']
+                %br/
+                %em= organizer['country']
+            %td
+              = raw organizer['contact']
+      %h2#selected= t("collaborators")
+      %p= t("thanks")
+      %table.speakers-table.collabs
+        - t(:collaborators_list).each do |collaborator|
+          %tr{:class=> cycle('', 'odd'), :id=> collaborator['name'].parameterize}
+            %td.photo
+              = image_tag collaborator["photo"]
+            %td.name
+              - if collaborator['link'] != ""
+                %strong= link_to collaborator['name'], collaborator['link'], :target => "_blank"
+              - else
+                %strong= collaborator['name']
+              %small
+                = collaborator['occupation']
+                %br/
+                %em= collaborator['country']
+            %td
+              = raw collaborator['contact']

@@ -110,7 +110,7 @@ es-CL:
     -
       photo: "antonioognio.jpg"
       name: "Antonio Ognio"
-      occupation: "Chief system architect at Red Científica Peruana"
+      occupation: "Chief Systems Architect at Red Científica Peruana"
       contact: ""
       talk_name: "REST for the rest of us"
       talk_desc: ""
@@ -209,7 +209,7 @@ es-CL:
       occupation: "COO at E-Sign"
       contact: ""
       talk_name: "Desarrollo web rápido y seguro"
-      talk_desc: ""
+      talk_desc: "Con la llegada del HTML5, un navegador web es tan potente como un sistema operativo para la nube: puede ejecutar código offline, interactuar con dispositivos, escribir bases de datos locales, procesamiento paralelo (workers), etc... pero no ha mejorado aspectos relacionados a la seguridad. Esta charla trata las mejores prácticas, estándares de seguridad y bibliotecas para desarrollo web seguro."
       country: "Chile"
     -
       photo: "agustinvillena.jpg"
@@ -233,7 +233,7 @@ es-CL:
       occupation: "Subgerente de tecnología en Previred"
       contact: ""
       talk_name: "Creadores de Universos"
-      talk_desc: ""
+      talk_desc: "Esta charla está orientada principalmente a quienes tienen que liderar y formar equipos de desarrollo de software. También es una exploración sobre lo que significa ser programador y crear software. Además en la charla compartiré la experiencia de formar un equipo tecnológico innovador en un ambiente corporativo, con sus dificultades y aciertos."
       country: "Chile"
     -
       photo: "pabloastigarraga.jpg"

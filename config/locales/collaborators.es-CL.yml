@@ -1,28 +1,55 @@
 es-CL:
+
+  organizers_list:
+    -
+      link: "http://continuumhq.co"
+      photo: "people/continuum.png"
+      name: "Continuum"
+      team:
+        - Leo Soto
+        - Jorge Rodríguez
+        - Ricardo Jara
+      occupation: "Developers, designers and consultants with a passion for making user-centered digital ideas come true."
+      contact: "<a href = 'http://twitter.com/continuumhq' title='Continuum'> @continuumhq </a>"
+    -
+      link: "http://www.beecoss.com"
+      photo: "people/coto.png"
+      name: "Coto"
+      team:
+      occupation: "Hacker-entrepreneur, Pragmatic Dreamer and passionate about technology. Co-Founder & CTO at Qompazz"
+      contact: "<a href = 'http://twitter.com/coto' title='Coto'> @coto </a>"
+    -
+      link: "http://www.utfsm.cl"
+      photo: "people/utfsm.png"
+      name: "Universidad Santa María"
+      team:
+      occupation: "Ingeniería en Chile"
+      contact: "<a href = 'http://twitter.com/usantamaria' title='Universidad Santa María'> @usantamaria </a>"
+
   collaborators_list:
     -
       link: "http://princhile.tumblr.com"
       photo: "people/brenna.png"
       name: "Brenna Loury"
-      occupation: "Comunicaciones & Relaciones Públicas"
+      occupation: "Communications & PR"
       contact: "<a href = 'http://twitter.com/brennakL' title='Brenna Loury'> @brennakL </a>"
     -
       name: "Edison Acuña"
       link: "http://facebook.com/edison.acuna"
       photo: "people/edison.jpg"
-      occupation: "Relaciones con Auspiciadores"
+      occupation: "Sponsor Relationships"
       contact: "<a href = 'http://twitter.com/edisonacuna' title='Edison Acuña'> @edisonacuna </a>"
     -
       link: ""
       photo: "people/marcelo.png"
       name: "Marcelo Lara"
-      occupation: "Desarrollo Web"
-      contact: "<a href = 'http://twitter.com/marcelo_lara' title='Marcelo Lara'> @marcelo_lara </a>" 
+      occupation: "Web Development"
+      contact: "<a href = 'http://twitter.com/marcelo_lara' title='Marcelo Lara'> @marcelo_lara </a>"
     -
-      link: ""
+      link: "http://www.getonbrd.com"
       name: "Sergio Nouvel"
       photo: "people/sergionouvel.png"
-      occupation: "Diseño Web y Experiencia de Usuario"
+      occupation: "Design, Branding & UX"
       contact: "<a href = 'http://twitter.com/shesho' title='Sergio Nouvel'> @shesho </a>"
     -
       link: ""
@@ -33,18 +60,18 @@ es-CL:
       link: ""
       photo: "people/isaiasmoraga.png"
       name: "Isaias Moraga"
-      occupation: "Coordinador entre estudiantes y comité organizador"
+      occupation: "Students and Organizers Coordinator"
     -
       link: "http://www.codenow.cl/"
       photo: "people/felipegonzalez.png"
       name: "Felipe Gonzalez"
-      occupation: "Coordinación con Centro de Alumnos & Venue"
+      occupation: "Coordination with the students' association & Venue"
       contact: "<a href = 'http://twitter.com/gonzalez_f' title='Felipe Gonzalez'>@gonzalez_f</a>"
     -
       link: "http://leanbirds.com/"
       photo: "people/lucilacampos.jpg"
       name: "Lucila Campos"
-      occupation: "Relaciones con Charlistas"
-      contact: "<a href = 'http://twitter.com/Lupincampos' title='Lucila Campos'>@Lupincampos</a><br>
-                <a href = 'http://www.linkedin.com/in/lucilacampos' title='Lucila Campos'>http://www.linkedin.com/in/lucilacampos</a>"
-
+      occupation: "Speakers Relationship"
+      contact: >
+        <a href = 'http://twitter.com/Lupincampos' title='Lucila Campos'>@Lupincampos</a><br>
+        <a href = 'http://www.linkedin.com/in/lucilacampos' title='Lucila Campos'>http://www.linkedin.com/in/lucilacampos</a>
