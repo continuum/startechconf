@@ -47,6 +47,7 @@ en:
   sponsor_slugs:
     platinum:
       - bci
+      - blackberry
     gold:
       - google
       - mediastream
@@ -69,6 +70,10 @@ en:
           name: "Bci"
           url: "http://www.bci.cl"
           desc: "At Bci, we are different."
+        blackberry:
+          name: BlackBerry
+          url: "http://www.blackberry.com"
+          desc: "Global leader in wireless innovation."
       gold:
         title: "Gold"
         google:
