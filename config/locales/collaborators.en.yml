@@ -6,8 +6,8 @@ es-CL:
       photo: "people/continuum.png"
       name: "Continuum"
       team:
-        - Leo Soto
-        - Jorge Rodríguez
+        - Leo Soto, 
+        - Jorge Rodríguez, 
         - Ricardo Jara
       occupation: "Developers, designers and consultants with a passion for making user-centered digital ideas come true."
       contact: "<a href = 'http://twitter.com/continuumhq' title='Continuum'> @continuumhq </a>"
