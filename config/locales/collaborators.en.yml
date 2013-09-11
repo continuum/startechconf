@@ -16,6 +16,7 @@ es-CL:
       photo: "people/coto.png"
       name: "Coto"
       team:
+        - Rodrigo Augosto 
       occupation: "Hacker-entrepreneur, Pragmatic Dreamer and passionate about technology. Co-Founder & CTO at Qompazz"
       contact: "<a href = 'http://twitter.com/coto' title='Coto'> @coto </a>"
     -
