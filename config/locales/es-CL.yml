@@ -87,7 +87,7 @@ es-CL:
           desc: "Servicios streaming con énfasis en la efectividad."
         groupon:
           name: "Groupon"
-          url: "http://www.groupon.com"
+          url: "http://www.groupon.cl/ingenieria"
           desc: "Descuentos únicos en productos, servicios y entretención."
       silver:
         title: "Silver"
