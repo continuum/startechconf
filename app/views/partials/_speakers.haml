@@ -15,7 +15,8 @@
     %span.occupation
       = speaker["occupation"]
     %span.contact
-      = raw speaker["contact"]
+      - unless speaker['contact'] == ""
+        = link_to '@'+ speaker['contact'], "http://www.twitter.com/"+speaker['contact'], :title => speaker['name'], :target => "_blank"
 
 
 - (6 - t(:confirmed_speakers).count).times do

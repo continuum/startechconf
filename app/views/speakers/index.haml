@@ -27,6 +27,9 @@
               %small
                 = speaker['occupation']
                 %br/
+                - unless speaker['contact'] == ""
+                  %strong= link_to '@'+ speaker['contact'], "http://www.twitter.com/"+speaker['contact'], :title => speaker['name'], :target => "_blank"
+                  %br/
                 %em= speaker['country']
             %td
               - unless speaker['talk_name'] == ""
@@ -49,6 +52,9 @@
               %small
                 = speaker['occupation']
                 %br/
+                - unless speaker['contact'] == ""
+                  %strong= link_to '@'+ speaker['contact'], "http://www.twitter.com/"+speaker['contact'], :title => speaker['name'], :target => "_blank"
+                  %br/
                 %em= speaker['country']
             %td
               - unless speaker['talk_name'] == ""
