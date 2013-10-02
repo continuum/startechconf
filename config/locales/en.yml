@@ -44,6 +44,7 @@ en:
   entry_prices: "Ticket prices"
   buy_ticket: "Buy ticket"
   buy_your_ticket_here: "Buy your ticket here"
+  schedule_title: "Schedule"
 
   sponsor_slugs:
     platinum:
