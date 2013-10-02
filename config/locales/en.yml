@@ -27,7 +27,7 @@ en:
   early_birds_html: "15% off until <strong>September 6th</strong>"
   price_general: "General Pass"
   price_students: "Students"
-  price_includes: "2 days, includes lunches and Drink Up"
+  price_includes: "2 days, including lunch and drink-up"
   pre_register_thanks: "Thanks for pre-registering!"
   we_contact_you: "Ticket sale for pre-registered users begin %{date}."
   preregister: "Pre-register"
@@ -88,7 +88,7 @@ en:
           desc: "Effective streaming services."
         groupon:
           name: "Groupon"
-          url: "http://www.groupon.com"
+          url: "http://www.groupon.cl/ingenieria"
           desc: "Daily deals on the best stuff to do, see, eat, and buy."
       silver:
         title: "Silver"

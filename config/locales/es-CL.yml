@@ -27,7 +27,7 @@ es-CL:
   early_birds_html: "15% de descuento hasta el <strong>6 de Septiembre</strong>"
   price_general: "Pase General"
   price_students: "Estudiantes"
-  price_includes: "2 días, incluye almuerzos y Happy Hour"
+  price_includes: "2 días, incluye almuerzos y drink-up"
   pre_register_thanks: "¡Gracias por pre-registrarte!"
   we_contact_you: "La venta a los pre-registrados comienza el %{date}."
   preregister: "Pre-Regístrate"
@@ -88,7 +88,7 @@ es-CL:
           desc: "Servicios streaming con énfasis en la efectividad."
         groupon:
           name: "Groupon"
-          url: "http://www.groupon.com"
+          url: "http://www.groupon.cl/ingenieria"
           desc: "Descuentos únicos en productos, servicios y entretención."
       silver:
         title: "Silver"
