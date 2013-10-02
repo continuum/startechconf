@@ -5,45 +5,45 @@ es-CL:
       time: "8:00 - 9:30"
       visualization: "global"
       type: "break"
-      description: 
+      description:
         - line: "Registro + Coffee"
     -
       time: "9:30 - 9:45"
       visualization: "global"
       type: "important"
-      description: 
+      description:
         - line: "Bienvenida"
     -
       time: "9:45 - 10:45"
       visualization: "global"
       type: ""
-      description: 
+      description:
         - line: "Lea Verou:"
         - line: "More CSS secrets:  Another 10 things you may not know about CSS"
     -
       time: "10:45 - 11:45"
       visualization: "global"
       type: ""
-      description: 
+      description:
         - line: "Aaron Patterson"
         - line: "Sharpening Your Shears"
     -
       time: "11:45 - 12:15"
       visualization: "global"
       type: "break"
-      description: 
+      description:
         - line: "Coffee Break"
     -
       time: "12:15 - 12:45"
       visualization: ""
       type: ""
       sponsor: ""
-      track1: 
+      track1:
         - line: "Alan Earle:"
         - line: "Emprender desde la Universidad hasta formar una empresa sustentable en el tiempo"
       track2:
         - line: "Ben Langfield:"
-        - line: "Adhearsion 3, the future of Ruby communications"  
+        - line: "Adhearsion 3, the future of Ruby communications"
       track3:
         - line: "Tomás Olivares:"
         - line: "Deployando con OpenShift"
@@ -56,15 +56,16 @@ es-CL:
         - line: "Sergio Nouvel:"
         - line: "Lean UX usando minientregables"
       track2:
-        - line: "Sponsor Talk #1: Bci"
+        - line: "Marcelo Solís y Héctor Contreras:"
+        - line: "Emprendiendo con ADNBci"
       track3:
         - line: "Phillip Neumann:"
         - line: "FiFo: The cloud in your hands!"
-    - 
+    -
       time: "13:25 - 15:00"
       visualization: "global"
       type: "break"
-      description: 
+      description:
         - line: "Almuerzo"
     -
       time: "15:00 - 15:30"
@@ -80,7 +81,7 @@ es-CL:
       track3:
         - line: "Jonathan Reyes:"
         - line: "Ginga el middleware que revoluciona la TV Digital"
-    - 
+    -
       time: "15:40 - 16:10"
       visualization: ""
       type: ""
@@ -138,21 +139,21 @@ es-CL:
       time: "8:00 - 9:00"
       visualization: "global"
       type: "break"
-      description: 
+      description:
         - line: "Acreditacion + Coffee"
     -
       time: "9:00 - 10:00"
       visualization: "global"
       type: ""
-      description: 
+      description:
         - line: "Yehuda Katz"
     -
       time: "10:00 - 11:00"
       visualization: "global"
       type: ""
-      description: 
+      description:
         - line: "Laurent Sansonetti"
-    - 
+    -
       time: "11:00 -  11:30"
       visualization: "global"
       type: "break"
@@ -180,7 +181,7 @@ es-CL:
       track1:
         - line: "Eduardo Díaz:"
         - line: "Creadores de Universos"
-      track2: 
+      track2:
         - line: "Pitr Vernigorov:"
         - line: "Rethinking HTML5 for Mobile Games"
       track3:
@@ -191,20 +192,20 @@ es-CL:
       visualization: ""
       type: ""
       sponsor: ""
-      track1: 
+      track1:
         - line: "Camilo Erazo:"
-        - line: "eHealth?"
-      track2: 
+        - line: "eHealth"
+      track2:
         - line: "Gustavo Machado:"
         - line: "Challenges in Enterprise Mobile Development"
       track3:
         - line: "Denis Fuenzalida:"
         - line: "Introducción a programación funcional con Clojure"
-    - 
+    -
       time: "13:20 - 15:00"
       visualization: "global"
       type: "break"
-      description: 
+      description:
         - line: "Almuerzo"
     -
       time: "15:00 - 15:30"
@@ -248,31 +249,32 @@ es-CL:
       track3:
         - line: "Francesc Campoy:"
         - line: "Go para Pythonistas"
-    - 
+    -
       time: "16:50 - 17:15"
       visualization: "global"
       type: "break"
       description:
         - line: "Coffee break"
-    - 
+    -
       time: "17:15 - 18:15"
       visualization: "global"
       type: "important"
       description:
         - line: "Lightning Talks"
-    - 
+    -
       time: "18:15 - 19:15"
       visualization: "global"
       type: ""
       description:
-        - line: "Jaimee Newberry: Designing for Engagement"
-    - 
+        - line: "Jaimee Newberry:"
+        - line: "Designing for Engagement"
+    -
       time: "19:15 - 19:30"
       visualization: "global"
       type: "important"
       description:
         - line: "Cierre"
-    - 
+    -
       time: "19:30 - 21:30"
       visualization: "global"
       type: "important"
