@@ -6,5 +6,6 @@ Startechconf::Application.routes.draw do
     root to: 'home#index'
     resources 'speakers'
     resources 'organizers'
+    resources 'schedule'
   end
 end

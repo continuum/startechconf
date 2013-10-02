@@ -1,0 +1,280 @@
+es-CL:
+
+  schedule_day_one:
+    -
+      time: "8:00 - 9:30"
+      visualization: "global"
+      type: "break"
+      description: 
+        - line: "Registro + Coffee"
+    -
+      time: "9:30 - 9:45"
+      visualization: "global"
+      type: "important"
+      description: 
+        - line: "Bienvenida"
+    -
+      time: "9:45 - 10:45"
+      visualization: "global"
+      type: ""
+      description: 
+        - line: "Lea Verou:"
+        - line: "More CSS secrets:  Another 10 things you may not know about CSS"
+    -
+      time: "10:45 - 11:45"
+      visualization: "global"
+      type: ""
+      description: 
+        - line: "Aaron Patterson"
+        - line: "Sharpening Your Shears"
+    -
+      time: "11:45 - 12:15"
+      visualization: "global"
+      type: "break"
+      description: 
+        - line: "Coffee Break"
+    -
+      time: "12:15 - 12:45"
+      visualization: ""
+      type: ""
+      sponsor: ""
+      track1: 
+        - line: "Alan Earle:"
+        - line: "Emprender desde la Universidad hasta formar una empresa sustentable en el tiempo"
+      track2:
+        - line: "Ben Langfield:"
+        - line: "Adhearsion 3, the future of Ruby communications"  
+      track3:
+        - line: "Tomás Olivares:"
+        - line: "Deployando con OpenShift"
+    -
+      time: "12:55 - 13:25"
+      visualization: ""
+      type: ""
+      sponsor: "track2"
+      track1:
+        - line: "Sergio Nouvel:"
+        - line: "Lean UX usando minientregables"
+      track2:
+        - line: "Sponsor Talk #1: Bci"
+      track3:
+        - line: "Phillip Neumann:"
+        - line: "FiFo: The cloud in your hands!"
+    - 
+      time: "13:25 - 15:00"
+      visualization: "global"
+      type: "break"
+      description: 
+        - line: "Almuerzo"
+    -
+      time: "15:00 - 15:30"
+      visualization: ""
+      type: ""
+      sponsor: ""
+      track1:
+        - line: "Pablo Lobos:"
+        - line: "Responsive web design para todos"
+      track2:
+        - line: "Boris Staal:"
+        - line: "Data Centric Security"
+      track3:
+        - line: "Jonathan Reyes:"
+        - line: "Ginga el middleware que revoluciona la TV Digital"
+    - 
+      time: "15:40 - 16:10"
+      visualization: ""
+      type: ""
+      sponsor: ""
+      track1:
+        - line: "Rodrigo Malachias:"
+        - line: "Transforme nuestra sociedad con Informática"
+      track2:
+        - line: "Herman Vega:"
+        - line: "Desarrollo web rápido y seguro"
+      track3:
+        - line: "Guillermo Díaz:"
+        - line: "Open Device Lab"
+    -
+      time: "16:20 - 16:50"
+      visualization: ""
+      type: ""
+      sponsor: ""
+      track1:
+        - line: "Sebastián Robles:"
+        - line: "En todas partes, con todo y para todos"
+      track2:
+        - line: "Cristián Rojas:"
+        - line: "SSL instalado...¿estamos realmente seguros?"
+      track3:
+        - line: "René Mujica:"
+        - line: "GPIO and You: Hackeando la Raspberry"
+    -
+      time: "16:50 - 17:15"
+      visualization: "global"
+      type: "break"
+      description:
+        - line: "Coffee Break"
+    -
+      time: "17:15 - 18:15"
+      visualization: "global"
+      type: ""
+      description:
+        - line: "Jackob Kaplan Moss"
+    -
+      time: "18:15 - 19:30"
+      visualization: "global"
+      type: "important"
+      description:
+        - line: "Lightning Talks"
+    -
+      time: "19:30 - 21:30"
+      visualization: "global"
+      type: "important"
+      description:
+        - line: "Google Drink-Up"
+
+  schedule_day_two:
+    -
+      time: "8:00 - 9:00"
+      visualization: "global"
+      type: "break"
+      description: 
+        - line: "Acreditacion + Coffee"
+    -
+      time: "9:00 - 10:00"
+      visualization: "global"
+      type: ""
+      description: 
+        - line: "Yehuda Katz"
+    -
+      time: "10:00 - 11:00"
+      visualization: "global"
+      type: ""
+      description: 
+        - line: "Laurent Sansonetti"
+    - 
+      time: "11:00 -  11:30"
+      visualization: "global"
+      type: "break"
+      description:
+        - line: "Coffee break"
+    -
+      time: "11:30 - 12:00"
+      visualization: ""
+      type: ""
+      sponsor: "track2"
+      track1:
+        - line: "Agustín Villena:"
+        - line: "La Revolución de los Geeks"
+      track2:
+        - line: "Tom Anderson:"
+        - line: "How to leverage global BlackBerry resources by creating certified apps"
+      track3:
+        - line: "Pablo Astigarraga:"
+        - line: "50 sombras de MVC"
+    -
+      time: "12:10 - 12:40"
+      visualization: ""
+      type: ""
+      sponsor: ""
+      track1:
+        - line: "Eduardo Díaz:"
+        - line: "Creadores de Universos"
+      track2: 
+        - line: "Pitr Vernigorov:"
+        - line: "Rethinking HTML5 for Mobile Games"
+      track3:
+        - line: "Diego Sapriza:"
+        - line: "Busquedas full text con esteroides"
+    -
+      time: "12:50 - 13:20"
+      visualization: ""
+      type: ""
+      sponsor: ""
+      track1: 
+        - line: "Camilo Erazo:"
+        - line: "eHealth?"
+      track2: 
+        - line: "Gustavo Machado:"
+        - line: "Challenges in Enterprise Mobile Development"
+      track3:
+        - line: "Denis Fuenzalida:"
+        - line: "Introducción a programación funcional con Clojure"
+    - 
+      time: "13:20 - 15:00"
+      visualization: "global"
+      type: "break"
+      description: 
+        - line: "Almuerzo"
+    -
+      time: "15:00 - 15:30"
+      visualization: ""
+      type: ""
+      sponsor: ""
+      track1:
+        - line: "Sebastián Gamboa:"
+        - line: "Métodos de pago para Chile y el mundo"
+      track2:
+        - line: "Antonio Ognio:"
+        - line: "REST for the rest of us"
+      track3:
+        - line: "Sebastián Lara:"
+        - line: "Automatizando tu flujo de trabajo Front-End con Yeoman"
+    -
+      time: "15:40 - 16:10"
+      visualization: ""
+      type: ""
+      sponsor: ""
+      track1:
+        - line: "Andres Junge:"
+        - line: "Bitcoin, la moneda digital del futuro"
+      track2:
+        - line: "Fabrice Le Fessant:"
+        - line: "Faster development with static types"
+      track3:
+        - line: "Felipe Hoffa: De open data a accessible data:"
+        - line:  "Censo 2002 y BigQuery"
+    -
+      time: "16:20 - 16:50"
+      visualization: ""
+      type: ""
+      sponsor: ""
+      track1:
+        - line: "Phillipe Camacho:"
+        - line: "¡Cuida tus bitcoins!"
+      track2:
+        - line: "Jano Gonzalez:"
+        - line: "El progamador bipolar"
+      track3:
+        - line: "Francesc Campoy:"
+        - line: "Go para Pythonistas"
+    - 
+      time: "16:50 - 17:15"
+      visualization: "global"
+      type: "break"
+      description:
+        - line: "Coffee break"
+    - 
+      time: "17:15 - 18:15"
+      visualization: "global"
+      type: "important"
+      description:
+        - line: "Lightning Talks"
+    - 
+      time: "18:15 - 19:15"
+      visualization: "global"
+      type: ""
+      description:
+        - line: "Jaimee Newberry: Designing for Engagement"
+    - 
+      time: "19:15 - 19:30"
+      visualization: "global"
+      type: "important"
+      description:
+        - line: "Cierre"
+    - 
+      time: "19:30 - 21:30"
+      visualization: "global"
+      type: "important"
+      description:
+        - line: "BlackBerry Drink-Up"

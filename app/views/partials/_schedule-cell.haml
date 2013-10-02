@@ -1,0 +1,7 @@
+- lines.each do |text|
+  - if text == lines.first
+    %b= text["line"]
+  - else 
+    %small= text["line"]
+  - if text != lines.last
+    %br

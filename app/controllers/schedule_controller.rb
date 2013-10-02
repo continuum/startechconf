@@ -1,0 +1,3 @@
+class ScheduleController < ApplicationController
+
+end

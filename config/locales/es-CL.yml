@@ -332,3 +332,9 @@ es-CL:
       selected_desc: "Más increíbles charlistas que quisieron estar presentes. ¡No te pierdas sus charlas!"
       speaker: Charlista
       talk: Charla
+
+  schedule:
+    index:
+      title: "Programa"
+      day_1: "25 de Octubre"
+      day_2: "26 de Octubre"

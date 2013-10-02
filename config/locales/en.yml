@@ -129,3 +129,9 @@ en:
       selected_desc: "More awesome speakers who wanted to be present. Don't miss their talks!"
       speaker: Speaker
       talk: Talk
+
+  schedule:
+    index:
+      title: "Schedule"
+      day_1: "October 25"
+      day_2: "October 26"

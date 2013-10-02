@@ -1,0 +1,72 @@
+= image_tag "loading.gif", style: "display:none"
+
+= render partial: "partials/header"
+
+.wrapper
+  %section.presentation
+    .container
+      %header.innerpage
+        %figure.logo
+          = link_to image_tag("logo_startechconf_2013@2x.png", alt: t("sitename")), "/"
+        %h1= t(".title")
+  %section.schedule
+    .container
+      %h2.date= t(".day_1")
+      %table.schedule-table.healiners
+        %tr
+          %th.time= t(".day_1")
+          %th.track Track 1
+          %th.track 
+            Track 2
+            %br
+            %span (traducción simultánea)
+          %th.track Track 3
+        - t('schedule_day_one').each do |block|
+          %tr{ class: block["type"] }
+            %td
+              = block["time"]
+            - if(block["visualization"] == "global") 
+              - @class = "global"
+              %td{class: "global", colspan: 3}
+                = render partial: "partials/schedule-cell", 
+                         locals: { lines: block["description"] }
+            - else
+              %td
+                = render partial: "partials/schedule-cell", 
+                         locals: { lines: block["track1"] }
+              %td{class: (block["sponsor"] == "track2" ? "sponsor" : "") }
+                = render partial: "partials/schedule-cell", 
+                          locals: { lines: block["track2"] }
+              %td
+                = render partial: "partials/schedule-cell", 
+                          locals: { lines: block["track3"] }
+
+      %h2.date= t(".day_2")
+      %table.schedule-table.healiners
+        %tr
+          %th.time= t(".day_2")
+          %th.track Track 1
+          %th.track 
+            Track 2
+            %br
+            %span (traducción simultánea)
+          %th.track Track 3
+        - t('schedule_day_two').each do |block|
+          %tr{ class: block["type"] }
+            %td
+              = block["time"]
+            - if(block["visualization"] == "global") 
+              - @class = "global"
+              %td{class: "global", colspan: 3}
+                = render partial: "partials/schedule-cell", 
+                         locals: { lines: block["description"] }
+            - else
+              %td
+                = render partial: "partials/schedule-cell", 
+                         locals: { lines: block["track1"] }
+              %td{class: (block["sponsor"] == "track2" ? "sponsor" : "") }
+                = render partial: "partials/schedule-cell", 
+                          locals: { lines: block["track2"] }
+              %td
+                = render partial: "partials/schedule-cell", 
+                          locals: { lines: block["track3"] }            
