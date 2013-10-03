@@ -6,7 +6,7 @@ es-CL:
       name: "Lea Verou"
       occupation: "Invitada experta en CSS, previamente Developer Relations en la W3C"
       contact: "LeaVerou"
-      talk_name: ""
+      talk_name: "More CSS secrets: Another 10 things you may not know about CSS"
       talk_desc: ""
       country: "Grecia"
     -
@@ -14,7 +14,7 @@ es-CL:
       name: "Aaron Patterson"
       occupation: "Ruby-core, Rails-core, Nokogiri"
       contact: "tenderlove"
-      talk_name: ""
+      talk_name: "Sharpening Your Shears"
       talk_desc: ""
       country: "EEUU"
     -
@@ -113,7 +113,7 @@ es-CL:
       occupation: "Chief Systems Architect at Red Científica Peruana"
       contact: "gnrfan"
       talk_name: "REST for the rest of us"
-      talk_desc: ""
+      talk_desc: "REST is not just CRUD over HTTP but a way to take advantage of the full potential of this protocol and the ecosystem built around web technologies to create modern distributed systems that are also evolvable over time. We will learn who is Roy Fielding and why he proposed a resource-oriented architectural style, what is the uniform interface of HTTP, when to return the 201, 202, 204, 400, 401, 403 and 409 status codes and what is the recommended approach to protect a RESTful API with authentication."
       country: "Perú"
     -
       photo: "felipehoffa.jpg"
@@ -249,7 +249,7 @@ es-CL:
       occupation: "Software Developer at the Center for Optic and Fotonics, Universidad de Concepción and CTO at E2i"
       contact: "slaramen"
       talk_name: "Yeoman, un flujo de trabajo front-end para Aplicaciones Web modernas"
-      talk_desc: "Yeoman es un flujo de trabajo que te ayuda a mejorar tu productividad y velocidad de desarrollo. Combinando Yo, Grunt y Bower podrás iniciar tu projecto más rápidamente, siguiendo buenas prácticas de desarrollo y utilizando características como control de paquetes, testing, actualización automática y control de versiones, todo configurado desde el inicio para tu framework front-end favorita."
+      talk_desc: "Yeoman es un flujo de trabajo que te ayuda a mejorar tu productividad y velocidad de desarrollo. Combinando Yo, Grunt y Bower podrás iniciar tu projecto más rápidamente, siguiendo buenas prácticas de desarrollo y utilizando características como control de paquetes, testing, actualización automática y control de versiones, todo configurado desde el inicio para tu framework front-end favorito."
       country: "Chile"
     -
       photo: "rodrigomalachias.jpg"
@@ -287,7 +287,7 @@ es-CL:
       photo: "tomanderson.png"
       name: "Tom Anderson"
       occupation: "Manager Developer Evangelists Team Americas at BlackBerry"
-      contact: ""
+      contact: "Noctivagan"
       talk_name: "How to leverage global BlackBerry resources by creating certified apps"
       talk_desc: ""
     -
@@ -298,16 +298,23 @@ es-CL:
       talk_name: "Go para Pythonistas"
       talk_desc: "Exploraremos las características de Go desde el punto de vista de un programador experimentado en Python."
     -
-      photo: "default.png"
+      photo: "camiloerazo.jpg"
       name: "Camilo Erazo"
-      occupation: "Consultor de la Organización Panamericana de la Salud en los temas de eSalud (e-Health), Editor de Matasanos.org"
+      occupation: "Consultor de la Organización Panamericana de la Salud en eSalud - Fundador Viralizando.cl - Editor Matasanos.org"
       contact: "CamiloErazoL"
-      talk_name: "eHealth"
+      talk_name: "eSalud - Enfermos de conectados"
+      talk_desc: "Las Tecnologías de Información van a revolucionar la medicina y la salud humana - (si podemos sacar a la gente del Candy Crush, claro.)"
+    -
+      photo: "default.png"
+      name: "Marcelo Solís"
+      occupation: "Subgerente de Reclutamiento y Selección en Bci"
+      contact: ""
+      talk_name: "Emprendiendo con ADNBci"
       talk_desc: ""
     -
       photo: "default.png"
-      name: "Marcelo Solís y Hector Contreras"
-      occupation: ""
+      name: "Hector Contreras"
+      occupation: "R&D Manager, Innovación en Bci"
       contact: ""
       talk_name: "Emprendiendo con ADNBci"
       talk_desc: ""
