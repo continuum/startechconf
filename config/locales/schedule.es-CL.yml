@@ -132,7 +132,7 @@ es-CL:
       visualization: "global"
       type: "important"
       description:
-        - line: "Google Drink-Up"
+        - line: "<a href='http://google.com' target='_blank'><img alt='Google' src='/assets/sponsors/google.png'></a> Drink-Up"
 
   schedule_day_two:
     -
@@ -279,4 +279,4 @@ es-CL:
       visualization: "global"
       type: "important"
       description:
-        - line: "BlackBerry Drink-Up"
+        - line: "<a href='http://www.blackberry.com' target='_blank'><img alt='BackBerry' src='/assets/sponsors/blackberry.png'></a> Drink-Up"
