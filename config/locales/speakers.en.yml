@@ -1,10 +1,10 @@
-es-CL:
+en:
 
   confirmed_speakers:
     -
       photo: "leaverou.jpg"
       name: "Lea Verou"
-      occupation: "Invitada experta en CSS, previamente Developer Relations en la W3C"
+      occupation: "Invited Expert in the CSS Working Group, previously Developer Relations W3C"
       contact: "LeaVerou"
       talk_name: ""
       talk_desc: ""
@@ -20,7 +20,7 @@ es-CL:
     -
       photo: "jacobkaplanmoss.jpg"
       name: "Jacob Kaplan-Moss"
-      occupation: "Co-autor del Framework web Django, Director de seguridad en Heroku"
+      occupation: "Co-author of the Django web framework, Director of Platform Security at Heroku"
       contact: "jacobian"
       talk_name: ""
       talk_desc: ""
@@ -36,7 +36,7 @@ es-CL:
     -
       photo: "jaimeenewberry.jpg"
       name: "Jaimee Newberry"
-      occupation: "Co-fundadora de Bests.com. Ex-directora de UX en Black Pixel y Zappos"
+      occupation: "Co-founder at Bests.com. Ex-director of UX at Black Pixel and Zappos"
       contact: "jaimeejaimee"
       talk_name: "Designing for Engagement"
       talk_desc: ""
@@ -44,7 +44,7 @@ es-CL:
     -
       photo: "laurentsamsonetti.jpg"
       name: "Laurent Sansonetti"
-      occupation: "Ex Ingeniero de Apple. Creador de RubyMotion."
+      occupation: "Former Apple Engineer. Creator of RubyMotion."
       contact: "lrz"
       talk_name: ""
       talk_desc: ""
