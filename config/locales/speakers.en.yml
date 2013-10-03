@@ -6,7 +6,7 @@ en:
       name: "Lea Verou"
       occupation: "Invited Expert in the CSS Working Group, previously Developer Relations W3C"
       contact: "LeaVerou"
-      talk_name: ""
+      talk_name: "More CSS secrets: Another 10 things you may not know about CSS"
       talk_desc: ""
       country: "Grecia"
     -
@@ -14,7 +14,7 @@ en:
       name: "Aaron Patterson"
       occupation: "Ruby-core, Rails-core, Nokogiri"
       contact: "tenderlove"
-      talk_name: ""
+      talk_name: "Sharpening Your Shears"
       talk_desc: ""
       country: "EEUU"
     -
@@ -113,7 +113,7 @@ en:
       occupation: "Chief Systems Architect at Red Científica Peruana"
       contact: "gnrfan"
       talk_name: "REST for the rest of us"
-      talk_desc: ""
+      talk_desc: "REST is not just CRUD over HTTP but a way to take advantage of the full potential of this protocol and the ecosystem built around web technologies to create modern distributed systems that are also evolvable over time. We will learn who is Roy Fielding and why he proposed a resource-oriented architectural style, what is the uniform interface of HTTP, when to return the 201, 202, 204, 400, 401, 403 and 409 status codes and what is the recommended approach to protect a RESTful API with authentication."
       country: "Perú"
     -
       photo: "felipehoffa.jpg"
@@ -249,7 +249,7 @@ en:
       occupation: "Software Developer at the Center for Optic and Fotonics, Universidad de Concepción and CTO at E2i"
       contact: "slaramen"
       talk_name: "Yeoman, un flujo de trabajo front-end para Aplicaciones Web modernas"
-      talk_desc: "Yeoman es un flujo de trabajo que te ayuda a mejorar tu productividad y velocidad de desarrollo. Combinando Yo, Grunt y Bower podrás iniciar tu projecto más rápidamente, siguiendo buenas prácticas de desarrollo y utilizando características como control de paquetes, testing, actualización automática y control de versiones, todo configurado desde el inicio para tu framework front-end favorita."
+      talk_desc: "Yeoman es un flujo de trabajo que te ayuda a mejorar tu productividad y velocidad de desarrollo. Combinando Yo, Grunt y Bower podrás iniciar tu projecto más rápidamente, siguiendo buenas prácticas de desarrollo y utilizando características como control de paquetes, testing, actualización automática y control de versiones, todo configurado desde el inicio para tu framework front-end favorito."
       country: "Chile"
     -
       photo: "rodrigomalachias.jpg"
