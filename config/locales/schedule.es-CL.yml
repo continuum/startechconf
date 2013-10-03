@@ -130,7 +130,7 @@ es-CL:
     -
       time: "19:30 - 21:30"
       visualization: "global"
-      type: "important"
+      type: ""
       description:
         - line: "<a href='http://google.com' target='_blank'><img alt='Google' src='/assets/sponsors/google.png'></a> Drink-Up"
 
@@ -277,6 +277,6 @@ es-CL:
     -
       time: "19:30 - 21:30"
       visualization: "global"
-      type: "important"
+      type: ""
       description:
         - line: "<a href='http://www.blackberry.com' target='_blank'><img alt='BackBerry' src='/assets/sponsors/blackberry.png'></a> Drink-Up"
