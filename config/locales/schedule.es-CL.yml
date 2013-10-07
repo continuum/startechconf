@@ -87,7 +87,7 @@ es-CL:
       type: ""
       sponsor: ""
       track1:
-        - line: "Sebastián Lara"
+        - line: "Sebastián Lara:"
         - line: "Yeoman, un flujo de trabajo front-end para Aplicaciones Web modernas"
       track2:
         - line: "Herman Vega:"
@@ -217,10 +217,10 @@ es-CL:
         - line: "Sebastián Gamboa:"
         - line: "Métodos de pago para Chile y el mundo"
       track2:
-        - line: "Sebastián Robles"
+        - line: "Sebastián Robles:"
         - line: "En todas partes, con todo y para todos"
       track3:
-        - line: "Alvaro Aguirre"
+        - line: "Alvaro Aguirre:"
         - line: "Python Enterprise"
     -
       time: "15:40 - 16:10"
@@ -234,8 +234,8 @@ es-CL:
         - line: "Fabrice Le Fessant:"
         - line: "Faster development with static types"
       track3:
-        - line: "Felipe Hoffa: De open data a accessible data:"
-        - line:  "Censo 2002 y BigQuery"
+        - line: "Felipe Hoffa:"
+        - line: "De open data a accessible data: Censo 2002 y BigQuery"
     -
       time: "16:20 - 16:50"
       visualization: ""
