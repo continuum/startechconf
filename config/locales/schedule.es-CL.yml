@@ -87,8 +87,8 @@ es-CL:
       type: ""
       sponsor: ""
       track1:
-        - line: "Rodrigo Malachias:"
-        - line: "Transforme nuestra sociedad con Informática"
+        - line: "Sebastián Lara"
+        - line: "Yeoman, un flujo de trabajo front-end para Aplicaciones Web modernas"
       track2:
         - line: "Herman Vega:"
         - line: "Desarrollo web rápido y seguro"
@@ -101,8 +101,8 @@ es-CL:
       type: ""
       sponsor: ""
       track1:
-        - line: "Sebastián Robles:"
-        - line: "En todas partes, con todo y para todos"
+        - line: "Rodrigo Malachias:"
+        - line: "Transforme nuestra sociedad con Informática"
       track2:
         - line: "Cristián Rojas:"
         - line: "SSL instalado...¿estamos realmente seguros?"
@@ -182,8 +182,8 @@ es-CL:
         - line: "Eduardo Díaz:"
         - line: "Creadores de Universos"
       track2:
-        - line: "Pitr Vernigorov:"
-        - line: "Rethinking HTML5 for Mobile Games"
+        - line: "Gustavo Machado:"
+        - line: "Challenges in Enterprise Mobile Development"
       track3:
         - line: "Diego Sapriza:"
         - line: "Busquedas full text con esteroides"
@@ -196,8 +196,8 @@ es-CL:
         - line: "Camilo Erazo:"
         - line: "eSalud - Enfermos de conectados"
       track2:
-        - line: "Gustavo Machado:"
-        - line: "Challenges in Enterprise Mobile Development"
+        - line: "Antonio Ognio:"
+        - line: "REST for the rest of us"
       track3:
         - line: "Denis Fuenzalida:"
         - line: "Introducción a programación funcional con Clojure"
@@ -216,11 +216,11 @@ es-CL:
         - line: "Sebastián Gamboa:"
         - line: "Métodos de pago para Chile y el mundo"
       track2:
-        - line: "Antonio Ognio:"
-        - line: "REST for the rest of us"
+        - line: "Sebastián Robles"
+        - line: "En todas partes, con todo y para todos"
       track3:
-        - line: "Sebastián Lara:"
-        - line: "Automatizando tu flujo de trabajo Front-End con Yeoman"
+        - line: "Alvaro Aguirre"
+        - line: "Python Enterprise"
     -
       time: "15:40 - 16:10"
       visualization: ""

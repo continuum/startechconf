@@ -68,14 +68,6 @@ es-CL:
       talk_desc: ""
       country: "UK"
     -
-      photo: "pitrvernigorov.png"
-      name: "Pitr Vernigorov"
-      occupation: "Senior Architect en Uken Games"
-      contact: ""
-      talk_name: "Rethinking HTML5 for Mobile Games"
-      talk_desc: "From optimizing Javascript for mobile browsers, to building services that cater to mobile clients, to evolving infrastructure to handle for high-latency connections, this talk covers tips from 4 years of experience in building mobile games using HTML5. The underlying goal, however, is to illustrate the thought process of optimizing a system for niche audience and questioning status quo."
-      country: "Canada"
-    -
       photo: "phillippecamacho.jpg"
       name: "Philippe Camacho"
       occupation: "Criptógrafo, co-fundador de Coin4ce.com"
@@ -317,4 +309,11 @@ es-CL:
       occupation: "R&D Manager, Innovación en Bci"
       contact: ""
       talk_name: "Emprendiendo con ADNBci"
+      talk_desc: ""
+    -
+      photo: "default.png"
+      name: "Alvaro Aguirre"
+      occupation: "Desarrollador de Software en ALMA, co-fundador de Python Chile"
+      contact: "alvaro_aguirre"
+      talk_name: "Python Enterprise"
       talk_desc: ""
