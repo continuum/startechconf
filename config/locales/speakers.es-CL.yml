@@ -30,8 +30,8 @@ es-CL:
       name: "Yehuda Katz"
       occupation: "Ember.js, Rails-core, jQuery, Bundler"
       contact: "wycats"
-      talk_name: ""
-      talk_desc: ""
+      talk_name: "GUI Frameworks: We Need More Than Data-Binding"
+      talk_desc: "Over the past few years, JavaScript GUI frameworks have come to an agreement: data-binding is a time-saver. It's easy to believe that with the near-unanimous agreement about data-binding, we've reached the golden age of JavaScript application development. The truth is, data bindings only save you time once your page is already on the screen. They don't help you figure out what model to present, or how to respond when the user navigates around your application."
       country: "EEUU"
     -
       photo: "jaimeenewberry.jpg"
@@ -39,7 +39,7 @@ es-CL:
       occupation: "Co-fundadora de Bests.com. Ex-directora de UX en Black Pixel y Zappos"
       contact: "jaimeejaimee"
       talk_name: "Designing for Engagement"
-      talk_desc: ""
+      talk_desc: "Engagement metrics aside, how are you engaging your users at an emotional level? How much thinking goes into the personality and tone of your product? What about writing the error messages, alerts, calls-to-action, descriptions or release notes? Whether you have a playful concept or big brand product yet to be built, or a product that's been out for a while, Jaimee wants to share some very important considerations in design thinking and copywriting to help your products become more fun, delightful and emotionally engaging experiences for your users"
       country: "EEUU"
     -
       photo: "laurentsamsonetti.jpg"
