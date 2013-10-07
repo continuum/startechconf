@@ -120,7 +120,8 @@ es-CL:
       visualization: "global"
       type: ""
       description:
-        - line: "Jacob Kaplan Moss"
+        - line: "Jacob Kaplan Moss:"
+        - line: "Putting Open to Work: Lessons from Open Source for your business"
     -
       time: "18:15 - 19:30"
       visualization: "global"
