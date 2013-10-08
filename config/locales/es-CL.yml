@@ -59,6 +59,7 @@ es-CL:
       - getonbrd
       - rhyboo
       - str
+      - heroku
     startups2:
       - qompazz
       - eventioz
@@ -106,6 +107,10 @@ es-CL:
           name: "STR Chile"
           url: "http://strchile.cl"
           desc: "Soluciones y Servicios Audiovisuales"
+        heroku:
+          name: "Heroku"
+          url: "http://heroku.com"
+          desc: "Cloud platform as a service"
       startups2:
         title: "Startups"
         qompazz:
