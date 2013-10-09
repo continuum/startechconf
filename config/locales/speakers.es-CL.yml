@@ -46,8 +46,8 @@ es-CL:
       name: "Laurent Sansonetti"
       occupation: "Ex Ingeniero de Apple. Creador de RubyMotion."
       contact: "lrz"
-      talk_name: ""
-      talk_desc: ""
+      talk_name: "Building native iOS apps using modern technologies with RubyMotion"
+      talk_desc: "Building an iOS application using the official Apple toolchain requires you to learn and use technologies that have been created during the late 80s to build desktop apps, and these technologies did not significantly evolve since then. RubyMotion aims at fixing this problem by letting you use Ruby, a modern programming language very popular in the web development scene, in order to write full-fledged native iPhone and iPad apps. In this talk we will cover why you don't have to use a time machine to go back to the 80s to write your next mobile app!"
       country: "Belgium"
 
   selected_talks:

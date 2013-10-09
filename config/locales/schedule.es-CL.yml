@@ -154,7 +154,8 @@ es-CL:
       visualization: "global"
       type: ""
       description:
-        - line: "Laurent Sansonetti"
+        - line: "Laurent Sansonetti:"
+        - line: "Building native iOS apps using modern technologies with RubyMotion"
     -
       time: "11:00 -  11:30"
       visualization: "global"
