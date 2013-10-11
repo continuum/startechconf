@@ -23,8 +23,9 @@ es-CL:
       link: "http://www.utfsm.cl"
       photo: "people/utfsm.png"
       name: "Universidad Santa María"
-      team:
-      occupation: "Ingeniería en Chile"
+      team: 
+        - Mauricio Solar
+      occupation: "Departamento de Informática"
       contact: "<a href = 'http://twitter.com/usantamaria' title='Universidad Santa María'> @usantamaria </a>"
 
   collaborators_list:
