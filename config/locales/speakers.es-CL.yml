@@ -311,9 +311,9 @@ es-CL:
       talk_name: "Emprendiendo con ADNBci"
       talk_desc: ""
     -
-      photo: "default.png"
+      photo: "alvaroaguirre.png"
       name: "Alvaro Aguirre"
       occupation: "Desarrollador de Software en ALMA, co-fundador de Python Chile"
       contact: "alvaro_aguirre"
       talk_name: "Python Enterprise"
-      talk_desc: ""
+      talk_desc: 'Desnudamos el concepto "Enterprise" en Chile, de forma tal que tanto gerentes, jefes de proyectos, y desarrolladores puedan descubrir y atreverse a probar opciones más baratas, de mejor calidad, más estables y mucho más entretenidas para crear soluciones de software para sus proyectos.'
