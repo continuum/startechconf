@@ -15,7 +15,10 @@ es-CL:
       occupation: "Ruby-core, Rails-core, Nokogiri"
       contact: "tenderlove"
       talk_name: "Sharpening Your Shears"
-      talk_desc: ""
+      talk_desc: "For developers, our shears are our only weapon against the hairy code we have
+to deal with.  Understanding the beast we're shaving, and how to sharpen our
+tools is the best way we can cope with the code that's thrown at us.  Let's
+dive deep, see what we can find, and come out as better developers!"
       country: "EEUU"
     -
       photo: "jacobkaplanmoss.jpg"
