@@ -7,6 +7,6 @@ Startechconf::Application.routes.draw do
     resources 'speakers'
     resources 'organizers'
     resources 'schedule'
-    resources 'coc'
+    match 'conduct' => 'coc#index'
   end
 end
