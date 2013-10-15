@@ -38,7 +38,12 @@ es-CL:
       section_title: "Ayudante Charlista"
       assistants:
         -
-          name: "nombre1"
-          email: "email1"
-          photo: ""
-          university: ""
+          name: "Gerardo Fernandez"
+          email: "geraresident@hotmail.com"
+          photo: "gerardo_fernandez.jpg"
+          university: "USACH"
+        -
+          name: "Javiera Cabello"
+          email: "jacabell@uc.cl"
+          photo: "javiera_cabello.jpg"
+          university: "UTFSM"

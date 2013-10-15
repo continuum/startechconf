@@ -346,7 +346,7 @@ header
     color: $links-color
 
 //Bloque Organizadores
-.organizers
+.organizers_old
   margin-top: 40px
   background: none
   h2
@@ -361,6 +361,34 @@ header
       height: 50px
     .contact
       height: auto
+
+.organizers
+  overflow: hidden
+  text-align: center
+  width: 100%
+  margin-bottom: 2em
+.organizer
+  float: left
+  min-width: 300px
+  padding: 10px 20px
+  width: 33.3%
+  a
+    color: $links-color
+  img
+    width: 96px
+    height: 96px
+    border-radius: 48px
+    -moz-border-radius: 48px
+    background-color: white
+  small
+    display: block
+    font-weight: 100
+    color: $soft-color-text
+  .title
+    display: block
+    margin-bottom: 10px
+
+
 .people.collaborators
   .person
     vertical-align: top
@@ -524,20 +552,29 @@ section.coc
 
 .assistants
   background-color: #fff
+  text-align: center
+  overflow: hidden
+  h3
+    clear: both
+    color: #aaa
+    font-weight: normal
+    margin: 15px
+    text-align: left
   img
     width: 72px
     height: 72px
     border-radius: 36px
     -moz-border-radius: 36px
-
-.assistant
-  width: 150px
-  background-color: red
-  text-align: center
-  .name
-    font-weight: bold
-  .university
-    font-size: small
+  ul
+    list-style-type: none
+  .assistant
+    display: inline-block
+    margin-bottom: 15px
+    width: 150px
+    .name
+      font-weight: bold
+    .university
+      font-size: small
 
 //Ultimo Bloque
 .last-version

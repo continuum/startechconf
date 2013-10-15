@@ -12,26 +12,24 @@
 
   %section.speakers
     .container
-      %table.speakers-table.orgs
+      .organizers
         - t(:organizers_list).each do |organizer|
-          %tr{:class=> cycle('odd', ''), :id=> organizer['name'].parameterize}
-            %td.photo
-              = image_tag organizer["photo"]
-            %td.name
-              - if organizer['link'] != ""
-                %strong= link_to organizer['name'], organizer['link'], :target => "_blank"
-              - else
-                %strong= organizer['name']
-              - unless organizer['team'] == nil
-                %br/
-                - organizer['team'].each do |member|
-                  %strong= member
-              %small
-                = organizer['occupation']
-                %br/
-                %em= organizer['country']
-            %td
-              = raw organizer['contact']
+          .organizer
+            = image_tag organizer["photo"]
+            %br/
+            - if organizer['link'] != ""
+              %strong.title= link_to organizer['name'], organizer['link'], :target => "_blank"
+            - else
+              %strong.title= organizer['name']
+            - unless organizer['team'] == nil
+              - organizer['team'].each do |member|
+                %strong= member
+            %small
+              = organizer['occupation']
+              %br/
+              %em= organizer['country']
+              %br/
+            = raw organizer['contact']
 
       %h2#selected= t("collaborators")
       %p= t("thanks")
@@ -53,15 +51,15 @@
               = raw collaborator['contact']
 
       %h2#selected= t("assistants")
-      %p= t("assistants_thanks")
       %div.assistants
         -t(:assistants_list).each do |section|
           %h3= section["section_title"]
-          - @peoples = section["assistants"]
-          - @peoples.each do |assistant|
-            %div.assistant
-              = image_tag "assistants/#{assistant["photo"]}"
-              %br
-              %span.name= assistant["name"]
-              %br
-              %span.university= assistant["university"]
+          %ul
+            - @peoples = section["assistants"]
+            - @peoples.each do |assistant|
+              %li.assistant
+                = image_tag "assistants/#{assistant["photo"]}"
+                %br
+                %span.name= assistant["name"]
+                %br
+                %span.university= assistant["university"]
