@@ -7,12 +7,32 @@ es-CL:
         -
           name: "John Bidwell"
           email: "johnbidwellb@gmail.com"
-          photo: ""
+          photo: "john_bidwell.jpg"
           university: "UTFSM"
         -
           name: "Joaquin Muñoz"
           email: "joaquin.munoz@alumnos.usm.cl"
-          photo: ""
+          photo: "joaquin_munoz.jpg"
+          university: "UTFSM"
+        -
+          name: "Mauricio Salinas"
+          email: "mauro.salinasa@gmail.com"
+          photo: "mauricio_salinas.jpg"
+          university: "UTFSM"
+        -
+          name: "Luis Paul"
+          email: "lhpaul11@gmail.com"
+          photo: "luis_paul.png"
+          university: "UC"
+        -
+          name: "Bastian Prieto"
+          email: "bpriperez@gmail.com"
+          photo: "bastian_prieto.jpg"
+          university: "UTFSM"
+        -
+          name: "María Paz Vergara"
+          email: "maria.vergara.12@sansano.usm.cl"
+          photo: "maria_paz_vergara.jpg"
           university: "UTFSM"
     -
       section_title: "Ayudante Charlista"

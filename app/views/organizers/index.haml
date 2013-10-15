@@ -54,9 +54,14 @@
 
       %h2#selected= t("assistants")
       %p= t("assistants_thanks")
-      %table.assistants-table
-        - t(:assistants_list).each do |section|
+      %div.assistants
+        -t(:assistants_list).each do |section|
           %h3= section["section_title"]
           - @peoples = section["assistants"]
           - @peoples.each do |assistant|
-            %p= assistant["name"]
+            %div.assistant
+              = image_tag "assistants/#{assistant["photo"]}"
+              %br
+              %span.name= assistant["name"]
+              %br
+              %span.university= assistant["university"]
