@@ -14,6 +14,7 @@ gem 'google-analytics-rails'
 gem 'dalli'
 gem 'memcachier'
 gem 'selenium-webdriver'
+gem 'thin'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
