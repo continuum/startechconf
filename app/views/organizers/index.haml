@@ -25,13 +25,14 @@
               - unless organizer['team'] == nil
                 %br/
                 - organizer['team'].each do |member|
-                  %strong= member 
+                  %strong= member
               %small
                 = organizer['occupation']
                 %br/
                 %em= organizer['country']
             %td
               = raw organizer['contact']
+
       %h2#selected= t("collaborators")
       %p= t("thanks")
       %table.speakers-table.collabs
@@ -50,3 +51,12 @@
                 %em= collaborator['country']
             %td
               = raw collaborator['contact']
+
+      %h2#selected= t("assistants")
+      %p= t("assistants_thanks")
+      %table.assistants-table
+        - t(:assistants_list).each do |section|
+          %h3= section["section_title"]
+          - @peoples = section["assistants"]
+          - @peoples.each do |assistant|
+            %p= assistant["name"]

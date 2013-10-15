@@ -1,0 +1,24 @@
+es-CL:
+
+  assistants_list:
+    -
+      section_title: "Ayundante Sala Auditorio"
+      assistants:
+        -
+          name: "John Bidwell"
+          email: "johnbidwellb@gmail.com"
+          photo: ""
+          university: "UTFSM"
+        -
+          name: "Joaquin Muñoz"
+          email: "joaquin.munoz@alumnos.usm.cl"
+          photo: ""
+          university: "UTFSM"
+    -
+      section_title: "Ayudante Charlista"
+      assistants:
+        -
+          name: "nombre1"
+          email: "email1"
+          photo: ""
+          university: ""
