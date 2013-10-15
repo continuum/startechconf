@@ -4,8 +4,6 @@
       %span
         = link_to t("blog"), "http://blog.startechconf.com", :target => "_blank"
       %span
-        = link_to t("version_2011"), "http://2011.startechconf.com", :target => "_blank"
-      %span
         = link_to t("store"), "http://tienda.startechconf.com", :target => "_blank"
       %span
         = link_to t(:buy_ticket), "https://eventioz.cl/e/startechconf-2013/registrations/new", :target => "_blank"
@@ -15,6 +13,8 @@
         = link_to t("speakers_title"), "/speakers"
       %span
         = link_to t("schedule_title"), "/schedule"
+      %span
+        = link_to t("code_of_conduct"), "/conduct"
     .language-selector
       %ul
         = locale_li(current_locale)
