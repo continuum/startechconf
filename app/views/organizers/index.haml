@@ -59,7 +59,10 @@
             - @peoples.each do |assistant|
               %li.assistant
                 = image_tag "assistants/#{assistant["photo"]}"
-                %br
+                %br/
                 %span.name= assistant["name"]
-                %br
+                %br/
                 %span.university= assistant["university"]
+                - if assistant["coordinator"] == "yes"
+                  %br/
+                  %small= "Coordinador"
