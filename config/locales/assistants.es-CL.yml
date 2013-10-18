@@ -5,6 +5,12 @@ es-CL:
       section_title: "Ayundante Sala Auditorio"
       assistants:
         -
+          name: "María Paz Vergara"
+          email: "maria.vergara.12@sansano.usm.cl"
+          photo: "maria_paz_vergara.jpg"
+          university: "UTFSM"
+          coordinator: "yes"
+        -
           name: "John Bidwell"
           email: "johnbidwellb@gmail.com"
           photo: "john_bidwell.jpg"
@@ -34,15 +40,15 @@ es-CL:
           photo: "bastian_prieto.jpg"
           university: "UTFSM"
           coordinator: ""
-        -
-          name: "María Paz Vergara"
-          email: "maria.vergara.12@sansano.usm.cl"
-          photo: "maria_paz_vergara.jpg"
-          university: "UTFSM"
-          coordinator: "yes"
     -
       section_title: "Ayudante Charlista"
       assistants:
+        -
+          name: "Benjamin Cordero"
+          email: "Benjamin.cordero@ceeinf.cl"
+          photo: "benjamin_cordero.jpg"
+          university: "UTFSM"
+          coordinator: "yes"
         -
           name: "Gerardo Fernandez"
           email: "geraresident@hotmail.com"
@@ -163,12 +169,307 @@ es-CL:
           photo: "rolando_casanueva.jpg"
           university: "UTFSM"
           coordinator: ""
+    -
+      section_title: "Seguridad"
+      assistants:
         -
-          name: "Benjamin Cordero"
-          email: "Benjamin.cordero@ceeinf.cl"
-          photo: "benjamin_cordero.jpg"
+          name: "Rodrigo Moroy"
+          email: "rodrigo.monroy@ceeinf.cl"
+          photo: "rodrigo_monroy.gif"
           university: "UTFSM"
           coordinator: "yes"
-
-
+        -
+          name: "Carlos Chesta"
+          email: "carlos.chesta@alumnos.usm.cl"
+          photo: "carlos_chesta.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Diego Salazar"
+          email: "diego.salazarb@alumnos.usm.cl"
+          photo: "diego_salazar.png"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Paolo Caviedes"
+          email: "paolo.caviedes@alumnos.usm.cl"
+          photo: "paolo_caviedes.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Maximiliano Lasmar"
+          email: "maximiliano.lasmar@fedusm.cl"
+          photo: "maximiliano_Lasmar.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Joaquin Macias"
+          email: "joaquin.macias.c@hotmail.com"
+          photo: "joaquin_macias.jpg"
+          university: "UTEM"
+          coordinator: ""
+        -
+          name: "Felipe Cuevas"
+          email: "f.caraneda@gmail.com"
+          photo: "felipe_cuevas.jpg"
+          university: "USACH"
+          coordinator: ""
+        -
+          name: "Gustavo Hurtado"
+          email: "gustavo.hurtado.12@sansano.usm.cl"
+          photo: "gustavo_hurtado.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Fabian Villarroel"
+          email: "fabian.villarroel@alumnos.usm.cl"
+          photo: "fabian_villarroel.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Rodrigo Martinez"
+          email: "martinez.d.rodrigo@gmail.com"
+          photo: "rodrigo_martinez.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Ivan Caro"
+          email: "ivan.caro.12@sansano.usm.cl"
+          photo: "ivan_caro.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Guillermo Bravo"
+          email: "gillepower@gmail.com"
+          photo: "guillermo_bravo.jpg"
+          university: "UNAB"
+          coordinator: ""
+        -
+          name: "Felipe Araya"
+          email: "felipe.araya@alumnos.usm.cl"
+          photo: "felipe_araya.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Sebastian Potocnjak"
+          email: "sebastian.potocnjak.13@sansano.usm.cl"
+          photo: "sebastian_potocnjak.jpg"
+          university: "USACH"
+          coordinator: ""
+        -
+          name: "Esteban Gonzalez"
+          email: "esteban.gonzalezi@alumnos.usm.cl"
+          photo: "esteban_gonzalez.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Maximiliano Hernandez"
+          email: "maximiliano.hernandez@usach.cl"
+          photo: "maximiliano_hernandez.jpg"
+          university: "USACH"
+          coordinator: ""
+        -
+          name: "Sebastian Faure"
+          email: "sebastian.faure@alumnos.usm.cl"
+          photo: "sebastian_faure.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Rocio Fernandez"
+          email: "rocio.fernandezu@alumnos.usm.cl"
+          photo: "rocio_fernandez.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Roddy Gonzalez"
+          email: "roddy.gonzalez@usach.cl"
+          photo: "roddy_gonzalez.jpg"
+          university: "USACH"
+          coordinator: ""
+        -
+          name: "Paulina garrido"
+          email: "PAULI.GARRIDO@LIVE.CL"
+          photo: "paulina_garrido.jpg"
+          university: "UCEN"
+          coordinator: ""
+        -
+          name: "Ignacio Ureta"
+          email: "trucoso@gmail.com"
+          photo: "ignacio_ureta.jpg"
+          university: "UTFSM"
+          coordinator: ""
+    -
+      section_title: "Validación"
+      assistants:
+        -
+          name: "Mauricio Ugarte"
+          email: "mauricio.ugarte@ceeinf.cl"
+          photo: "mauricio_ugarte.gif"
+          university: "UTFSM"
+          coordinator: "yes"
+        -
+          name: "Alejandro Garrido"
+          email: "alejandro.garrido@alumnos.usm.cl"
+          photo: "alejandro_garrido.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Katerine Muñoz"
+          email: "katerine.munoz.13@sansano.usm.cl"
+          photo: "katerine_munoz.gif"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Nicolas Aravena"
+          email: "nicolas.aravena@alumnos.usm.cl"
+          photo: "nicolas_aravena.png"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Rafik Masad"
+          email: "rafik.masad@alumnos.usm.cl"
+          photo: "rafik_masad.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Roberto Diaz"
+          email: "roberto.diazu@alumnos.usm.cl"
+          photo: "roberto_diaz.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Esteban Hernandez"
+          email: "esteban.hernandezv@alumnos.usm.cl"
+          photo: "esteban_hernandez.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Cristian Yañez"
+          email: "cristian.yanez@alumnos.usm.cl"
+          photo: "cristian_yanez.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Daniel Morales"
+          email: "daniel.morales.miguel@gmail.com"
+          photo: "daniel_morales.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Rafael Velazco"
+          email: "rafael.velasco@alumnos.usm.cl"
+          photo: "rafael_velazco.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Juan Bustamante"
+          email: "juan.bustamante.12@sansano.usm.cl"
+          photo: "juan_bustamante.png"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Carlos Bugueño"
+          email: "carlos.bugueno@alumnos.usm.cl"
+          photo: "carlos_bugueno.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Yerson Quiroz"
+          email: "jsquiroz.9@gmail.com"
+          photo: "yerson_quiroz.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Andres Grimminck"
+          email: "agrimminck94@gmail.com"
+          photo: "andres_grimminck.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Sebastian Aranda"
+          email: "aranda.sebastian@gmail.com"
+          photo: "sebastian_aranda.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Sebastian Salazar"
+          email: "Sebanicosp@gmail.com"
+          photo: "sebastian_salazar.jpg"
+          university: "UTEM"
+          coordinator: ""
+        -
+          name: "Marcelo Morales"
+          email: "mamgui@live.cl"
+          photo: "marcelo_morales.jpg"
+          university: "USACH"
+          coordinator: ""
+    -
+      section_title: "Acreditación"
+      assistants:
+        -
+          name: "Alvaro Hernandez"
+          email: "alvaro.hernandez@ceeinf.cl"
+          photo: "alvaro_hernandez.jpg"
+          university: "UTFSM"
+          coordinator: "yes"
+        -
+          name: "Joaquin Velasquez"
+          email: "joaquin.velasquez@alumnos.usm.cl"
+          photo: "joaquin_velasquez.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Augusto Sandoval"
+          email: "arsandov@uc.cl"
+          photo: "augusto_sandoval.jpg"
+          university: "USACH"
+          coordinator: ""
+        -
+          name: "Ricardo Carrasco"
+          email: "ricardo.carrasaco.12@sansano.usm.cl"
+          photo: "ricardo_carrasco.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "María Aguirre"
+          email: "coteaguirre@gmail.com"
+          photo: "maria_aguirre.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Felipe Sanchez"
+          email: "luis.sanchezgu@usach.cl"
+          photo: "felipe_sanchez.jpg"
+          university: "USACH"
+          coordinator: ""
+        -
+          name: "Teorodo Saavedra"
+          email: "teodoro.saavedra@alumnos.usm.cl"
+          photo: "teorodo_saavedra.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Javier Santibañez"
+          email: "javier.santibanez.12@sansano.usm.cl"
+          photo: "javier_santibanez.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Diego Salazar"
+          email: "d.salazar.sepulveda@gmail.com"
+          photo: "diego_salazar.jpg"
+          university: "UTFSM"
+          coordinator: ""
+        -
+          name: "Patricio Pérez"
+          email: "patricio.perez@ceinf.cl"
+          photo: "patricio_perez.jpg"
+          university: "UTEM"
+          coordinator: ""
+        -
+          name: "Samuel Flores"
+          email: "samuman_91@hotmail.com"
+          photo: "samuel_flores.jpg"
+          university: "UTFSM"
+          coordinator: ""
 
