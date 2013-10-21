@@ -347,3 +347,9 @@ es-CL:
       day_1: "25 de Octubre"
       day_2: "26 de Octubre"
   code_of_conduct: "Código de Conducta"
+
+  streaming:
+    index:
+      title: "Transmisión en Vivo"
+      original: "Original"
+      translation: "Traducción"

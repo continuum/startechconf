@@ -1,0 +1,17 @@
+= image_tag "loading.gif", style: "display:none"
+
+= render partial: "partials/header"
+
+.wrapper
+  %section.presentation
+    .container
+      %header.innerpage
+        %figure.logo
+          = link_to image_tag("logo_startechconf_2013@2x.png", alt: t("sitename")), "/"
+        %h1= t(".title")
+
+  %section.streaming
+    .container
+      .player
+      = link_to t(".original")
+      = link_to t(".translation")
