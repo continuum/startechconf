@@ -12,6 +12,5 @@
 
   %section.streaming
     .container
-      .player
-      = link_to t(".original")
-      = link_to t(".translation")
+      = render partial: "partials/streaming-player"
+      = render partial: "partials/kewenapp"

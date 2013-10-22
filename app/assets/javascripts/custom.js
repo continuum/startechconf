@@ -116,4 +116,13 @@ function setBackgroundStretch(target) {
 
 $(document).ready(function(){
   $('body').removeClass('loading');
+
+  // Clicks of Streaming buttons
+  $("#player .button").click(function(event) {
+    event.preventDefault();
+
+    $("#player .button").removeClass('selected');
+    $("#player #display iframe").attr('src', $(this).attr('href'));
+    $(this).addClass('selected');
+  });
 });

@@ -580,11 +580,38 @@ section.coc
       font-size: small
 
 .streaming
-  text-align: center
+  background-color: white
+  overflow: hidden
   .player
-    background-color: white
+    float: left
+    margin: 0 auto
     width: 640px
-    height: 360px
+    margin-bottom: 20px
+    .display
+      background-color: $selector-color-highlight
+      height: 360px
+      width: 640px
+    .button
+      background-color: $soft-color-text
+      border-radius: 0 0 4px 4px
+      color: yellow
+      display: inline-block
+      padding: 5px 10px
+      width: intrinsic
+      &.selected
+        background-color: yellow
+        color: black
+  .kewenapp
+    margin: 0 auto
+    text-align: center
+
+.live-streaming-button
+  background: #FF0
+  border-radius: 8px
+  color: black !important
+  margin-left: 50px
+  padding: 10px
+  vertical-align: 30px
 
 //Ultimo Bloque
 .last-version
@@ -595,7 +622,6 @@ section.coc
   .gallery
     min-height: 360px
     background: #000
-
 
 //Pie de Página
 footer

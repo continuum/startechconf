@@ -149,5 +149,5 @@ en:
   streaming:
     index:
       title: "Live Streaming"
-      original: "Original"
-      translation: "Translation"
+      original: "Original Audio"
+      translation: "Translated"

@@ -351,5 +351,5 @@ es-CL:
   streaming:
     index:
       title: "Transmisión en Vivo"
-      original: "Original"
-      translation: "Traducción"
+      original: "Audio Original"
+      translation: "Traducido"

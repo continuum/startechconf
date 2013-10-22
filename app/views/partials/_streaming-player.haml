@@ -1,0 +1,7 @@
+.player{ id: "player" }
+	.display{ id:"display" }
+		%iframe{src:"http://mdstrm.com/live-stream/524ac24656535c1336000034",
+						width: "640", height: "360", frameborder: "0",
+						allowfullScreen: "true" }
+	= link_to t("streaming.index.original"), 'http://mdstrm.com/live-stream/524ac24656535c1336000034', class: "button selected"
+	= link_to t("streaming.index.translation"), 'http://mdstrm.com/live-stream/524ac26dcb19a50d3600001e', class: "button"
