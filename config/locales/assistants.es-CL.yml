@@ -74,12 +74,6 @@ es-CL:
           university: "UTFSM"
           coordinator: ""
         -
-          name: "Manuel Figueroa"
-          email: "manuel.figueroa@alumnos.usm.cl"
-          photo: "manuel_figueroa.jpg"
-          university: "UTFSM"
-          coordinator: ""
-        -
           name: "Nicolas Concha"
           email: "nicolas.concha.12@sansano.usm.cl"
           photo: "nicolas_concha.jpg"
@@ -108,12 +102,6 @@ es-CL:
           email: "espinoza.isabella@gmail.com"
           photo: "isabella_espinoza.jpg"
           university: "UTFSM"
-          coordinator: ""
-        -
-          name: "Giovanni benussi"
-          email: "giovanni.benussi@usach.cl"
-          photo: "giovanni_benussi.jpg"
-          university: "USACH"
           coordinator: ""
         -
           name: "Constanza Soto"
@@ -422,18 +410,12 @@ es-CL:
           name: "Augusto Sandoval"
           email: "arsandov@uc.cl"
           photo: "augusto_sandoval.jpg"
-          university: "USACH"
+          university: "UC"
           coordinator: ""
         -
           name: "Ricardo Carrasco"
           email: "ricardo.carrasaco.12@sansano.usm.cl"
           photo: "ricardo_carrasco.jpg"
-          university: "UTFSM"
-          coordinator: ""
-        -
-          name: "María Aguirre"
-          email: "coteaguirre@gmail.com"
-          photo: "maria_aguirre.jpg"
           university: "UTFSM"
           coordinator: ""
         -
@@ -459,12 +441,6 @@ es-CL:
           email: "d.salazar.sepulveda@gmail.com"
           photo: "diego_salazar.jpg"
           university: "UTFSM"
-          coordinator: ""
-        -
-          name: "Patricio Pérez"
-          email: "patricio.perez@ceinf.cl"
-          photo: "patricio_perez.jpg"
-          university: "UTEM"
           coordinator: ""
         -
           name: "Samuel Flores"

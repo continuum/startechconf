@@ -35,6 +35,14 @@
                 =t("price_students")
               %td.right
                 =t("price_includes")
+          %h3.button-buy
+            = link_to t(:tickets_not_available), "#"
+
+          .download
+            %h4= t(:download_app)
+            %br/
+            = link_to(image_tag("appstore.png", class: "downloadbutton"), 'https://itunes.apple.com/cl/app/id723785336?mt=8&affId=2099432')
+            = link_to(image_tag("googleplay.png", class: "downloadbutton"), 'https://play.google.com/store/apps/details?id=net.lateralview.attender&hl=en')
   %section.people
     .container
       = render partial: "partials/speakers"

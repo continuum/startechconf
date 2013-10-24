@@ -45,7 +45,8 @@ en:
   prices: "Prices"
   entry_prices: "Ticket prices"
   buy_ticket: "Buy ticket"
-  buy_your_ticket_here: "Buy your ticket here"
+  tickets_not_available: "Tickets sale finished. Stay tuned for streaming!"
+  download_app: "Download the official App:"
   schedule_title: "Schedule"
 
   sponsor_slugs:
