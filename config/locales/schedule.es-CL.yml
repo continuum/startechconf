@@ -1,7 +1,7 @@
 es-CL:
 
   schedule_day_one:
-    -
+    
       time: "8:00 - 9:30"
       visualization: "global"
       type: "break"
@@ -237,7 +237,7 @@ es-CL:
         - line: "Faster development with static types"
       track3:
         - line: "Felipe Hoffa:"
-        - line: "De open data a accessible data: Censo 2002 y BigQuery"
+        - line: "BigData: De open data a accessible data: Censo 2002 y Google BigQuery"
     -
       time: "16:20 - 16:50"
       visualization: ""
