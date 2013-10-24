@@ -1,7 +1,6 @@
 es-CL:
 
   schedule_day_one:
-    
     -
       time: "8:00 - 9:30"
       visualization: "global"
