@@ -8,7 +8,6 @@
       %header
         %figure.logo
           = link_to image_tag("logo_startechconf_2013@2x.png", alt: t("sitename")), "/"
-          = link_to "Live Streaming", '/streaming', class: "live-streaming-button"
       %hgroup
         %h1
           = t("sitename")
@@ -38,11 +37,6 @@
           %h3.button-buy
             = link_to t(:tickets_not_available), "#"
 
-          .download
-            %h4= t(:download_app)
-            %br/
-            = link_to(image_tag("appstore.png", class: "downloadbutton"), 'https://itunes.apple.com/cl/app/id723785336?mt=8&affId=2099432', target:"_blank")
-            = link_to(image_tag("googleplay.png", class: "downloadbutton"), 'https://play.google.com/store/apps/details?id=net.lateralview.attender&hl=en', target: "_blank")
   %section.people
     .container
       = render partial: "partials/speakers"
