@@ -47,6 +47,7 @@ es-CL:
   buy_ticket: "Comprar entrada"
   slides_videos: "¡Diapositivas y videos serán publicados pronto!"
   schedule_title: "Programa"
+  last_version: "Versión anterior"
 
   sponsor_slugs:
     platinum:
