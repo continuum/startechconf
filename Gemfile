@@ -1,3 +1,4 @@
+ruby "2.2.4"
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
@@ -7,7 +8,6 @@ gem "haml-rails", ">= 0.4"
 gem "sendgrid", ">= 1.0.1"
 gem "devise", ">= 2.2.3"
 gem "simple_form", ">= 2.0.4"
-gem "memcachier"
 gem "newrelic_rpm"
 gem "sentry-raven"
 gem 'google-analytics-rails'
@@ -32,7 +32,6 @@ group :development do
 end
 
 group :development, :test do
-  gem 'debugger'
   gem "email_spec", ">= 1.4.0"
   gem "factory_girl_rails", ">= 4.2.0"
   gem "rspec-rails", ">= 2.12.2"
